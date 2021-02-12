@@ -48,15 +48,15 @@
 ## 4 - Papéis
 |Integrante | Papel |
 |----------------|-------------------|
-|[Abraao1231](https://github.com/Abraao1231) | a definir | 
-|[antoniotoineto](https://github.com/antoniotoineto) | a definir |
-|[art1505](https://github.com/art1505) | a definir |
-|[DaviMatheus](https://github.com/DaviMatheus) | a definir |
-|[fernandes-natanael](https://github.com/fernandes-natanael) | a definir |
-|[juninhigh](https://github.com/juninhigh) | a definir |
+|[Abraao1231](https://github.com/Abraao1231) | Dev Team | 
+|[antoniotoineto](https://github.com/antoniotoineto) | Dev Team |
+|[art1505](https://github.com/art1505) | Dev Team |
+|[DaviMatheus](https://github.com/DaviMatheus) | Product Owner |
+|[fernandes-natanael](https://github.com/fernandes-natanael) | Dev Team |
+|[juninhigh](https://github.com/juninhigh) | Scrum Master |
 
 ## 5 - Conhecimentos de cada Integrante 
-A definir
+![Conhecimento_Integrantes_Img](https://user-images.githubusercontent.com/54555684/107799437-2b7cda00-6d3c-11eb-90a6-47abd2ae5fc1.PNG)
 
 ## 6 - Pareamento 
 Não se aplica.
