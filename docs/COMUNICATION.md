@@ -54,8 +54,6 @@
 <p align = "center"> &emsp;&emsp; <img src="https://d33wubrfki0l68.cloudfront.net/01771b8afa80ffe9e5a99f337f64a39c38eff610/4dedb/images/posts/trello.png" width="200" height="200"/> </p>
 
 
-
-
 #### Google Drive
 
 <p align = "justify"> &emsp; Google Drive é um serviço de armazenamento e sincronização de arquivos, abriga agora o Google Docs, um leque de aplicações de produtividade, que oferece a edição de documentos, folhas de cálculo, apresentações, e muito mais.
