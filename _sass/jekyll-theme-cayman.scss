@@ -385,17 +385,11 @@ margin: 0;
 
 .menu-bar .mainmenu a {
 display: block;
-background-color: rgba(167, 233, 233, 0.897);
+background-color: rgba(209, 255, 241, 0.897);
 text-decoration: none;
 padding: 10px;
 color: #159957;
 }
-
-/* add hover behaviour */
-.menu-bar .mainmenu a:hover {
-  background-color: #C5C5C5;
-}
-
 
 /* when hovering over a .mainmenu item,
 display the submenu inside it.
