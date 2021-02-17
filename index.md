@@ -6,7 +6,7 @@ layout: default
 
 ## Home
 
-[ Sprint ] (./docs/sprint0.md )
+[ Sprint 0 ]( docs/sprint0.md )
 
 ## Spint
 ### Relacionados ao projeto
