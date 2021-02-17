@@ -385,4 +385,23 @@ a {
     width: 350px;
     height: 100vh; 
     position: absolute;
+
+    ul{
+      list-style: none;
+      top:50px;
+      position:absolute;
+      width: 100%;
+      a{
+      text-decoration: none;
+      color: white;
+      padding: 20px 5px;
+      display: block;
+      
+        &:hover{
+          background-color: rgb(176, 224, 230);
+          color: black;
+        }
+
+      }
+    }
 }
