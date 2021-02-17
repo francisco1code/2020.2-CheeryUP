@@ -407,7 +407,10 @@ a {
       }
     }
 }
-
+.menu-bar li :hover{
+  background-color: blue;
+  cursor: pointer;
+}
 .menu-bar  ul li ul{
   visibility: hidden ;
 }
