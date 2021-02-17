@@ -162,7 +162,7 @@ a {
 .main-content {
   word-wrap: break-word;
   display: inline-block;
-
+  
   :first-child {
     margin-top: 0;
   }
@@ -378,5 +378,9 @@ div{
   display: inline-block;
 }
 .navigation {
-  width: 100px;
+  width: 20%;
+}
+#conteudo {
+  width: 80%;
+  float: right;
 }
