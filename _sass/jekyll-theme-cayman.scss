@@ -376,10 +376,7 @@ a {
 .site-footer-credits {
   color: $blockquote-text-color;
 }
-*{
-  margin: 0px;
-  padding:0;
-}
+
 .menu-bar{
   background-color: rgba(226, 226, 226, 0.5);
     width: 350px;
@@ -393,7 +390,7 @@ a {
       width: 100%;
       a{
       text-decoration: none;
-      color: white;
+      color: #159957;
       padding: 20px 5px;
       display: block;
       
