@@ -28,25 +28,25 @@
       {% if site.github.is_project_page %}
         <a href="https://github.com/fga-eps-mds/MDS-2020-2-G7" class="btn">Acesso ao github</a>
       {% endif %}
-    </header>
-    
-    <div class="conteudo-todo">
-      <nav class="navigation">
-        <ul class="mainmenu">
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Products</a>
-            <ul class="submenu">
-              <li><a href="">Tops</a></li>
-              <li><a href="">Bottoms</a></li>
-              <li><a href="">Footwear</a></li>
-            </ul>
-          </li>
-          <li><a href="">Contact us</a></li>
-        </ul>
-      </nav>
+    </header>      
   
       <main id="content" class="main-content" role="main">
+
+        <nav class="navigation">
+          <ul class="mainmenu">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Products</a>
+              <ul class="submenu">
+                <li><a href="">Tops</a></li>
+                <li><a href="">Bottoms</a></li>
+                <li><a href="">Footwear</a></li>
+              </ul>
+            </li>
+            <li><a href="">Contact us</a></li>
+          </ul>
+        </nav>
+        
         {{ content }}
         <footer class="site-footer">
           {% if site.github.is_project_page %}
@@ -56,6 +56,5 @@
         </footer>
       </main>
 
-    </div>
   </body>
 </html>
