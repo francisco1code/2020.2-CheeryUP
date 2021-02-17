@@ -407,9 +407,9 @@ a {
       }
     }
     ul li ul{
-      visibility: hidden ;
+      visibility: visible ;
     }
     ul li :hover > ul, ul li ul:hover{
-      visibility: visible;
+      visibility: hidden;
     }
 }
