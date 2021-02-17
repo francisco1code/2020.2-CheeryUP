@@ -376,29 +376,13 @@ a {
 .site-footer-credits {
   color: $blockquote-text-color;
 }
-
-.menu {
-  position:absolute ;
-  top: 0;
-  left: -200px;
-  background-color: #155799;
-  width: 200px;
+*{
+  margin: 0px;
+  padding:0;
 }
-.menu ul li{
-  list-style-type:none ;
-  text-decoration: none;
-  
-}
-.menu ul li a {
-  text-decoration: none;
-  color: white;
-  transition: 0.3s;
-  &:hover {
-    color: rgb(88, 249, 255);
-  }
-}
-
-.botao-menu {
-  top: 20px;
-  left: 10px;
+.menu-bar{
+  background-color: rgba(226, 226, 226, 0.5);
+    width: 350px;
+    height: 100vh; 
+    position: absolute;
 }
