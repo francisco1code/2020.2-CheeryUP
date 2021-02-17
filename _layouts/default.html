@@ -25,26 +25,20 @@
    <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <label >
-      <b>
-      </b>
-    </label>
       <h1 class="project-name">Prontuário eletrônico covid</h1>
       <h2 class="project-tagline">O melhor amigo dos psicólogos</h2>
       {% if site.github.is_project_page %}
         <a href="https://github.com/fga-eps-mds/MDS-2020-2-G7" class="btn">Acesso ao github</a>
       {% endif %}
     </header>
-   <img src="/menu-botao.png" alt="imagem">
-    <nav id="menu">
+    <input type="checkbox" id="menu-check">
+   <label for="menu-check"><img src="../images/menu-button.png" alt="Menu-bar"></label>
+    <nav class="menu">
       <ul>
         <li><a href="">Home</a></li>
         <li><a href="">Sprints</a></li>
         <li><a href="">Documentos</a></li>
       </ul>
-      
-      
-     
     </nav>
     <main id="content" class="main-content" role="main">
       {{ content }}
