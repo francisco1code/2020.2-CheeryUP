@@ -381,5 +381,15 @@ a {
   position:absolute ;
   top: 0;
   background-color: #155799;
-  width: 25%;
+  width: 200px;
+}
+#menu ul li{
+  text-decoration: none;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  &:hover{
+    color: rgb(131, 255, 234);
+  }
 }
