@@ -435,5 +435,5 @@ we set it to max-height: 0, and hide the overflowed content.
 .submenu {
 overflow: hidden;
 max-height: 0;
--webkit-transition: all 0.5s ease-out;
+transition: all 0.5s ease-out;
 }
