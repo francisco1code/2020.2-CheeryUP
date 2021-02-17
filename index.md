@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/style2.css">
 
 
 ## Home
@@ -10,6 +10,7 @@ layout: default
 ### Relacionados ao projeto
 
 ***Tecnologias***
+
 - Java Script;
 - Python 3;
 - Whatsapp;
@@ -24,7 +25,6 @@ layout: default
 - CSS 3;
 - SASS;
 - Django.
-
 
 ### Integrantes
 
@@ -44,11 +44,9 @@ layout: default
     </figure>
     <figure class="container-img">
       <img src="https://avatars.githubusercontent.com/u/54555684?s=460&u=168b34321239372c84884cbeeda0f19683eeda01&v=4" alt= "Antônio Neto" class="padrao-img">
-      <div class="middle-text">
-        <figcaption class="text">
+      <figcaption class="text">
         <a href="https://github.com/antoniotoineto">Antônio Neto</a>
       </figcaption>
-      </div>
     </figure>
   </div>
 
@@ -72,6 +70,4 @@ layout: default
       </figcaption>
     </figure>
   </div>
-
 </div>
-
