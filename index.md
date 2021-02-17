@@ -7,7 +7,7 @@ layout: default
 
 ## Integrantes
 
-![Abraao](https://avatars.githubusercontent.com/u/56660914?s=460&v=4) 
+[<img src="https://avatars.githubusercontent.com/u/56660914?s=460&v=4" alt="Foto Abraão">](https://github.com/Abraao1231)
 ![Artur](https://avatars.githubusercontent.com/u/78550466?s=460&v=4)
 ![Antonio](https://avatars.githubusercontent.com/u/54555684?s=460&u=168b34321239372c84884cbeeda0f19683eeda01&v=4)
 ![Davi](https://avatars.githubusercontent.com/u/54643148?s=460&v=4)
