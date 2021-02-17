@@ -161,9 +161,7 @@ a {
 
 .main-content {
   word-wrap: break-word;
-  float: right;
-  
-  width: 80%;
+  display: inline-block;
 
   :first-child {
     margin-top: 0;
