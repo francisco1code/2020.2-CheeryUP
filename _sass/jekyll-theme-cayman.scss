@@ -384,7 +384,8 @@ margin: 0;
 }
 
 .menu-bar .mainmenu a {
-background-color: rgba(150, 150, 150, 0.664);
+display: block;
+background-color: rgba(209, 255, 241, 0.897);
 text-decoration: none;
 padding: 10px;
 color: #159957;
@@ -392,7 +393,7 @@ color: #159957;
 
 /* add hover behaviour */
 .menu-bar .mainmenu a:hover {
-  color: #4d4d4d;
+  color: #ffffff;
 }
 
 
@@ -402,6 +403,7 @@ we're changing the submenu's max-height from 0 to 200px;
 */
 
 .menu-bar .mainmenu li:hover .submenu {
+display: block;
 max-height: 200px;
 }
 
@@ -423,7 +425,7 @@ color: rgba(255, 255, 255, 0.897);
 we set it to max-height: 0, and hide the overflowed content.
 */
 .menu-bar .submenu {
-visibility: hidden;
+overflow: hidden;
 max-height: 0;
 transition: all 0.5s ease;
 }
