@@ -28,46 +28,31 @@ layout: default
 
 ### Integrantes
 
-<div class="group-img">
-  <div class= "row-img">
-    <figure class="container-img">
-    <img src="https://avatars.githubusercontent.com/u/56660914?s=460&v=4" alt="Abraão Alves" class="padrao-img">
-    <figcaption class="text">
-      <a href="https://github.com/Abraao1231">Abraão Alves</a>
-    </figcaption>
-    </figure>
-    <figure class="container-img">
-      <img src="https://avatars.githubusercontent.com/u/78550466?s=460&v=4" alt="Arthur Talles" class="padrao-img">
-      <figcaption class="text">
-        <a href="https://github.com/art1505">Artur Talles</a>
-      </figcaption>
-    </figure>
-    <figure class="container-img">
-      <img src="https://avatars.githubusercontent.com/u/54555684?s=460&u=168b34321239372c84884cbeeda0f19683eeda01&v=4" alt= "Antônio Neto" class="padrao-img">
-      <figcaption class="text">
-        <a href="https://github.com/antoniotoineto">Antônio Neto</a>
-      </figcaption>
-    </figure>
+<div class="image-row">
+  <div>
+    <figure><a href="https://github.com/Abraao1231"><img src="https://avatars.githubusercontent.com/u/56660914?s=460&v=4" alt="Abraão Alves" class="padrao-img"></a></figure>
+    <figcaption>Abraão Alves</figcaption>
   </div>
-
-  <div class="row-img">
-    <figure class="container-img">
-    <img src="https://avatars.githubusercontent.com/u/54643148?s=460&v=4" alt="Davi Matheus" class="padrao-img">
-    <figcaption class="text">
-      <a href="https://github.com/DaviMatheus">Davi Matheus</a>
-    </figcaption>
-    </figure>
-    <figure class="container-img">
-      <img src="https://avatars.githubusercontent.com/u/56640659?s=460&v=4" alt="Natanael Filho" class="padrao-img">
-      <figcaption class="text">
-        <a href="https://github.com/fernandes-natanael">Natanael Coelho</a>
-      </figcaption>
-    </figure>
-    <figure class="container-img">
-      <img src="https://avatars.githubusercontent.com/u/54211866?s=460&u=5f1c2bdfb239084375881707ac3b8cf45ed28e9a&v=4" alt="Nilvan Junior" class="padrao-img">
-      <figcaption class="text">
-        <a href="https://github.com/juninhigh">Nilvan Junior</a>
-      </figcaption>
-    </figure>
+  <div>
+    <figure><a href="https://github.com/art1505"> <img src="https://avatars.githubusercontent.com/u/78550466?s=460&v=4" alt="Arthur Talles" class="padrao-img"></a></figure>
+    <figcaption>Artur Talles</figcaption>
+  </div>
+  <div>
+    <figure> <a href="https://github.com/antoniotoineto"><img src="https://avatars.githubusercontent.com/u/54555684?s=460&u=168b34321239372c84884cbeeda0f19683eeda01&v=4" alt= "Antônio Neto" class="padrao-img"></a></figure>
+    <figcaption>Antônio Neto</figcaption>
   </div>
 </div>
+
+<div class="image-row">
+  <div>
+    <figure> <a href="https://github.com/DaviMatheus"><img src="https://avatars.githubusercontent.com/u/54643148?s=460&v=4" alt="Davi Matheus" class="padrao-img"></a></figure>
+    <figcaption>Davi Matheus</figcaption>
+  </div>
+  <div>
+    <figure><a href="https://github.com/fernandes-natanael"><img src="https://avatars.githubusercontent.com/u/56640659?s=460&v=4" alt="Natanael Filho" class="padrao-img"></a></figure>
+    <figcaption>Natanael Filho</figcaption>
+  </div>
+  <div>
+    <figure><a href="https://github.com/juninhigh"><img src="https://avatars.githubusercontent.com/u/54211866?s=460&u=5f1c2bdfb239084375881707ac3b8cf45ed28e9a&v=4" alt="Nilvan Junior" class="padrao-img"></a></figure>
+    <figcaption>Nilvan Junior</figcaption>
+  </div>
