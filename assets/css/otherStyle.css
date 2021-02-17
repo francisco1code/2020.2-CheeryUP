@@ -3,9 +3,3 @@ img {
     height: 250px;
     width: 250px;
 }
-
-img:hover{
-    background-color: rgb(255, 255, 255);
-    border-radius: 50%;
-    border-top: rgb(71, 119, 103);
-}
