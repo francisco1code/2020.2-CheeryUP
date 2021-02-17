@@ -384,12 +384,15 @@ a {
   width: 200px;
 }
 #menu ul li{
+  list-style-type:none ;
   text-decoration: none;
-  a {
-    text-decoration: none;
-    color: white;
-  }
-  &:hover{
-    color: rgb(131, 255, 234);
+  
+}
+#menu ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+  &:hover {
+    color: rgb(88, 249, 255);
   }
 }
