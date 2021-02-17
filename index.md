@@ -29,20 +29,27 @@ layout: default
 ### Integrantes
 
 <div class="image-row">
-  <figure>
-    <a href="https://github.com/Abraao1231"><img src="https://avatars.githubusercontent.com/u/56660914?s=460&v=4" alt="Abraão Alves" class="padrao-img"></a>
-    <figcaption>Abraão Alves</figcaption>
-  </figure>
 
+  <div>
+    <figure>
+      <a href="https://github.com/Abraao1231"><img src="https://avatars.githubusercontent.com/u/56660914?s=460&v=4" alt="Abraão Alves" class="padrao-img"></a>
+      <figcaption>Abraão Alves</figcaption>
+    </figure>
+  </div>
+
+  <div>
   <figure> 
     <a href="https://github.com/art1505"> <img src="https://avatars.githubusercontent.com/u/78550466?s=460&v=4" alt="Arthur Talles" class="padrao-img"></a>
     <figcaption>Artur Talles</figcaption>
   </figure>
-  
+  </div>
+
+  <div>
   <figure> 
     <a href="https://github.com/antoniotoineto"><img src="https://avatars.githubusercontent.com/u/54555684?s=460&u=168b34321239372c84884cbeeda0f19683eeda01&v=4" alt= "Antônio Neto" class="padrao-img"></a>
     <figcaption>Antônio Neto</figcaption>
   </figure>
+  </div>
 </div>
 
 <div class="image-row">
