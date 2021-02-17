@@ -47,7 +47,22 @@
     </div>
     <div>
     <main id="content" class="main-content" role="main">
-
+      <nav class="navigation">
+        <ul class="mainmenu">
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Products</a>
+            <ul class="submenu">
+              <li><a href="">Tops</a></li>
+              <li><a href="">Bottoms</a></li>
+              <li><a href="">Footwear</a></li>
+            </ul>
+          </li>
+          <li><a href="">Contact us</a></li>
+        </ul>
+      </nav>
+      </div>
+      <div>
         {{ content }}
         <footer class="site-footer">
           {% if site.github.is_project_page %}
