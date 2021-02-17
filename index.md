@@ -4,7 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
+<h1 style="top:-50px;">[home](./another-page.html).</h1>
 
 # [oiii](docs/sprint0.md)
 
