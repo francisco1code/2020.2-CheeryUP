@@ -32,7 +32,7 @@
   
 
     <main id="content" class="main-content" role="main">
-      <nav class="navigation">
+      <div class="navigation">
         <ul class="mainmenu">
           <li><a href="">Home</a></li>
           <li><a href="">About</a></li>
@@ -45,10 +45,11 @@
           </li>
           <li><a href="">Contact us</a></li>
         </ul>
-      </nav>
       </div>
-      <div>
+      </div>
+      <div id="conteudo">
         {{ content }}
+        </div>
         <footer class="site-footer">
           {% if site.github.is_project_page %}
             <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
