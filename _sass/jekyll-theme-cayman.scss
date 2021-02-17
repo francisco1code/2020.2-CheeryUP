@@ -376,20 +376,19 @@ html, body {
 .menu-bar {
   width: 250px;
 }
-/* reset our lists to remove bullet points and padding */
+
 .menu-bar .mainmenu, .submenu {
 list-style: none;
 padding: 0;
 margin: 0;
 }
 
-/* make ALL links (main and submenu) have padding and background color */
 .menu-bar .mainmenu a {
 display: block;
-background-color: #CCC;
+background-color: rgba(167, 233, 233, 0.897);
 text-decoration: none;
 padding: 10px;
-color: #000;
+color: #159957;
 }
 
 /* add hover behaviour */
@@ -428,5 +427,5 @@ we set it to max-height: 0, and hide the overflowed content.
 .menu-bar .submenu {
 overflow: hidden;
 max-height: 0;
--webkit-transition: all 0.5s ease-out;
+transition: all 0.5s ease;
 }
