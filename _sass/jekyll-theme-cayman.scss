@@ -383,4 +383,9 @@ a {
   position:absolute;
   left: 15px;
   top: 20px;
+  color: rgb(196, 196, 196);
+  transition: 0.3s;
+}
+#botao-home :hover {
+color: white;
 }
