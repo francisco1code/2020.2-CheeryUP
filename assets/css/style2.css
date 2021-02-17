@@ -19,6 +19,9 @@
       height: 30px;
 }
 
+.image-row{
+    display: inline-block
+}
 
 .image-row figure img {
 	-webkit-filter: grayscale(0) blur(0);
