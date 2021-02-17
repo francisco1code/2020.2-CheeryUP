@@ -1,4 +1,11 @@
 img {
+    border-radius: 50%;
     height: 250px;
     width: 250px;
+
+    
+}
+
+img:hover{
+    background-color: rgba(255, 255, 255, 0.397);
 }
