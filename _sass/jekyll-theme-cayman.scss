@@ -162,7 +162,6 @@ a {
 .main-content {
   word-wrap: break-word;
   float: right;
-  top : -100px;
   width: 80%;
 
   :first-child {
@@ -176,6 +175,7 @@ a {
     font-size: 1.1rem;
   }
 
+  
   @include medium {
     padding: 2rem 4rem;
     font-size: 1.1rem;
@@ -380,7 +380,7 @@ html, body {
 
 /* define a fixed width for the entire menu */
 .navigation {
-width: 300px;
+width: 20%px;
 }
 
 /* reset our lists to remove bullet points and padding */
