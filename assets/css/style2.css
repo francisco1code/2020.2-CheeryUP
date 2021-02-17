@@ -4,6 +4,10 @@
     width: 200px;
 }
 
+.padrao-img:hover{
+    color: white;
+}
+
 .text {
     
       background-color: rgba(0,0,0,0.5);
@@ -13,4 +17,17 @@
       width: 200px;
       line-height: 30px;
       height: 30px;
+}
+
+
+.image-row figure img {
+	-webkit-filter: grayscale(0) blur(0);
+	filter: grayscale(50%) blur(3px);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.image-row figure:hover img {
+	-webkit-filter: grayscale(100%) blur(3px);
+	filter: grayscale(0%) blur(0px);
+    
 }
