@@ -162,7 +162,8 @@ a {
 .main-content {
   word-wrap: break-word;
   display: inline-block;
-  
+  width: 70%;
+  float: left;
   :first-child {
     margin-top: 0;
   }
@@ -374,6 +375,4 @@ html, body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#conteudo {
-  display: inline-block;
-}
+
