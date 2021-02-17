@@ -391,6 +391,12 @@ padding: 10px;
 color: #159957;
 }
 
+/* add hover behaviour */
+.menu-bar .mainmenu a:hover {
+  color: #C5C5C5;
+}
+
+
 /* when hovering over a .mainmenu item,
 display the submenu inside it.
 we're changing the submenu's max-height from 0 to 200px;
@@ -407,12 +413,12 @@ CSS reads down the page, so code at the bottom will overwrite the code at the to
 */
 
 .menu-bar .submenu a {
-background-color: #999;
+color: rgba(209, 255, 241, 0.897);
 }
 
 /* hover behaviour for links inside .submenu */
 .menu-bar .submenu a:hover {
-background-color: #666;
+  color :rgb(125, 255, 216);
 }
 
 /* this is the initial state of all submenus.
