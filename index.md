@@ -1,7 +1,4 @@
 <link rel="stylesheet" href="assets/css/otherStyle.css">
----
-layout: default
----
 
 ## Home
 
