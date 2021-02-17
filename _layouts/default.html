@@ -25,19 +25,20 @@
    <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <b><a id="botao-home" href="#/index.html">Home</a></b>
+      <label >
+      <b>
+        <a href="#/index.html" class="btn-home">Home</a>
+      </b>
+    </label>
       <h1 class="project-name">Prontuário eletrônico covid</h1>
       <h2 class="project-tagline">O melhor amigo dos psicólogos</h2>
       {% if site.github.is_project_page %}
-        <a href="https://github.com/fga-eps-mds/MDS-2020-2-G7" class="btn">Projeto</a>
-      {% endif %}
-      {% if site.show_downloads %}
+        <a href="https://github.com/fga-eps-mds/MDS-2020-2-G7" class="btn">Acesso ao github</a>
       {% endif %}
     </header>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
-
       <footer class="site-footer">
         {% if site.github.is_project_page %}
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
