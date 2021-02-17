@@ -406,10 +406,11 @@ a {
 
       }
     }
-    ul li ul{
-      visibility: hidden ;
-    }
-    ul li :hover > ul, ul li ul:hover{
-      visibility: visible;
-    }
+}
+
+.menu-bar  ul li ul{
+  visibility: hidden ;
+}
+.menu-bar li :hover > ul, ul li ul:hover{
+  visibility: visible;
 }
