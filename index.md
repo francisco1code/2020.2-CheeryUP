@@ -12,6 +12,7 @@ layout: default
 ***Tecnologias***
 
 - Java Script;
+- React JS;
 - Python 3;
 - Whatsapp;
 - Jitsi Meet;
