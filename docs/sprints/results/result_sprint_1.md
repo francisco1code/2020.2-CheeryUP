@@ -3,8 +3,8 @@
 ## Sumário
 
 1. [Informações básicas](#1.Informações-básicas)
-2. [Issues a serem executadas durante a Sprint](#2.Estudo-e-planejamento-de-conceitos-e-ferramentas-básicas-para-MDS)
-3. [Relato da Sprint](#4.Relato-da-Sprint )
+2. [Issues a serem executadas durante a Sprint](#2.Issues-a-serem-executadas-durante-a-Sprint)
+3. [Relato da Sprint](#3.Relato-da-Sprint )
 
 
 ## 1.Informações básicas
