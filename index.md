@@ -9,22 +9,21 @@ layout: default
 ### Relacionados ao projeto
 
 ***Tecnologias***
-<ul>
-  <li> Java Script; </li>
-  <li> Python 3; </li>
-  <li> Whatsapp;</li>
-  <li> Jitsi Meet;</li>
-  <li> Discord </li>
-  <li> Google Drive; </li>
-  <li> GitHub; </li>
-  <li> ZenHub; </li>
-  <li> Docker; </li>
-  <li> Linux; </li>
-  <li> HTML 5; </li>
-  <li> CSS 3; </li>
-  <li> SASS; </li>
-  <li> Django. </li>
-</ul>
+  - Java Script; 
+  - Python 3; 
+  - Whatsapp;
+  - Jitsi Meet;
+  - Discord 
+  - Google Drive; 
+  - GitHub; 
+  - ZenHub; 
+  - Docker; 
+  - Linux; 
+  - HTML 5; 
+  - CSS 3; 
+  - SASS; 
+  - Django.
+
 
 ### Integrantes
 
