@@ -5,7 +5,7 @@ layout: default
 <link rel="stylesheet" href="assets/css/style2.css">
 
 <ul>
-  <li><a href="/MDS-2020-2-G7/docs/index.md">Sprint 0</a></li>
+  <li><a href="/MDS-2020-2-G7/index.md">Home</a></li>
   <li><a href="/MDS-2020-2-G7/docs/sprint0.html">Sprint 0</a></li>
 </ul>
 
