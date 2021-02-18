@@ -3,6 +3,7 @@
 |Data|Versão|Descrição|Autor(es)|          
 |-----|------|---------|----------|           
 |17/02/2021|0.1| Versão inicial | Nilvan Peres|
+|17/02/2021|0.2| Versão inicial |Arthur Talles|
 
 ## Sumário
 1. [Introdução](#1---introdução)  
@@ -45,7 +46,55 @@ Por isso, a construção do prontuário eletrônico, a ferramenta vai facilitar 
 | A falta ou desistência de algum membro | Estimular a máxima participação dos membros da equipe. | Adequar os horários e realocar as tarefas entre os membros sem sobrecarregar nenhum membro. |
 | Falta de conhecimento sobre DevOps, para configuração do ambiente | Compartilhar links de estudo para o mesmo. | Realizar cursos ou treinamento sobre o assunto. |
 
-# 6 - Custo estimado do Projeto
+## 6. Resumo do Custo estimado
+### 6.1. Recursos Humanos
+ <p align="justify"> &emsp;&emsp; Os recursos humanos usados para a realização do projeto fazem referência aos 6 integrantes, sendo 1 deles encarregado do papel de Scrum Master, outro de Product Owner, 2 deles como DevOps e os demais como desenvolvedores. O papel de Arquitetura está sendo realizado em conjunto por todos os integrantes da equipe. Baseando-se no período de dedicação semanal, de cada integrante, ao projeto, estimamos o custo por mensal de cada aluno para a Universidade de Brasília (UnB), para a realização do cálculo de valor do projeto e estimativa do valor de nossas horas de trabalho.
+
+|Cargo	| Quantidade| 	Salário/mês (160h total)|	Salário/hora|	Total|
+|:---------:|:----------:|:----:|:--------:|:-----:|
+|Desenvolvedores/ Arquitetos| 6	|R$ 3.455<sup>[2]</sup>	e R$ 6.000<sup>[1]</sup> |R$21,60<sup>[2]</sup> e R$ 37,50<sup>[1]</sup>	|R$ 56.730|
+|DevOps|	2 | R$ 7.000<sup>[1]</sup>|  R$ 43,75<sup>[1]</sup>	|R$ 14.000|
+|Scrum Master|	1 |R$ 7.666<sup>[1]</sup>| R$ 47,91<sup>[1]</sup>	|R$ 7.666|
+|Product Owner|	1 |R$ 10.000<sup>[1]</sup>| R$ 62,5<sup>[1]</sup>	|R$ 10.000|
+
+* <sup>[1]</sup> Valor individual pelo papel
+* <sup>[2]</sup> Valor individual pelo papel de desenvolvedor
+
+### 6.2. Custo de Equipamentos
+
+|Equipamento|	Quantidade|	Finalidade	|Valor unitário	|Preço|
+|:---------:|:----------:|:----:|:--------:|:-----:|
+|Computadores | 6 unidades |	Desenvolvimento e planejamento|	R$ 2.000|	R$ 12.000|
+| Smartphones ou Tablets | Não definido| Desenvolvimento e planejamento| R$ 1.000 | R$ 1.000*n<sup>[1]</sup>|
+|Energia elétrica|	5 dias por semana	|Desenvolvimento e planejamento	|0,482 R$/KWh<sup>[2]</sup>|	R$ 313,30|
+|Internet|	3,75 meses|	Desenvolvimento e planejamento|	R$ 100,00<sup>[3]</sup> |	R$ 375,00 |
+|Transporte e alimentação|	2 ou 3 passagens diárias + R$10 alimentação   |	Transporte e alimentação|	R$ 20/dia	|R$ 2.250|
+
+* <sup>[1]</sup> Considerando "n" como a quantidade de aparelhos que forem usados e testados.
+* <sup>[2]</sup> Fonte: http://www.aneel.gov.br/ranking-das-tarifas
+* <sup>[3]</sup> Valor médio de um plano de internet na região do DF
+
+### 6.3. Custo de Ferramentas e Softwares
+
+|Ferramenta	| Finalidade| Preço Total|
+|:---:|:----:|:---:|
+|Telegram|	Comunicação entre os membros|	R$ 0|
+|Editores de Texto|	Elaboração de documentos e código|	R$ 0|
+|Git e GitHub	|Versionamento de arquivos	|R$ 0|
+|Google Drive	|Compartilhamento de arquivos|	R$ 0|
+|Linux e Android|	Ambiente de desenvolvimento|	R$ 0|
+|Linguagens de programação|	Tecnologias utilizadas para desenvolvimento	|R$ 0|
+
+### 6.4. Custo Total
+
+|Custo |	Valor Total|
+|:---:|:----:|
+|Recursos Humanos |	R$ 88.396,00|
+|Custo de Equipamentos|	R$ 20.938,30|
+|Ferramentas e Softwares|	R$ 0|
+|**Total**|	R$ 109.334,30|
+
+
 # 7 - Lista das partes interessadas
 # 8 - Requisitos para aprovação do Projeto
  Para a aprovação do Projeto será necessário a validação da Prof. Carla Silva Rocha Aguiar, que estará avaliando o projeto, com o auxílio da monitora Gabriela Pivetta. O Projeto deverá estar funcionando de acordo com as metas propostas ao longo de sua realização, isto é, um prontuário eletrônico que contempla atenção à saúde mental no cenário da pandemia do Covid-19.
