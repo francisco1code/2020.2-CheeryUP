@@ -4,42 +4,28 @@
     width: 200px;
 }
 
-.padrao-img:hover{
-    color: white;
-}
-
-
-.text {
-    
-      background-color: rgba(0,0,0,0.5);
-      color:#fff;
-      text-align: center;
-      top: 100px;
-      width: 200px;
-      line-height: 30px;
-      height: 30px;
-}
-
 div.image-row{
-    display: inline-block
+    display: inline-block;
 }
 
 .image-row figure img {
-	-webkit-filter: grayscale(0) blur(0);
-	filter: grayscale(50%) blur(3px);
+	-webkit-filter:  blur(0);
+	filter:  blur(0px);
 	-webkit-transition: .2s ease-in-out;
 	transition: .2s ease-in-out;
 }
 .image-row figure:hover img {
-	-webkit-filter: grayscale(100%) blur(3px);
-	filter: grayscale(0%) blur(0px);
+	-webkit-filter: blur(0px);
+	filter: blur(3px);
     
 }
 
-.conjunto{
-   
-}
-
-#menu-bar{
+#text {
+    color: #159957;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    
     
 }
+
