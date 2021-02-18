@@ -4,10 +4,14 @@ layout: default
 
 <link rel="stylesheet" href="assets/css/style2.css">
 
-## Menu
+<nav class="conjunto" id="menu-bar">
+
 - [Home](index.md)
 - [Sprint 0](docs/sprint0.md)
-- [Code of conduct](docs/CODE_OF_CONDUCT.md)
+
+</nav>
+
+<main class="conjunto">
 
 ## Spint
 ### Relacionados ao projeto
@@ -73,3 +77,5 @@ layout: default
     <figcaption>Nilvan Junior</figcaption>
   </figure>
 </div>
+
+</main>

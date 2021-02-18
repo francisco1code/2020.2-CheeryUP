@@ -8,6 +8,7 @@
     color: white;
 }
 
+
 .text {
     
       background-color: rgba(0,0,0,0.5);
@@ -33,4 +34,8 @@ div.image-row{
 	-webkit-filter: grayscale(100%) blur(3px);
 	filter: grayscale(0%) blur(0px);
     
+}
+
+.conjunto{
+    display: inline-block;
 }
