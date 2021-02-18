@@ -4,9 +4,10 @@ layout: default
 
 <link rel="stylesheet" href="assets/css/style2.css">
 
-## Home
-
-[ Sprint 0 ]( docs/sprint0.md )
+## Menu
+- [Home](index.md)
+- [Sprint 0](docs/sprint0.md)
+- [Code of conduct](docs/CODE_OF_CONDUCT.md)
 
 ## Spint
 ### Relacionados ao projeto
