@@ -5,10 +5,10 @@ layout: default
 <link rel="stylesheet" href="assets/css/style2.css">
 
 <nav class="conjunto" id="menu-bar">
-
-- [Home](index.md)
-- [Sprint 0](docs/sprint0.md)
-
+  <ul>
+    <li><a href="./index.md">Home</a></li>
+    <li><a href="./sprint0.md">Sprint 0</a></li>
+  </ul>
 </nav>
 
 <main class="conjunto">
@@ -29,8 +29,7 @@ layout: default
 - HTML 5;
 - CSS 3;
 - SASS;
-- Django.
-- pqessa porra n quer funcionar.
+- Django
 
 ### Integrantes
 
