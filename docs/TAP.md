@@ -42,7 +42,7 @@ Por isso, a construção do prontuário eletrônico, a ferramenta vai facilitar 
 |:------------------------------------:|:-------------------------:|
 | - | Configurar a integração do site dentro das frameworks escolhidas para o projeto (Node.js e Python Django).|
 | Inserir dados dos pacientes | Realizar cadastro do pacientes, dados de uma sessão e os sintomas referente a covid.  |
-| Banco de Dados | Permitir a comunicação entre o front e o banco de dados (MySql) para a criação de dashboards interativas. |
+| Banco de Dados | Permitir a comunicação entre o front e o banco de dados (PostgreSQL) para a criação de dashboards interativas. |
 | Monitoramento dos sintomas | Gráfico de evolução de sintomas no tempo (apaga essa descricao) |  
 
 # 5 - Riscos
@@ -115,8 +115,8 @@ Por isso, a construção do prontuário eletrônico, a ferramenta vai facilitar 
  | Nome | Papel | Email |
  |:------:|:-------:|:------------:|
  | Abraão | Dev Team | abraao1231@gmail.com |
- | Antônio N. | Dev Team | netocaastro10@gmail.com |
- | Arthur | Dev Team | arthurtalles@yahoo.com.br |
+ | Antônio N. | DevOps | netocaastro10@gmail.com |
+ | Arthur | DevOps | arthurtalles@yahoo.com.br |
  | Davi M. | Product Owner | matdavimat@gmail.com |
  | Natanel | Dev Team | filhonatanel01@gmail.com |
  | Nilvan Jr. | Scrum Master | nilvanperesjr@gmail.com |
