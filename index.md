@@ -13,9 +13,6 @@ layout: default
 
 <main class="conjunto">
 
-## Spint
-### Relacionados ao projeto
-
 ***Tecnologias***
 
 - Java Script;
