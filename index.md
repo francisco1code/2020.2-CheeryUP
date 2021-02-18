@@ -29,6 +29,7 @@ layout: default
 - CSS 3;
 - SASS;
 - Django.
+- pqessa porra n quer funcionar.
 
 ### Integrantes
 
