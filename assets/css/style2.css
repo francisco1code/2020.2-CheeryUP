@@ -1,9 +1,3 @@
-.padrao-img {  
-    border-radius: 50%;
-    height: 175px;
-    width: 175px;
-}
-
 div.image-row{
     display: inline-block;
 }
@@ -20,12 +14,16 @@ div.image-row{
     
 }
 
-#text {
-    color: #159957;
-    text-align: center;
-    font-family: Arial;
-    font-size: 16px;
-    
-    
+.padrao-img {  
+    border-radius: 50%;
+    height: 175px;
+    width: 175px;
 }
 
+#text {
+    color: #159957;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial;
+}
