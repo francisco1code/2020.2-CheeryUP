@@ -44,3 +44,17 @@ Por isso, a construção do prontuário eletrônico, a ferramenta vai facilitar 
 | Redefinições do escopo | A partir das dailys e reviews de sprints, a reavaliação de metas pontuais para o projeto. | Elaboração de sprint's que permita evoluções de funcionalidades do produto.|
 | A falta ou desistência de algum membro | Estimular a máxima participação dos membros da equipe. | Adequar os horários e realocar as tarefas entre os membros sem sobrecarregar nenhum membro. |
 | Falta de conhecimento sobre DevOps, para configuração do ambiente | Compartilhar links de estudo para o mesmo. | Realizar cursos ou treinamento sobre o assunto. |
+
+# 6 - Custo estimado do Projeto
+# 7 - Lista das partes interessadas
+# 8 - Requisitos para aprovação do Projeto
+ Para a aprovação do Projeto será necessário a validação da Prof. Carla Silva Rocha Aguiar, que estará avaliando o projeto, com o auxílio da monitora Gabriela Pivetta. O Projeto deverá estar funcionando de acordo com as metas propostas ao longo de sua realização, isto é, um prontuário eletrônico que contempla atenção à saúde mental no cenário da pandemia do Covid-19.
+ 
+# 9 - Gerentes do Projeto
+ * Nome: Nilvan Jr., Antônio Neto e Arthur Talles.
+ * Responsabilidade: Gerenciar e garantir o desenvolvimento do projeto.
+ * Nível de autoridade: Alunos da disciplina Métodos de Desenvolvimento de Software, do curso Eng. de Software - UnB, FGA.
+
+# 10 - Patrocinadores
+ * Nome: Carla Silva Rocha Aguiar e Gabriela Pivetta.
+ * Nível de autoridade: Professora Doutora e Monitora. Avaliadores e orientadores do Projeto.
