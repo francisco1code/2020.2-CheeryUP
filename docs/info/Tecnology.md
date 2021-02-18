@@ -7,7 +7,7 @@
 |----------------|-------------------|-------------------|
 |FRONTEND |JavasCript | React| 
 |BACKEND | Phython | Django|
-|Banco de Dados | SQL | MySQL|
+|Banco de Dados | SQL | PostgreSQL|
 
 
 ### 2 -  Papéis
