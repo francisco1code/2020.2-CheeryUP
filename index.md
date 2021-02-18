@@ -4,14 +4,8 @@ layout: default
 
 <link rel="stylesheet" href="assets/css/style2.css">
 
-<nav class="conjunto" id="menu-bar">
-  <ul>
-    <li><a href="./index.md">Home</a></li>
-    <li><a href="docs/sprint0.md">Sprint 0</a></li>
-  </ul>
-</nav>
-
-<main class="conjunto">
+- [Home](./docs/index.md)
+- [Sprint 0](./docs/sprint0.md)
 
 ***Tecnologias***
 
@@ -73,5 +67,3 @@ layout: default
     <figcaption>Nilvan Junior</figcaption>
   </figure>
 </div>
-
-</main>
