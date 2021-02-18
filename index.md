@@ -7,7 +7,7 @@ layout: default
 <nav class="conjunto" id="menu-bar">
   <ul>
     <li><a href="./index.md">Home</a></li>
-    <li><a href="./sprint0.md">Sprint 0</a></li>
+    <li><a href="./docs/sprint0.md">Sprint 0</a></li>
   </ul>
 </nav>
 
