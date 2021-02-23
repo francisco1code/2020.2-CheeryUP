@@ -42,11 +42,11 @@
 
 
 ***Pontuação:***
-* 36 pontos planejados
+* 36 pontos planejados.
 
 ## 4 - Pareamento
-Arthur e Antônio  --- Docs RoadMap DevOps.
-Abraão e Natanael --- Docs RoadMap DevTeam.
+* Arthur e Antônio  --- Docs RoadMap DevOps.  
+* Abraão e Natanael --- Docs RoadMap DevTeam.
 
 ## 5 - Histórias da Sprint
 Pelo grupo ainda estar voltado nas documentações gerais de todo o projeto, não foi possível criação de user stories.
