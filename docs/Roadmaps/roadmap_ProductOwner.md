@@ -1,4 +1,4 @@
-# Documento de visão
+# RoadMap ProductOwner
 
 ## Histórico de revisão
 | Data   | Versão | Modificação  | Autor  |
@@ -17,6 +17,10 @@
 -   Analise de Riscos
 -   Atualizar o produto de acordo com a evolução.
 -   Elaboração do Canvas. 
+
+
+
+<p align = "center"> &emsp;&emsp; <img src="./assets/RoadMap_PO.png" width="400" height="400"/> </p>
 
 ## Release 2 
 
