@@ -18,6 +18,6 @@
 * Monitoração da metodologia e risco projeto.  
    
 
-<p align = "center"> &emsp;&emsp; <img src="./assets/RoadMap_SC.png" width="400" height="400"/> </p>
+<p align = "center"> &emsp;&emsp; <img src="./assets/RoadMap_SM.png" width="400" height="400"/> </p>
 
 ## Realese 02
