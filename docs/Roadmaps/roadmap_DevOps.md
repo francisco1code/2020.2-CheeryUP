@@ -15,4 +15,4 @@
 - Estudar e escolher melhores ferramentas para uma integração continua.
 - Treinamento e implementação do docker.
 
-<p align = "center"> &emsp;&emsp; <img src="./assets/images/RoadMap_DevOps.jpg" width="400" height="400"/> </p>
+<p align = "center"> &emsp;&emsp; <img src="../assets/images/RoadMap_DevOps.jpg" width="435" height="515"/> </p>
