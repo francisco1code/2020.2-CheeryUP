@@ -2,17 +2,17 @@
 
 |       Data         |versão                       |Descrição                        |Autor|
 |----------------|-------------------------------|-----------------------------|---------------------|
-|20/02/2021|1.0.0           |Criação do roadmap Devops              |Abraão Alves|
-
+|20/02/2021|1.0.0           |Criação do roadmap Devops              |Davi Matheus|
 
 ## Realese 01
 
-- estudar git e github.
+- Estudar Agile/Scrum.
+- Estudar Open Source
 - Escolha e configuração de tecnologias e ferramentas para o projeto.
-- Elaboraçao da github page.
-- Atualização da github page com docsify.
 - atualização do documento de arquitetura.
 - Estudar e escolher melhores ferramentas para uma integração continua.
 - Treinamento e implementação do docker.
+- Analisar e Implementar Possíveis ideias de RoadMaps
+- Organizar e implementar front/back
 
-<p align = "center"> &emsp;&emsp; <img src="./assets/images/RoadMap_DevOps.jpg" width="400" height="400"/> </p>
+<p align = "center"> &emsp;&emsp; <img src="./assets/images/RoadMap_DevTeam.png" width="400" height="400"/> </p>

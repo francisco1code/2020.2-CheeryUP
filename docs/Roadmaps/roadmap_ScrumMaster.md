@@ -6,6 +6,7 @@
 
 
 ## Realese 01
+
 * Definição do escopo inicial.
 * Implementação do github pages para os documentos do projeto.
 * Elaboração de templates para padronização.
