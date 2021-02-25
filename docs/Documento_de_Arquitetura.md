@@ -153,6 +153,16 @@ O padrão de aquitetura adotado será o MVC (Modelo Visão e Controle). Ele é u
 
 ### 4.1.2 - Relacionamento
 
+**Usuário** -- cadastra -- **Paciente** : Um usuário do site pode cadastrar um paciente, e este pode conter apenas os dados referentes a este usuário. (Cardinalidade 1:1)
+
+**Psicólogo** -- atende -- **Paciente**: Um psicólogo atende diversos pacientes, assim como um paciente pode ser atendido por diversos psicólogos. (Cardinalidade N:N)
+
+**Paciente** -- solicita -- **Consulta**: Um paciente pode solicitar várias consultas, assim como uma consulta pode ser solicitada por diversos pacientes. (Cardinalidade N:N)
+
+**Administrador** -- contrata -- **Psicólogo**: O adminisrador pode contratar vários psicólogos, mas um psicólogo só pode ser contratado pelo administrador. (Cardinalidade 1:N)
+
+**Administrador** -- confirma -- **Consulta**: O administrador confirma diversas consultas, mas uma consulta só pode ser confirmada pelo administrador. (Cardinalidade 1:N)
+
 
 ### 4.2 - Diagrama Entidade Relacionamento (DER)
 
