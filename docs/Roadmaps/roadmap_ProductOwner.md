@@ -20,7 +20,7 @@
 
 
 
-<p align = "center"> &emsp;&emsp; <img src="./assets/RoadMap_PO.png" width="400" height="400"/> </p>
+<p align = "center"> &emsp;&emsp; <img src="./assets/images/RoadMap_PO.png" width="400" height="400"/> </p>
 
 ## Release 2 
 
