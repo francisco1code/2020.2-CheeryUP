@@ -20,8 +20,14 @@
 
 [3 - Metas e Restrições da Arquitetura](#3---Metas-e-Restrições-da-Arquitetura)
 
-* [ 3.1 - Metas](#3.1--Metas)
+* [3.1 - Metas](#3.1--Metas)
 * [3.2 - Restrições da Arquitetura](#3.2--Restrições-da-Arquitetura)
+
+[4 - Visão de Dados](#4---Visão-de-Dados)
+* [4.1 - Modelo Entidade Relacionamento (MER)](#4.1---Modelo-Entidade-Relacionamento-(MER)) 
+    * [4.1.1 - Entidades](#4.1.1---Entidades)
+    * [4.1.2 - Relacionamentos](#4.1.2---Relacionamentos)
+* [4.2 - Diagrama Entidade Relacionamento (DER)](#4.2---Diagrama-Entidade-Relacionamento-(DER)) 
 
 
 ## 1 - Introdução
@@ -96,4 +102,56 @@ O padrão de aquitetura adotado será o MVC (Modelo Visão e Controle). Ele é u
 * Possuir um navegador de internet (Google Chrome 60, Safari, Mozilla Firefox 55, Opera 47 e Microsoft Edge);
 * Cadastro no site;
 
+## 4 - Visão de Dados
 
+### 4.1 - Modelo Entidade Relacionamento (MER)
+
+### 4.1.1 - Entidades
+* ### Usuário
+|Atributos| Propriedade | Tipo | Descrição|
+|-----|-----|------|-----|
+| idUsuario | Chave primária obrigatória | String | Identificação do Usuário |
+| nome | Obrigatório | String | Nome do usuário |
+| sexo | Obrigatório | String | Sexo do usuário |
+| email | Obrigatório | String | Email do usuário |
+| cpf | Obrigatório | String | CPF do usuário |
+| telefone | Obrigatório | String | Telefone do usuário |
+| senha | Obrigatório | String | Senha do usuário |
+
+* ### Administrador
+|Atributos| Propriedade | Tipo | Descrição|
+|-----|-----|------|-----|
+| idAdm | Chave primária obrigatória | String | Identificação do Administrador |
+| idUsuario | Chave estrangeira obrigatória | String | Identificação do Usuário |
+
+* ### Psicólogo 
+|Atributos| Propriedade | Tipo | Descrição|
+|-----|-----|------|-----|
+| idPsicologo | Chave primária obrigatória | String | Identificação do Psicólogo |
+| idAdm | Chave estrangeira obrigatória | String | Identificação do Administrador |
+| dataDisp | Obrigatório | String | Datas disponíveis do psicólogo |
+| descricao | Obrigatório | String | Descrição do Psicólogo |
+| especialidade | Obrigatório | String | Especialização do Psicólogo |
+
+* ### Paciente
+|Atributos| Propriedade | Tipo | Descrição|
+|-----|-----|------|-----|
+| idPaciente | Chave primária obrigatória | String | Identificação do Paciente |
+| idUsuario | Chave estrangeira obrigatória | String | Identificação do Usuário |
+| idade | Obrigatório | String | Idade do Paciente |
+| tratamento | Obrigatório | String | Motivo do tratamento do Paciente |
+
+* ### Consulta
+|Atributos| Propriedade | Tipo | Descrição|
+|-----|-----|------|-----|
+| idConsulta | Chave primária obrigatória | String | Identificação da Consulta |
+| idPaciente | Chave estrangeira obrigatória | String | Identificação do Paciente |
+| idPsicologo | Chave estrangeira obrigatória | String | Identificação do Psicólogo |
+| data | Obrigatório | String | Data da Consulta |
+| horario | Obrigatório | String | Horário da Consulta |
+
+
+### 4.1.2 - Relacionamento
+
+
+### 4.2 - Diagrama Entidade Relacionamento (DER)
