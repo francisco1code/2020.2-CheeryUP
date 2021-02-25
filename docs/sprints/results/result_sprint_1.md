@@ -24,7 +24,7 @@
 
 |ID|Nome |Responsável |Status|
 |--|--|--|--|
-|[#25](https://github.com/fga-eps-mds/MDS-2020-2-G7/issues/25)|Elaboração inicial do RoadMap|Todos os integrantes|Concluído (seráo constantemente atualizado)|
+|[#25](https://github.com/fga-eps-mds/MDS-2020-2-G7/issues/25)|Elaboração inicial do RoadMap|Todos os integrantes|Concluído (será constantemente atualizado)|
 |[#26](https://github.com/fga-eps-mds/MDS-2020-2-G7/issues/26)|Estudar os Protótipos de Baixa e Alta Fidelidade| Davi Matheus |Concluído|
 |[#27](https://github.com/fga-eps-mds/MDS-2020-2-G7/issues/27)|Elaboração da ATA de reuniões| Antônio Neto|Concluído|
 |[#28](https://github.com/fga-eps-mds/MDS-2020-2-G7/issues/28)|Estudar backlog de produto|Natanael Fernandes|Concluído|
