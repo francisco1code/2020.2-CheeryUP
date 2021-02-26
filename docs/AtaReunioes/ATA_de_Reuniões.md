@@ -23,7 +23,7 @@
 | #9 | 18\02\21 | 19h | 20 min | Todos | [#2](https://github.com/fga-eps-mds/MDS-2020-2-G7/blob/main/docs/sprints/planning/sprint_2.md) |
 | #10 | 23\02\21 | 11:10h | 20 min | Todos, exceto [Abraão](https://github.com/Abraao1231) | [#2](https://github.com/fga-eps-mds/MDS-2020-2-G7/blob/main/docs/sprints/planning/sprint_2.md) |
 | #11 | 24\02\21 | 13h | 30 min | [Davi](https://github.com/DaviMatheus), [Abraão](https://github.com/Abraao1231) e [Natanael](https://github.com/fernandes-natanael) | [#2](https://github.com/fga-eps-mds/MDS-2020-2-G7/blob/main/docs/sprints/planning/sprint_2.md) |
-| #12 | 25\02\21 | 20h | 30 min | Todos | [#2](https://github.com/fga-eps-mds/MDS-2020-2-G7/blob/main/docs/sprints/planning/sprint_2.md) |
+| #12 | 25\02\21 | 20:30h | 40 min | Todos, exceto [Arthur](https://github.com/art1505) | [#2](https://github.com/fga-eps-mds/MDS-2020-2-G7/blob/main/docs/sprints/planning/sprint_2.md) |
 
 
 ## Considerações Finais
