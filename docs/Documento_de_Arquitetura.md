@@ -166,5 +166,9 @@ O padrão de aquitetura adotado será o MVC (Modelo Visão e Controle). Ele é u
 
 ### 4.2 - Diagrama Entidade Relacionamento (DER)
 
+<p align = "center"> &emsp;&emsp; <img src="./assets/diagrama/Diagrama_DER.jpeg" width="588" height="416"/> </p>
 
-<p align = "center"> &emsp;&emsp; <img src="./assets/diagrama/oi.jpeg" width="640" height="355"/> </p>
+
+## 5 - Visão de Caso e Uso
+
+<p align = "center"> &emsp;&emsp; <img src="./assets/diagrama/Diagrama_De_Caso_Uso.jpeg" width="640" height="355"/> </p>
