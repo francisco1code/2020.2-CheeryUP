@@ -4,8 +4,9 @@
 | ------------------- | ------------------- | ------------------- | ------------------- |
 | 1.0.0 | 17/02/2021  | Davi Matheus  | Estrutura inicial  |
 | 1.0.1 | 17/02/2021  | Nilvan Peres  | Adição dos tópicos 1,2 e 3 |
-
-
+| 1.0.2 | 25/02/2021  | Antonio e Arthur | Implementação da Visão de Dados |
+| 1.0.3 | 25/02/2021  | Natanel Fernandes | Adição do DER |
+| 1.0.4 | 25/02/2021  | Davi e Aabrão | Implementação da Visão de Caso de Uso |
 ## Sumário
 [1 - Introdução](#1---introdução)
 * [1.1 - Objetivo](#1.1---objetivo)
@@ -29,7 +30,11 @@
     * [4.1.2 - Relacionamentos](#4.1.2---Relacionamentos)
 * [4.2 - Diagrama Entidade Relacionamento (DER)](#4.2---Diagrama-Entidade-Relacionamento-(DER)) 
 
+[ 5 - Visão de Caso de Uso](#5---Visão-de-Caso-de-Uso)
 
+* [5.1 - Diagrama de caso de Uso](#5.1---Diagrama-de-caso-de-Uso)
+* [5.2 - Atores de Caso de Uso](#5.2---Atores-de-Caso-de-Uso)
+* [5.3 - Descrições de Caso de Uso](#5.3---Descrições-de-Caso-de-Uso)
 ## 1 - Introdução
 
 ### 1.1 - Objetivo 
@@ -169,6 +174,31 @@ O padrão de aquitetura adotado será o MVC (Modelo Visão e Controle). Ele é u
 <p align = "center"> &emsp;&emsp; <img src="./assets/diagrama/Diagrama_DER.jpeg" width="588" height="416"/> </p>
 
 
-## 5 - Visão de Caso e Uso
+## 5 - Visão de Caso de Uso
+
+### 5.1 - Diagrama de caso de Uso
 
 <p align = "center"> &emsp;&emsp; <img src="./assets/diagrama/Diagrama_De_Caso_Uso.jpeg" width="640" height="355"/> </p>
+
+### 5.2 - Atores de Caso de Uso
+
+|Ator | Descrição | 
+|-----|-----|
+| Usúario | São todos que forem utilizar o site | 
+| Psicologo | É quem vai utilizar o site para adicionar e visualizar o laudo e acessar os dashboards  | 
+| Paciente | É quem vai utilizar o site para as consultas | 
+| Administrador | É quem vai fazer a manutenção do site | 
+
+### 5.3 - Descrições de Caso de Uso
+
+|Casos de uso| Ator | Descrição|
+|-----|-----|------|
+| UC01 - Cadastrar paciente | Usuário | O usuário tem as opções de atualizar informações da conta assim como pode também apagá-la |
+| UC02 - Acesar Laudo do paciente | Psicologo | O psicologo poderá visualizar o Laudo do paciente quando quiser |
+| UC03 - Inserir Laudo | Psicologo | O psicologo pode inserir os laudos dos seus pacientes |
+| UC04 - Acessar dashboards | Psicologo | O psicologo poderá ver os dashbords de saude mental disponiblizados pela comunidade |
+| UC05 - Acessar agendas de consultas | Psicologo | O psicologo será notificado e poderá visualizar as consultas próximas a serem realizadas |
+| UC06 - Solicitar consulta | Paciente |O paciente poderá socilitar a consulta aos psicologos cadastrados |
+| UC07 - Entrar em contato com o administrador| Passageiro e proprietário | Aqui estes usuários podem entrar em contato com os administradores para poder sanar suas dúvidas e dar sugestões |
+| UC08 - Cadastrar Psicologo |  Admnistrador | O admnistrador é o unico que poderá contratar e cadastrar o psicologo |
+| UC09 - Confirmar consulta | Admnistrador | O administrador confirma diversas consultas, mas uma consulta só pode ser confirmada pelo administrador. |
