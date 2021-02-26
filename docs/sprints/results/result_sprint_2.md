@@ -45,7 +45,7 @@
      </div>
 
 ## 4.Gráfico de Burndown
-![](https://ibb.co/JC2tmXR)
+<a href="https://ibb.co/JC2tmXR"><img src="https://i.ibb.co/XVpLjmZ/BurnDown.png" alt="BurnDown" border="0"></a>)
 
 ## 5.Review do ScrumMaster
 Na realização dos diagramas do Documento de Arquitetura o grupo viu que nem tudo estava tão claro como parecia, a qualidade dos diagramas acabaram sendo fracas nesse primeiro momento, mas tende a melhorar já que percebemos o problema depois de colocar a mão na massa. O grupo também apresentou falhas em seguir o template de commit's nessa sprint. Agora, é focar nos documentos finais para inicializar a parte de codificação.
