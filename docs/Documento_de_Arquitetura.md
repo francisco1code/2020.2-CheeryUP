@@ -199,6 +199,5 @@ O padrão de aquitetura adotado será o MVC (Modelo Visão e Controle). Ele é u
 | UC04 - Acessar dashboards | Psicologo | O psicologo poderá ver os dashbords de saude mental disponiblizados pela comunidade |
 | UC05 - Acessar agendas de consultas | Psicologo | O psicologo será notificado e poderá visualizar as consultas próximas a serem realizadas |
 | UC06 - Solicitar consulta | Paciente |O paciente poderá socilitar a consulta aos psicologos cadastrados |
-| UC07 - Entrar em contato com o administrador| Passageiro e proprietário | Aqui estes usuários podem entrar em contato com os administradores para poder sanar suas dúvidas e dar sugestões |
-| UC08 - Cadastrar Psicologo |  Admnistrador | O admnistrador é o unico que poderá contratar e cadastrar o psicologo |
-| UC09 - Confirmar consulta | Admnistrador | O administrador confirma diversas consultas, mas uma consulta só pode ser confirmada pelo administrador. |
+| UC07 - Cadastrar Psicologo |  Admnistrador | O admnistrador é o unico que poderá contratar e cadastrar o psicologo |
+| UC08 - Confirmar consulta | Admnistrador | O administrador confirma diversas consultas, mas uma consulta só pode ser confirmada pelo administrador. |
