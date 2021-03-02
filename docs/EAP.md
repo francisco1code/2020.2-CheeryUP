@@ -16,5 +16,5 @@ Data|Versão|Descrição|Autor
 
 ### Versão 1.0
 
-<a href="https://ibb.co/T0cdtRP"><img src="https://i.ibb.co/t2BFDcY/EAP.png" alt="EAP" border="0"></a>
+<a href="https://ibb.co/7vV2VPK"><img src="https://i.ibb.co/F6JgJ2z/EAP.png" alt="EAP" border="0"></a>
 
