@@ -39,9 +39,10 @@ E2|FT02|US06|Eu, como psicologo, gostaria de ter acesso aos meus feedbacks| BAIX
 E2|FT03|US07|Eu, como psicologo, gostaria de cadastrar pacientes| ALTO 
 E2|FT03|US08|Eu, como psicologo, gostaria de deletar pacientes| ALTO
 E2|FT04|US09|Eu, como psicologo ,gostaria de atualizar dados do paciente | ALTO
-E2|FT05|US10|Eu, como psicologo, gostaria de remarcar/desmarcar consulta| MEDIO
-E2|FT05|US11|Eu, como psicologo, gostaria de visualizar as consultas passadas e futuras| MEDIO
-E2|FT06|US12|Eu, como psicologo, gostaria de visualizar os dashboards| ALTO
-E3|FT06|US13|Eu, como gestor, gostaria de visualizar os dashboards | ALTO
-E4|FT07|US14|Eu, como paciente, gostaria de acessar meu historico de consulta| BAIXO
-E4|FT08|US15|Eu, como paciente, gostaria de deixar comentarios/feedback para psicologo| BAIXO
+E2|FT04|US10|Eu, como psicólogo, gostaria ver de quadro de evolução de determinado paciente.|MEDIO
+E2|FT05|US11|Eu, como psicologo, gostaria de remarcar/desmarcar consulta| MEDIO
+E2|FT05|US12|Eu, como psicologo, gostaria de visualizar as consultas passadas e futuras| MEDIO
+E2|FT06|US13|Eu, como psicologo, gostaria de visualizar os dashboards| ALTO
+E3|FT06|US14|Eu, como gestor, gostaria de visualizar os dashboards | ALTO
+E4|FT07|US15|Eu, como paciente, gostaria de acessar meu historico de consulta| BAIXO
+E4|FT08|US16|Eu, como paciente, gostaria de deixar comentarios/feedback para psicologo| BAIXO
