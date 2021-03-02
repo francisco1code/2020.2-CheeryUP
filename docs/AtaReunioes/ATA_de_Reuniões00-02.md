@@ -1,4 +1,4 @@
-# *ATA de Reuniões* ❗
+# *ATA de Reuniões* ❗ *Sprint 00 à 02*
 
 ## Objetivos
 * Controlar a frequência de reuniões do grupo.
