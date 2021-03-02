@@ -1,3 +1,3 @@
-<img src="./assets/images/coronavirus.png" >
+<img src="./assets/images/logo.png" width="400" heigth="400" >
 
- - Prontuário eletrônico covid
+***CheeryUp***

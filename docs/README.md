@@ -10,3 +10,4 @@
 |[DaviMatheus](https://github.com/DaviMatheus) | Product Owner |
 |[fernandes-natanael](https://github.com/fernandes-natanael) | Dev Team |
 |[juninhigh](https://github.com/juninhigh) | Scrum Master |
+|[] | |
