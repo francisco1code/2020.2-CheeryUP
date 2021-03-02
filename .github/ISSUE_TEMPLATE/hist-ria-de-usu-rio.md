@@ -16,9 +16,9 @@ Eu, como ***persona***, gostaria de ***realizar algo*** para ***alcance um objet
 
 Ex :  
 
--[ ] O usuário deve conseguir recuperar sua senha.  
+- [ ] O usuário deve conseguir recuperar sua senha.  
 
--[ ] O usuário será redirecionado quando não conseguir lembrar sua senha...
+- [ ] O usuário será redirecionado quando não conseguir lembrar sua senha...
 
 **Observações**
 
