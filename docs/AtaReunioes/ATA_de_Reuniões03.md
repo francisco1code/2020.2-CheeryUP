@@ -7,7 +7,7 @@
 * Revisar a presença de cada integrante nas reuniões.
 
 ## Considerações Iniciais
-📍 As reuniões do grupo são integralmente realizadas pela plataforma [Jitsi Meet](https://meet.jit.si/), um aplicativo de ligações áudio-visuais. 📞📸 
+📍 As reuniões do grupo são integralmente realizadas pelas plataformas [Jitsi Meet](https://meet.jit.si/) ou [Discord](https://discord.com/), ambos aplicativos de ligações áudio-visuais. 📞📸 
 
 📍 Ademais, os integrantes frequentemente mantém contato por um grupo no [WhatsApp](https://www.whatsapp.com/). ✔️
 
