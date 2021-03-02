@@ -1,5 +1,23 @@
-### Descrição:
+---
+name: Issue para documentos
+about: Issues para criação ou atualização de documentos
+title: ''
+labels: ''
+assignees: ''
 
-- Porquê de tais mudanças serem executadas;
-- Presença ou não de alteração no escopo do projeto;
-- Possíveis alterações nas tecnologias utilizadas durante a realização do projeto;
+---
+
+### Descrição:
+Uma breve descrição de qual documento será modificado, e se algum tópico será inserido.
+### Task do que será feito no documento:
+
+- [ ] Tarefa 1.
+- [ ] Tarefa 2.
+
+***A mudança afeta o escopo ou as tecnologias escolhidas(Se, sim justique o motivo da mudança)***?  
+
+***Justificativa:***
+
+### Critérios de aceitação
+* Revisão ortográfica.
+* Justificativa da mudança
