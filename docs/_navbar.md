@@ -1,4 +1,6 @@
-- [Home](/)
+- Home
+    - [Início](/)
+    - [Integrantes](./?id=integrantes)
 
 - Documentação 
     - [Backlog do Produto](./pages/documents/Product_Backlog.md)
