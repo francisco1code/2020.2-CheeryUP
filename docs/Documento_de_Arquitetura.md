@@ -152,6 +152,8 @@ O padrão de aquitetura adotado será o MVC (Modelo Visão e Controle). Ele é u
 
 **Psicólogo** -- cadastra/exclui -- **Paciente**: Um psicólogo cadastra ou exclui os pacientes. (Cardinalidade 1:N)
 
+**Psicólogo** -- cadastra/exclui -- **Psicólogo**: Um psicólogo realiza seu próprio cadastro e eventual exclusão do mesmo. (Cardinalidade 1:1)
+
 **Psicólogo** -- gera -- **Consulta**: Psicólogo gera laudo de uma consulta com paciente. (Cardinalidade 1:N)
 
 **Psicólogo** -- insere -- **Paciente**: Psicólogo insere novos dados de uma consulta com paciente. (Cardinalidade 1:N)
