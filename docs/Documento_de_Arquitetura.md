@@ -114,39 +114,26 @@ O padrão de aquitetura adotado será o MVC (Modelo Visão e Controle). Ele é u
 ### 4.1 - Modelo Entidade Relacionamento (MER)
 
 ### 4.1.1 - Entidades
-* ### Usuário
-|Atributos| Propriedade | Tipo | Descrição|
-|-----|-----|------|-----|
-| idUsuario | Chave primária obrigatória | String | Identificação do Usuário |
-| nome | Obrigatório | String | Nome do usuário |
-| sexo | Obrigatório | String | Sexo do usuário |
-| email | Obrigatório | String | Email do usuário |
-| cpf | Obrigatório | String | CPF do usuário |
-| telefone | Obrigatório | String | Telefone do usuário |
-| senha | Obrigatório | String | Senha do usuário |
-
-* ### Administrador
-|Atributos| Propriedade | Tipo | Descrição|
-|-----|-----|------|-----|
-| idAdm | Chave primária obrigatória | String | Identificação do Administrador |
-| idUsuario | Chave estrangeira obrigatória | String | Identificação do Usuário |
-
 * ### Psicólogo 
 |Atributos| Propriedade | Tipo | Descrição|
 |-----|-----|------|-----|
 | idPsicologo | Chave primária obrigatória | String | Identificação do Psicólogo |
-| idAdm | Chave estrangeira obrigatória | String | Identificação do Administrador |
-| dataDisp | Obrigatório | String | Datas disponíveis do psicólogo |
-| descricao | Obrigatório | String | Descrição do Psicólogo |
-| especialidade | Obrigatório | String | Especialização do Psicólogo |
+| nome | Obrigatório | String | Nome do Psicólogo |
+| email | Obrigatório | String | Email do Psicólogo |
+| cpf | Obrigatório | String | CPF do Psicólogo |
+| nCRP | Obrigatório | String | Número do Conselho Regional do Psicólogo |
+| senha | Obrigatório | String | Senha de login |
+| confirmaSenha | Obrigatório | String | Confirmar senha |
 
 * ### Paciente
 |Atributos| Propriedade | Tipo | Descrição|
 |-----|-----|------|-----|
 | idPaciente | Chave primária obrigatória | String | Identificação do Paciente |
-| idUsuario | Chave estrangeira obrigatória | String | Identificação do Usuário |
-| idade | Obrigatório | String | Idade do Paciente |
-| tratamento | Obrigatório | String | Motivo do tratamento do Paciente |
+| nome | Obrigatório | String | Nome do Paciente |
+| email | Obrigatório | String | Email do Paciente |
+| cpf | Obrigatório | String | CPF do Paciente |
+| nascimento | Obrigatório | String | Nascimento do Paciente |
+| gênero | Obrigatório | String | Gênero do Paciente |
 
 * ### Consulta
 |Atributos| Propriedade | Tipo | Descrição|
@@ -154,21 +141,26 @@ O padrão de aquitetura adotado será o MVC (Modelo Visão e Controle). Ele é u
 | idConsulta | Chave primária obrigatória | String | Identificação da Consulta |
 | idPaciente | Chave estrangeira obrigatória | String | Identificação do Paciente |
 | idPsicologo | Chave estrangeira obrigatória | String | Identificação do Psicólogo |
-| data | Obrigatório | String | Data da Consulta |
-| horario | Obrigatório | String | Horário da Consulta |
+
+* ### Dashboard
+|Atributos| Propriedade | Tipo | Descrição|
+|-----|-----|------|-----|
+| idDashboard | Chave primária obrigatória | String | Identificação da Dashboard |
 
 
 ### 4.1.2 - Relacionamento
 
-**Usuário** -- cadastra -- **Paciente** : Um usuário do site pode cadastrar um paciente, e este pode conter apenas os dados referentes a este usuário. (Cardinalidade 1:1)
+**Psicólogo** -- cadastra/exclui -- **Paciente**: Um psicólogo cadastra ou exclui os pacientes. (Cardinalidade 1:N)
 
-**Psicólogo** -- atende -- **Paciente**: Um psicólogo atende diversos pacientes, assim como um paciente pode ser atendido por diversos psicólogos. (Cardinalidade N:N)
+**Psicólogo** -- gera -- **Consulta**: Psicólogo gera laudo de uma consulta com paciente. (Cardinalidade 1:N)
 
-**Paciente** -- solicita -- **Consulta**: Um paciente pode solicitar várias consultas, assim como uma consulta pode ser solicitada por diversos pacientes. (Cardinalidade N:N)
+**Psicólogo** -- insere -- **Paciente**: Psicólogo insere novos dados de uma consulta com paciente. (Cardinalidade 1:N)
 
-**Administrador** -- contrata -- **Psicólogo**: O adminisrador pode contratar vários psicólogos, mas um psicólogo só pode ser contratado pelo administrador. (Cardinalidade 1:N)
+**Psicólogo** -- acessa -- **Consulta**: Psicólogo acessa laudo de uma consulta com paciente. (Cardinalidade 1:N)
 
-**Administrador** -- confirma -- **Consulta**: O administrador confirma diversas consultas, mas uma consulta só pode ser confirmada pelo administrador. (Cardinalidade 1:N)
+**Psicólogo** -- acessa -- **Paciente**: Psicólogo acessa seus pacientes. (Cardinalidade 1:N)
+
+**Psicólogo** -- acessa -- **Dashboard**: Psicólogo acessa Dashboard de monitoramento. (Cardinalidade 1:N)
 
 
 ### 4.2 - Diagrama Entidade Relacionamento (DER)
@@ -199,7 +191,7 @@ O padrão de aquitetura adotado será o MVC (Modelo Visão e Controle). Ele é u
 | UC03 - Inserir Laudo | Psicologo | O psicologo pode inserir os laudos dos seus pacientes |
 | UC04 - Acessar Laudo | Psicologo | O psicologo poderá acessar os laudos que ele preencher |
 | UC04 - Acessar dashboards | Psicologo | O psicologo poderá ver os dashbords de saude mental disponiblizados pela comunidade |
-| UC05 - Acessar agendas de consultas | Psicologo | O psicologo será notificado e poderá visualizar as consultas próximas a serem realizadas |
+| UC05 - Acessar agendas de consultas | Psicologo | O psicologo será notificado e poderá visualizar as consultas próximas a serem realizadas 
 | UC06 - Acessar o quadro de evolução do paciente | Psicologo |O psicologo poderá acessar o quadro evolutivo de um paciente especifico |
 | UC07 - Cadastrar Psicologo |  Psicologo | O admnistrador é o unico que poderá contratar e cadastrar o psicologo |
 
