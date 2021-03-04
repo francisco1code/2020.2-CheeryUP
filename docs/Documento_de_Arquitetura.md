@@ -8,6 +8,8 @@
 | 1.0.3 | 25/02/2021  | Natanel Fernandes | Adição do DER |
 | 1.0.4 | 25/02/2021  | Davi e Aabrão | Implementação da Visão de Caso de Uso |
 | 1.1.0 | 04/03/2021  | Davi e Aabrão | Atualização da Visão de Caso de Uso |
+| 1.1.1 | 04/03/2021  | Antônio e Arthur | Atualização da Visão de Dados |
+
 
 ## Sumário
 [1 - Introdução](#1---introdução)
