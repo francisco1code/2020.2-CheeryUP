@@ -3,9 +3,9 @@
 Data|Versão|Descrição|Autor
 -|-|-|-
 02/03/2021|1.0.0|Adição do Canvas| Davi Matheus|
+04/03/2021|1.1.0|Atualização dos Clientes| Davi Matheus|
 
-
-<p align = "center"> &emsp;&emsp; <img src="./assets/images/Canvas.png" /> </p>
+<p align = "center"> &emsp;&emsp; <img src="./assets/images/Canva.png" /> </p>
 
 
 # Referências
