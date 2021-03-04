@@ -11,9 +11,9 @@ about: Template padrão para criação de atas de reunião
 | :- | :- |
 | - |  -  |
 
-| Data  | Local | Horário  | Autor | (Semanal ou Daily), escolha um | Participantes |
-| :- | :- | :- | :- | :- | :- |
-|  x | Jitsi | 18h |  -- | -- | -- ||
+| Data  | Local | Horário  | Duração | Autor | Semanal/Daily | Participantes |
+| :- | :- | :- | :- | :- | :- | :- |
+|  x | Jitsi | 18h | -- |  -- | -- | -- ||
 
 
 ***Pontos planejado***  
