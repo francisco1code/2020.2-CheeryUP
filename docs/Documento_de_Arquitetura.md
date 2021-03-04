@@ -178,7 +178,7 @@ O padrão de aquitetura adotado será o MVC (Modelo Visão e Controle). Ele é u
 
 ### 5.1 - Diagrama de caso de Uso
 
-<p align = "center"> &emsp;&emsp; <img src="./assets/diagrama/Diagrama_De_Caso_Uso.jpeg" width="640" height="355"/> </p>
+<p align = "center"> &emsp;&emsp; <img src="./assets/diagrama/Diagrama_De_Caso_Uso.png" width="500" height="420"/> </p>
 
 ### 5.2 - Atores de Caso de Uso
 
