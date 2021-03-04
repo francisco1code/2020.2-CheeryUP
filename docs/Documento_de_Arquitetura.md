@@ -42,11 +42,11 @@
 ## 1 - Introdução
 
 ### 1.1 - Objetivo 
-O objetivo deste documento é dissecar a arquitetura do projeto ***mindXcovid***, de modo que, todo a visão arquitetural do sistema que será desenvolvido esteja clara.  
+O objetivo deste documento é dissecar a arquitetura do projeto ***cheery up***, de modo que, todo a visão arquitetural do sistema que será desenvolvido esteja clara.  
 Outro ponto que será abordado, são as principais características do software permitindo que desenvolvedores/gestores entendam os processos que levaram na escolha das tecnologias e decisões a respeito dessa arquitetura.
 
 ### 1.2 - Escopo
-A plataforma web ***mindXcovid*** será desenvolvida para ser um prontuário de atendimento psicológico a pacientes em fase de recuperação de covid-19, facilitando a acompanhamento, exames e orientações dos pacientes, o profissional da saúde vai poder agendar, gerenciar e registrar atendimentos. Além de business inteligence a partir dos dados inseridos pelos psicológos. 
+A plataforma web ***cheery up*** será desenvolvida para ser um prontuário de atendimento psicológico a pacientes em fase de recuperação de covid-19, facilitando a acompanhamento, exames e orientações dos pacientes, o profissional da saúde vai poder agendar, gerenciar e registrar atendimentos. Além de business inteligence a partir dos dados inseridos pelos psicológos. 
 Os componenete de software, frameworks, plataformas de desenvolvimento utilizados serão descritos neste documento.
 
 ### 1.3 - Visão Geral
