@@ -125,7 +125,6 @@ O padrão de aquitetura adotado será o MVC (Modelo Visão e Controle). Ele é u
 | cpf | Obrigatório | String | CPF do Psicólogo |
 | nCRP | Obrigatório | String | Número do Conselho Regional do Psicólogo |
 | senha | Obrigatório | String | Senha de login |
-| confirmaSenha | Obrigatório | String | Confirmar senha |
 
 * ### Paciente
 |Atributos| Propriedade | Tipo | Descrição|
@@ -143,6 +142,9 @@ O padrão de aquitetura adotado será o MVC (Modelo Visão e Controle). Ele é u
 | idConsulta | Chave primária obrigatória | String | Identificação da Consulta |
 | idPaciente | Chave estrangeira obrigatória | String | Identificação do Paciente |
 | idPsicologo | Chave estrangeira obrigatória | String | Identificação do Psicólogo |
+| dataConsulta| Obrigatório | String| Data que ocorre a consulta |
+| horário |Obrigatório | String | Horário que ocorre a consulta |
+| duração | Obrigatório | String | Duração da consulta |
 
 * ### Dashboard
 |Atributos| Propriedade | Tipo | Descrição|
@@ -169,7 +171,7 @@ O padrão de aquitetura adotado será o MVC (Modelo Visão e Controle). Ele é u
 
 ### 4.2 - Diagrama Entidade Relacionamento (DER)
 
-<p align = "center"> &emsp;&emsp; <img src="./assets/diagrama/Diagrama_DER.jpeg" width="588" height="416"/> </p>
+<p align = "center"> &emsp;&emsp; <img src="./assets/diagrama/Diagrama_DER.png" width="80%" height="80%"/> </p>
 
 
 ## 5 - Visão de Caso de Uso
