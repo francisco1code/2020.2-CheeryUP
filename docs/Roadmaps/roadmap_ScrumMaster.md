@@ -19,6 +19,6 @@
 * Monitoração da metodologia e risco projeto.  
    
 
-<p align = "center"> &emsp;&emsp; <img src="../assets/images/RoadMap_SM.png" width="435" height="515"/> </p>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/XbwsY9h/Road-Map-Scrum-Master.png" alt="Road-Map-Scrum-Master" border="0"></a>
 
-## Realese 02
+## Release 02
