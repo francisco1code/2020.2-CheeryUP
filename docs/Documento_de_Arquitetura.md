@@ -9,6 +9,7 @@
 | 1.0.4 | 25/02/2021  | Davi e Aabrão | Implementação da Visão de Caso de Uso |
 | 1.1.0 | 04/03/2021  | Davi e Aabrão | Atualização da Visão de Caso de Uso |
 | 1.1.1 | 04/03/2021  | Antônio e Arthur | Atualização da Visão de Dados |
+| 1.1.2 | 09/03/2021  | Nilvan Peres | Atualização link's sumários |
 
 
 ## Sumário
@@ -25,8 +26,8 @@
 
 [3 - Metas e Restrições da Arquitetura](#3---Metas-e-Restrições-da-Arquitetura)
 
-* [3.1 - Metas](#3.1--Metas)
-* [3.2 - Restrições da Arquitetura](#3.2--Restrições-da-Arquitetura)
+* [3.1 - Metas](#3.1---Metas)
+* [3.2 - Restrições da Arquitetura](#3.2---Restrições-da-Arquitetura)
 
 [4 - Visão de Dados](#4---Visão-de-Dados)
 * [4.1 - Modelo Entidade Relacionamento (MER)](#4.1---Modelo-Entidade-Relacionamento-(MER)) 
@@ -73,7 +74,9 @@ Este documento é dividio nas seguintes seções:
 | MVC | Model View Controller |
 
 ## 2 - Represetanção de Arquitetura
-<p align = "center"> &emsp;&emsp; <img src="./assets/diagrama/ImagemArquitetura.png" width="588" height="416"/> </p>
+<p align="center">
+	<img src="assets/diagrama/ImagemArquitetura.png" width="600" height="300">
+</p>
 
 ### 2.1 - Padrão Arquitetural
 O padrão de aquitetura adotado será o MVC (Modelo Visão e Controle). Ele é um modelo que contribui na otimização da velocidade entre as requisições feitas pelo comando do usuário. Cada componente da arquitetura é construído para lidar com alguma parte específica do desenvolvimento da aplicação. Os três componentes que serão utilizados nesse projeto serão destrinchados abaixo: 
@@ -152,7 +155,7 @@ O padrão de aquitetura adotado será o MVC (Modelo Visão e Controle). Ele é u
 | idDashboard | Chave primária obrigatória | String | Identificação da Dashboard |
 
 
-### 4.1.2 - Relacionamento
+### 4.1.2 - Relacionamentos
 
 **Psicólogo** -- cadastra/exclui -- **Paciente**: Um psicólogo cadastra ou exclui os pacientes. (Cardinalidade 1:N)
 
@@ -171,14 +174,16 @@ O padrão de aquitetura adotado será o MVC (Modelo Visão e Controle). Ele é u
 
 ### 4.2 - Diagrama Entidade Relacionamento (DER)
 
-<p align = "center"> &emsp;&emsp; <img src="./assets/diagrama/Diagrama_DER.png" width="80%" height="80%"/> </p>
+<p align="center">
+	<img src="assets/diagrama/Diagrama_DER.png" >
+</p>
 
 
 ## 5 - Visão de Caso de Uso
 
 ### 5.1 - Diagrama de caso de Uso
 
-<p align = "center"> &emsp;&emsp; <img src="./assets/diagrama/Diagrama_De_Caso_Uso.png" width="500" height="420"/> </p>
+<p align = "center"> &emsp;&emsp; <img src="assets/diagrama/Diagrama_De_Caso_Uso.png" width="500" height="420"/> </p>
 
 ### 5.2 - Atores de Caso de Uso
 

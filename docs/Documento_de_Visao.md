@@ -10,6 +10,7 @@
 | 17/02/2021 | 1.0.4 | Adição da Visão Geral do Produto (tópico 4)| Abraao Alves|
 | 17/02/2021 | 1.0.5 | Adição das Restrições (tópico 6) | Arthur Talles |
 | 17/02/2021 | 1.0.6| Adição do Posicionamento(tópico 2) |  Natanael Fernandes |
+| 09/02/2021 | 1.0.7| Atualização sumário |  Nilvan Peres |
 
 ## Sumário 
 [1 - Introdução](#1---Introdução)
@@ -22,7 +23,7 @@
 [2 - Posicionamento](#2---Posicionamento)
 * [2.1 - Oportunidade de negócios](#2.1---Oportunidade-de-negócios)
 * [2.2 - Descrição do problema](#2.2---Descrição-do-problema)
-* [2.3 - Descrição do problema](#2.3---Descrição-do-problema)
+* [2.3 - Descrição de posição de produto](#2.3---Descrição-de-posição-de-produto)
 
 [3 - Descrições da parte interessada e do usuário](#3---Descrições-da-parte-interessada-e-do-usuário)
 * [3.1 - Resumo dos envolvidos](#3.1---Resumo-dos-envolvidos)
@@ -33,6 +34,7 @@
 * [3.4 - Perfis dos usuários](#3.4---Perfis-dos-usuários)
     * [3.4.1 - Paciente](#3.4.1---Paciente)
     * [3.4.2 - Psicólogo](#3.4.2---Psicólogo)
+    * [3.4.3 - Gerente](#3.4.3---Gerente)
 * [3.5 - Ambiente dos usuários](#3.5---Ambiente-dos-usuários)
 * [3.6 - Alternativas e concorrências](#3.6---Alternativas-e-concorrências)
 
@@ -49,7 +51,7 @@
 ## 1 - Introdução 
 
 ### 1.1 - Propósito
-O atual documento possui o intuito de apresentar o mindXcovid e destrinchar as características, requisitos e funcionalidades do produto, além entender o contexto que ele está inserido, de forma que a proposta e o escopo do projeto estejam claros.
+O atual documento possui o intuito de apresentar o CheeryUP e destrinchar as características, requisitos e funcionalidades do produto, além entender o contexto que ele está inserido, de forma que a proposta e o escopo do projeto estejam claros.
 
 
 ### 1.2 - Escopo
@@ -69,11 +71,11 @@ IBM Knowlege Center - Documento de visão. Disponível em: https://www.ibm.com/s
 
 ### 1.5 - Visão Geral
 Este documento é dividido em seis tópicos que detalham as características e planejamento de construção do produto. 
-Introdução: no qual é introduzido os detalhes gerais sobre a visão do projeto;
-Posicionamento: descrevendo o problema e a oportunidade de negócio;
-Perfis dos Envolvidos e dos Usuários:  esta seção descreve o perfil das partes interessadas no projeto;
-Recursos do Produto:  breve descrição dos recursos do produto;
-Restrições: as restrições de *design*, restrições externas, como requisitos operacionais ou regulamentares;
+* Introdução: no qual é introduzido os detalhes gerais sobre a visão do projeto;
+* Posicionamento: descrevendo o problema e a oportunidade de negócio;
+* Perfis dos Envolvidos e dos Usuários:  esta seção descreve o perfil das partes interessadas no projeto;
+* Recursos do Produto:  breve descrição dos recursos do produto;
+* Restrições: as restrições de *design*, restrições externas, como requisitos operacionais ou regulamentares;
 
 ## 2 - Posicionamento
 
@@ -96,16 +98,17 @@ O produto finalizado é uma aplicação web e se posicionará no mercado como um
 ### 3.1 - Resumo dos envolvidos
 | Nome  | Descrição | Responsabilidades |
 | :- | :- | :-  |
-| Equipe de desenvolvimento de Software | Estudantes da disciplina Métodos de Desenvolvimento de Software (MDS) | Desenvolvimento, Testes, Documentação e Implementações do Software. |
+| Equipe de desenvolvimento de Software | Estudantes da disciplina Métodos de Desenvolvimento de Software (MDS). | Desenvolvimento, Testes, Documentação e Implementações do Software. |
 | Cliente | - | - |
-|Coach | Estudante da UnB, monitora da disciplina Métodos de Desenvolvimento de Software (MDS) | Auxiliar a equipe durante o desenvolvimento do projeto | 
-| Professora  | Professora na Universidade de Brasília, atual professora da disciplina de MDS | Avaliar e Auxiliar os estudantes |
+|Coach | Estudante da UnB, monitora da disciplina Métodos de Desenvolvimento de Software (MDS). | Auxiliar a equipe durante o desenvolvimento do projeto. | 
+| Professora  | Professora na Universidade de Brasília, atual professora da disciplina de MDS. | Avaliar e Auxiliar os estudantes. |
 
 ### 3.2 - Resumo dos usuários
 | Nome  | Descrição |
 | :- | :- |
 | Paciente  | Pessoas que procuram assistência psicológica.  |
-| Psicólogos  | Todos os profissionais de psicologia que utilizam a plataforma
+| Psicólogos  | Todos os profissionais de psicologia que utilizam a plataforma. |
+| Gerentes | Pessoas interessadas nos dashboards do banco de dados.  |
 
 ### 3.3 - Perfis dos envolvidos  
 
@@ -114,7 +117,7 @@ O produto finalizado é uma aplicação web e se posicionará no mercado como um
 | :--- | :-------- |  
 | Representantes | Abraao Alves, Antônio Ferreira, Arthur Talles, Davi Matheus, Nilvan Peres, Natanael Fernandes. |
 | Descrição | Desenvolvedores da matéria MDS. |
-| Responsabilidades | Desenvolver e documentar o projeto, criar e manter documentos, desenvolver e testar softwares
+| Responsabilidades | Desenvolver e documentar o projeto, criar e manter documentos, desenvolver e testar softwares.
 | Critérios de Sucesso | Finalizar o aplicativo no prazo determinado atendendo todos os requisitos.|
 | Envolvimento | Alto. |
 | Problemas/Comentários | A equipe é inexperiente em relação ao frameworks que serão utilizados ao decorrer do projeto. O grupo precisará de orientação de algum profissional da área, para estabelecer métricas e critérios.|
@@ -152,15 +155,26 @@ O produto finalizado é uma aplicação web e se posicionará no mercado como um
 | Descrição | Formado em psicologia e pronto para auxiliar. |
 | Tipo | Formado em psicologia. |
 | Responsabilidade  | Respeitar o paciente, dar orientações adequadas. |
-| Critérios de sucesso | Gerenciar a proporcionar ajuda ao paciente e fazer feedback constante |
-| Envolvimento | Alto |
+| Critérios de sucesso | Gerenciar a proporcionar ajuda ao paciente e fazer feedback constante. |
+| Envolvimento | Alto. |
+| Problemas/Comentários | - |
+
+#### 3.4.3 - Gerente
+|  | |
+| :--- | :-------- |  
+| Representante | Gerente. |
+| Descrição | Pessoa responsável por coletar dados de determinada comunidade. |
+| Tipo | Competência em BI. |
+| Responsabilidade  | Respeitar código de conduta, e guardião dos dados. |
+| Critérios de sucesso | Gerenciar a proporcionar ajuda aos individuos da comunidade. |
+| Envolvimento | Alto. |
 | Problemas/Comentários | - |
 
 ### 3.5 - Ambiente dos usuários
 Os usuários poderão utilizar a plataforma a partir de computador ou celular por meio de uma página web.
 
 ### 3.6 - Alternativas e concorrências
-**Tem alguma? Pesquisar mais sobre...**  
+Não foi encontrada nenhum aplicação para esse contexto específico do projeto, 
 
 ### 4 - Visão geral do produto
 
@@ -174,7 +188,7 @@ O sistema oferece as seguintes funcionalidades ao usuário:
 * Inserção de informações referentes aos atendimentos. Essa adição é realizada pelos psicólogos/gestores.
 * Disponibilizar Dashboard com indicadores e métricas da saúde mental da comunidade.
 * Disponibilizar aos psicólogos informações de cada paciente cadastrado. 
-*Oferecer ao paciente a possibilidade de deixar um feedback referente ao atendimento, medicamentos e profissionais.
+* Oferecer ao paciente a possibilidade de deixar um feedback referente ao atendimento, medicamentos e profissionais.
 * Oferecer ao paciente as informações do psicólogo em relação ao seu atendimento.
 * Avaliação e monitoramento dos resultados para fins de atenção à saúde mental no cenário epidêmico.
 
@@ -184,7 +198,7 @@ O sistema oferece as seguintes funcionalidades ao usuário:
 O design será elegante e simples, proporcional ao tempo de trabalho estimado (15 semanas), buscando atender, prioritariamente, as essencialidades do projeto.
 
 ### 6.2 - Restrições de implementação
-O sistema será desenvolvido fazendo-se uso das linguagens Python e JavaScript.
+O sistema será desenvolvido fazendo-se uso das linguagens Python, utilizando o Django para o back-end. E JavaScript, utilizando o React para o front-end.
 
 ### 6.3 - Restrições de segurança
 É assegurado ao paciente total sigilo de suas informações pessoais, a fim de que dados referentes a atendimentos e diagnósticos estejam disponíveis apenas para seu psicólogo. 
