@@ -4,6 +4,6 @@ ENV PYTHONUNBUFFERED 1
 
 RUN mkdir /code
 WORKDIR /code
-COPY . /code/
-
-RUN pip install --no-cache-dir -r requirements.txt
+ADD requirements.txt /code/
+RUN pip install -r requirements.txt
+ADD . /code/
