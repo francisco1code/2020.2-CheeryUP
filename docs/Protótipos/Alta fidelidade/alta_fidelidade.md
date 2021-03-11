@@ -9,4 +9,4 @@
 <p align = "justify"> &emsp;&emsp; O protótipo de Alta Fidelidade tem o objetivo de idealização visual do escopo do projeto.
 
 ## Segue anexo o protótipo de alta fidelidade no Figma: 
-[Link para Figma](https://www.figma.com/file/JE8HJNbJgnfRefsmCvJdPo/CheeryUp?node-id=126%3A675)
+[Link para Figma](https://www.figma.com/proto/JE8HJNbJgnfRefsmCvJdPo/CheeryUp?node-id=235%3A203&scaling=scale-down-width)
