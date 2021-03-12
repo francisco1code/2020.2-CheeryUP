@@ -48,10 +48,11 @@
 
 ***Pontuação:***
 * 55 pontos planejados.
+Ps: A issue #50, foi estipulada pontos durante o planning poker, porém na criação da mesma esqueceram de atribuir seus pontos. Por isso, a diferaça entre pontos daqui, e do ZenHub.
 
 ## 4 - Pareamento
-* Arthur e Antônio  --- Docs RoadMap DevOps.  
-* Abraão e Natanael --- Docs RoadMap DevTeam.
+* Davi e Natanael  --- Banco de ados.  
+
 
 ## 5 - Histórias da Sprint
-Pelo grupo ainda estar voltado nas documentações gerais de todo o projeto, não foi possível criação de user stories.
+ * Issue : #51 
