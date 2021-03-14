@@ -12,7 +12,7 @@
 | 1.1.2 | 09/03/2021  | Nilvan Peres | Atualização link's sumários |
 | 1.1.3 | 10/03/2021  |Lucas Lima | Adição do MTV ao Padrão Arquitetural |
 | 1.2.0 | 14/03/2021  | Antônio | Atualização geral do documento |  
-
+| 1.2.1 | 15/03/2021  | Davi | Atualização do topico 5 | 
 ## Sumário
 [1 - Introdução](#1---introdução)
 * [1.1 - Objetivo](#1.1---objetivo)
@@ -182,13 +182,19 @@ O Django utiliza o MTV (Modelo de template e visão). Toda esta arquitetura é i
 
 ### 4.2 - Diagrama Entidade Relacionamento (DER)
 
-![DER](https://user-images.githubusercontent.com/54555684/111059128-d256b200-8471-11eb-9758-dc46129f1980.png)
+<p align="center">
+	<img src="assets/diagrama/DER.png" width="80%" height="80%">
+</p>
+
 
 ## 5 - Visão de Caso de Uso
 
 ### 5.1 - Diagrama de caso de Uso
 
-![Caso de uso](https://user-images.githubusercontent.com/54555684/111059810-0f717300-8477-11eb-9025-20f207dab45b.png)
+<p align="center">
+	<img src="assets/diagrama/Caso de uso.png"  width="80%" height="80%">
+</p>
+
 
 ### 5.2 - Atores de Caso de Uso
 
@@ -201,12 +207,12 @@ O Django utiliza o MTV (Modelo de template e visão). Toda esta arquitetura é i
 
 |Casos de uso| Ator | Descrição|
 |-----|-----|------|
-| UC01 - Cadastrar paciente | Psicologo | O usuário tem as opções de atualizar informações da conta assim como pode também apagá-la |
-| UC02 - Mostrar paciente | Psicologo | O psicólogo poderá acessar e visualizar as informações de um paciente em específico |
-| UC02 - Acesar Laudo do paciente | Psicólogo | O psicólogo poderá visualizar o Laudo do paciente quando quiser |
-| UC03 - Inserir Laudo | Psicologo | O psicólogo pode inserir os laudos dos seus pacientes |
-| UC04 - Acessar Laudo | Psicologo | O psicólogo poderá acessar os laudos que ele preencher |
-| UC04 - Acessar dashboards | Psicologo | O psicólogo poderá ver os dashbords de saúde mental disponiblizados pela comunidade |
-| UC05 - Acessar o quadro de evolução do paciente | Psicologo |O psicólogo poderá acessar o quadro evolutivo de um paciente específico |
-| UC06 - Cadastrar Psicologo |  Psicologo | O admnistrador é o unico que poderá contratar e cadastrar o psicólogo |
-
+| UC01 - Efeituar Login | Psicologo | O psicologo poderá realizar seu cadastro e dar login e logout na plataforma quando quiser |
+| UC02 - Cadastrar/Exlcluir paciente | Psicologo | O psicólogo poderá acessar cadastrar ou exluir um paciente em específico |
+| UC02 - Alterar perfil Psicologo | Psicólogo | O psicologo poderá alterar seu perfil quando desejar |
+| UC03 - Alterar perfil Paciente| Psicologo | O psicologo poderá alterar o perfil dos seus pacientes quando desejar |
+| UC04 - Mostrar pacientes cadastrados | Psicologo |  O psicólogo poderá acessar e visualizar as informações de um paciente em específico   |
+| UC04 - Acessar laudo dos pacientes | Psicologo | O psicólogo poderá acessar os laudos que ele preencher |
+| UC05 - Adicionar novos laudos a pacientes | Psicologo | O psicólogo pode inserir os laudos dos seus pacientes |
+| UC06 - Acessar Dashboards|  Psicologo | O psicólogo poderá ver os dashbords de saúde mental disponiblizados pela comunidade |
+| UC07 - Acessso aos quadros evolutivos | O psicólogo poderá acessar o quadro evolutivo de um paciente específico | 
