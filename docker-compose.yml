@@ -2,6 +2,7 @@ version: "3"
 
 services:
   web:
+    container_name: api
     build: .
     command: /bin/sh ./startup.sh
     volumes:
@@ -11,6 +12,7 @@ services:
     depends_on:
       - db
   db:
+    container_name: db
     image: postgres
     environment:
       - POSTGRES_USER=postgres
@@ -20,3 +22,8 @@ services:
 
 volumes:
   postgres_data:
+
+networks: 
+  network-api:
+    external:
+      name: network-api
