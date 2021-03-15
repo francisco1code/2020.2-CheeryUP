@@ -71,3 +71,15 @@ As cores presentes nos campos de formulário:
 <img src="assets/images/identidade/tonalidade_campos_formulario.png" alt="Tonalidade dos campos de formulário" width="300" /> 
 
 ### 4.3. Navbar
+
+Os campos de Navbar são em um tom de vermelho, apresentando ao psicólogo o diretório para seus pacientes e Dashboard, além de opções para seu perfil.
+
+<img src="assets/images/identidade/hotbar.png" alt="Navbar" width="1000" /> 
+<img src="assets/images/identidade/menu.png" alt="Menu" width="200" height="250"/> <img src="assets/images/identidade/tonalidade_botoes2.png" alt="Tonalidade Navbar"/>
+
+### 4.4. Headers
+
+Os headers são de tom avermelhado ou brancos, acompanhados com a logo Cheery Up e outras opções.
+
+<img src="assets/images/identidade/Headers.png" alt="Headers" width="850"/>
+<img src="assets/images/identidade/tonalidade_botoes3.png" alt="Headers"/>
