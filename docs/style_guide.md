@@ -11,7 +11,7 @@
 
 
 
-### 2.  Detalhamento 
+### 2.  Detalhamento e Justificativas
 
 ### 2.1. Nome do projeto
 
