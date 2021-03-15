@@ -4,6 +4,7 @@
 |:----------:|:------:|:--------------------:|:-------------------------:|
 | 01/03/2021 | 1.0.0 | Abertura do documento | Davi e Natanel |
 | 04/03/2021 | 1.1.0 | Atualização completa | Davi Matheus |
+| 14/03/2021 | 1.2.0 | Atualização do US | Davi Matheus |
 ## Épicos
 | ID | DESCRIÇÃO | 
 |----|-----------|
@@ -20,25 +21,22 @@
 | FT03 | Gerenciamento dos pacientes | EP02 |
 | FT04 | Gerencimento dos laudos | EP02 |
 | FT05 | Implementação dos graficos dos pacientes| EP02 |
-| FT06 | Gerenciamento da agenda pessoal | EP02 |
-| FT07 | Implementação das infomações em dashboards|EP03 |
-| FT08 | Acesso aos dashboards | EP04 
+| FT06 | Implementação das infomações em dashboards|EP03 |
+| FT07 | Acesso aos dashboards | EP04 
 ## 3. User Stories
 Épico|Feature|US|Descrição|Prioridade
 -|-|-|-|-
-E1|FT01|US06|Eu, como psicologo, gostaria de relizar o meu cadastro| ALTO 
-E1|FT01|US06|Eu, como psicologo, gostaria de apagar minha conta| ALTO
-E1|FT01|US06|Eu, como psicologo, gostaria de atualizar minha conta| ALTO 
-E1|FT01|US05|Eu, como psicologo, gostaria de receber um email para recuperar a senha|MEDIO
-E1|FT02|US07|Eu, como psicologo, gostaria de cadastrar pacientes| ALTO 
-E1|FT02|US08|Eu, como psicologo, gostaria de deletar pacientes| ALTO
-E1|FT03|US09|Eu, como psicologo ,gostaria de atualizar dados do paciente | ALTO
-E1|FT03|US09|Eu, como psicologo ,gostaria de listar meus pacientes | BAIXO
-E1|FT04|US09|Eu, como psicologo ,gostaria de inserir laudo a um paciente | MEDIO
-E2|FT05|US10|Eu, como psicólogo, gostaria ver de quadro de evolução de determinado paciente.|ALTO
-E2|FT06|US11|Eu, como psicologo, gostaria de ter acesso a minha agenda pessoal| ALTO
-E2|FT06|US11|Eu, como psicologo, gostaria de ter acesso a um calenderio no proprio aplicativo| BAIXO
-E2|FT06|US11|Eu, como psicologo, gostaria de remarcar/desmarcar consulta| MEDIO
-E2|FT06|US11|Eu, como psicologo, gostaria de receber notificações das consultas| MEDIO
-E2|FT06|US12|Eu, como psicologo, gostaria de visualizar as consultas passadas e futuras| MEDIO
-E3|FT07|US13|Eu, como psicologo, gostaria de visualizar os dashboards| ALTO
+E1|FT01|US01|Eu, como psicologo, gostaria de relizar o meu cadastro| ALTO 
+E1|FT01|US02|Eu, como psicologo, gostaria de auntenticar minha conta | ALTO
+E1|FT01|US03|Eu, como psicologo, gostaria de logar na minha conta | ALTO 
+E1|FT01|US04|Eu, como psiocologo, gostaria de sair da minha conta| ALTO
+E1|FT01|US05|Eu, como psicologo, gostaria de apagar minha conta| MEDIO
+E1|FT01|US06|Eu, como psicologo, gostaria de atualizar minha conta| MEDIO 
+E1|FT01|US07|Eu, como psicologo, gostaria de receber um email para recuperar a senha|MEDIO
+E1|FT02|US08|Eu, como psicologo, gostaria de cadastrar pacientes| ALTO 
+E1|FT02|US09|Eu, como psicologo, gostaria de deletar pacientes| ALTO
+E1|FT03|US10|Eu, como psicologo ,gostaria de atualizar dados do paciente | ALTO
+E1|FT03|US11|Eu, como psicologo ,gostaria de listar meus pacientes | BAIXO
+E1|FT04|US12|Eu, como psicologo ,gostaria de inserir laudo a um paciente | MEDIO
+E2|FT05|US13|Eu, como psicólogo, gostaria ver de quadro de evolução de determinado paciente.|ALTO
+E3|FT07|US14|Eu, como psicologo, gostaria de visualizar os dashboards| ALTO
