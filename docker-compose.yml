@@ -9,6 +9,8 @@ services:
       - .:/code
     ports:
       - 8000:8000
+    networks: 
+      - network-api
     depends_on:
       - db
   db:
@@ -17,6 +19,8 @@ services:
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
+    networks: 
+      - network-api
     volumes:
       - postgres_data:/var/lib/postgresql/data/
 
