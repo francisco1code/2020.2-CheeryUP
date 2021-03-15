@@ -76,8 +76,9 @@ Este documento é dividio nas seguintes seções:
 
 ## 2 - Represetanção de Arquitetura
 <p align="center">
-	<img src="assets/diagrama/ImagemArquitetura.png" width="600" height="300">
+	<img src="assets/diagrama/ImagemArquitetura.png" width="60%" height="30%">
 </p>
+
 
 ### 2.1 - Padrão Arquitetural
 O padrão de aquitetura MVC (Modelo Visão e Controle) é um modelo que contribui na otimização da velocidade entre as requisições feitas pelo comando do usuário. Cada componente da arquitetura é construído para lidar com alguma parte específica do desenvolvimento da aplicação. Os três componentes que serão utilizados nesse projeto serão destrinchados abaixo: 
