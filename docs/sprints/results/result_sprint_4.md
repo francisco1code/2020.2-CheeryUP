@@ -52,7 +52,7 @@ A sprint foi bem complicada pelo fato dos membros não dominares as tecnologias 
 
 ## 4.Gráfico de Burndown
 <div style="text-align: justify">
-  Por algum motivo, ainda desconhecido, o grágico não realizou a queima das issues da quinta-feira, data em que a maioria foi finalizada.
+  Por algum motivo, ainda desconhecido, o gráfico não realizou a queima das issues da quinta-feira, data em que a maioria foi finalizada.
 </div>  
 
 <a href="https://ibb.co/tbBFF6S"><img src="https://i.ibb.co/NLxbbqX/Screenshot-from-2021-03-12-09-27-15.png" alt="Screenshot-from-2021-03-12-09-27-15" border="0"></a>
