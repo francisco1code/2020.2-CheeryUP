@@ -8,9 +8,11 @@
 | 1.0.3 | 25/02/2021  | Natanel Fernandes | Adição do DER |
 | 1.0.4 | 25/02/2021  | Davi e Aabrão | Implementação da Visão de Caso de Uso |
 | 1.1.0 | 04/03/2021  | Davi e Aabrão | Atualização da Visão de Caso de Uso |
-| 1.1.1 | 04/03/2021  | Antônio, Arthur e Natanael | Atualização da Visão de Dados |
-
-
+| 1.1.1 | 04/03/2021  | Antônio e Arthur | Atualização da Visão de Dados |
+| 1.1.2 | 09/03/2021  | Nilvan Peres | Atualização link's sumários |
+| 1.1.3 | 10/03/2021  |Lucas Lima | Adição do MTV ao Padrão Arquitetural |
+| 1.2.0 | 14/03/2021  | Antônio | Atualização geral do documento |  
+| 1.2.1 | 15/03/2021  | Davi | Atualização do topico 5 | 
 ## Sumário
 [1 - Introdução](#1---introdução)
 * [1.1 - Objetivo](#1.1---objetivo)
@@ -25,8 +27,8 @@
 
 [3 - Metas e Restrições da Arquitetura](#3---Metas-e-Restrições-da-Arquitetura)
 
-* [3.1 - Metas](#3.1--Metas)
-* [3.2 - Restrições da Arquitetura](#3.2--Restrições-da-Arquitetura)
+* [3.1 - Metas](#3.1---Metas)
+* [3.2 - Restrições da Arquitetura](#3.2---Restrições-da-Arquitetura)
 
 [4 - Visão de Dados](#4---Visão-de-Dados)
 * [4.1 - Modelo Entidade Relacionamento (MER)](#4.1---Modelo-Entidade-Relacionamento-(MER)) 
@@ -42,11 +44,11 @@
 ## 1 - Introdução
 
 ### 1.1 - Objetivo 
-O objetivo deste documento é dissecar a arquitetura do projeto ***cheery up***, de modo que, todo a visão arquitetural do sistema que será desenvolvido esteja clara.  
+O objetivo deste documento é dissecar a arquitetura do projeto ***Cheery Up***, de modo que, todo a visão arquitetural do sistema que será desenvolvido esteja clara.  
 Outro ponto que será abordado, são as principais características do software permitindo que desenvolvedores/gestores entendam os processos que levaram na escolha das tecnologias e decisões a respeito dessa arquitetura.
 
 ### 1.2 - Escopo
-A plataforma web ***cheery up*** será desenvolvida para ser um prontuário de atendimento psicológico a pacientes em fase de recuperação de covid-19, facilitando a acompanhamento, exames e orientações dos pacientes, o profissional da saúde vai poder agendar, gerenciar e registrar atendimentos. Além de business inteligence a partir dos dados inseridos pelos psicológos. 
+A plataforma web ***Cheery Up***, desenvolvida para psicólogos e profissionais da saúde psicológica, será um prontuário de monitoramento da saúde mental da uma comunidade. Nessa plataforma, o psicólogo se cadastra e tem acesso à ferrramentas que irão facilitar o monitoramento da saúde mental de cada paciente que desejar cadastrar, além do usufruto de Dashboards para a observação geral da comunindade. Também há o business inteligence a partir dos dados inseridos pelos psicológos.
 Os componenete de software, frameworks, plataformas de desenvolvimento utilizados serão descritos neste documento.
 
 ### 1.3 - Visão Geral
@@ -73,13 +75,21 @@ Este documento é dividio nas seguintes seções:
 | MVC | Model View Controller |
 
 ## 2 - Represetanção de Arquitetura
-<p align = "center"> &emsp;&emsp; <img src="../../assets/images/diagrama/ImagemArquitetura.png" width="588" height="416"/> </p>
+<p align="center">
+	<img src="assets/diagrama/ImagemArquitetura.png" width="600" height="300">
+</p>
 
 ### 2.1 - Padrão Arquitetural
-O padrão de aquitetura adotado será o MVC (Modelo Visão e Controle). Ele é um modelo que contribui na otimização da velocidade entre as requisições feitas pelo comando do usuário. Cada componente da arquitetura é construído para lidar com alguma parte específica do desenvolvimento da aplicação. Os três componentes que serão utilizados nesse projeto serão destrinchados abaixo: 
-* Model : Esse componente armazena dados, e está relacionado com a parte lógica. Essa parte será desempenhada pelos framework Django e com o mySQL para a manipulação de dados.
-* View: É parte da aplicação que será visível ao usuário, a apresentação dos dados. A ferramenta que fará isso no nosso projeto é o react.js.
+O padrão de aquitetura MVC (Modelo Visão e Controle) é um modelo que contribui na otimização da velocidade entre as requisições feitas pelo comando do usuário. Cada componente da arquitetura é construído para lidar com alguma parte específica do desenvolvimento da aplicação. Os três componentes que serão utilizados nesse projeto serão destrinchados abaixo: 
+* Model: Esse componente armazena dados, e está relacionado com a parte lógica. Essa parte será desempenhada pelos framework Django e com o mySQL para a manipulação de dados;
+* View: É parte da aplicação que será visível ao usuário, a apresentação dos dados. A ferramenta que fará isso no nosso projeto é o react.js;
 * Controller: É parte que lida com a interação do usuário com a aplicação, ele interpreta as inputs do usuário, comunica a model e a view muda de acordo as mudanças feitas.
+
+O Django utiliza o MTV (Modelo de template e visão). Toda esta arquitetura é interligada e conversam entre si. Uma depende da outra para realizar um determinado serviço e, no final, executar a tarefa que o usuário solicitou. Quando o usuário faz uma requisição pelo browser, utilizando uma rota, é executado um método das Views, que utiliza os Models para acessar o banco de dados e retornar as informações. Estas informações são renderizadas pela camada de Template e, finalmente, é renderizado para o usuário pelo navegador.
+* Model: Mapeamento do banco de dados para o projeto;
+* Template: Páginas para visualização de dados. Normalmente, é aqui que fica o HTML que será renderizado nos navegadores;
+* View: Lógica de negócio. É aqui que determinamos o que irá acontecer em nosso projeto.
+
 
 ### 2.2 - Tecnologias
 |tecnologias | descrição |
@@ -92,8 +102,9 @@ O padrão de aquitetura adotado será o MVC (Modelo Visão e Controle). Ele é u
 |Docker | Criação e administração de ambientes de desenvolvimento |
 |Docker-compose |  Para a comunicação dos containers criados pelo docker |
 |Git | Git é um sistema de controle de versão distruibuído, com estímulos a projetos open source |
-|HTML |  Será utiliza para implementação do frontend junto ao jss |
-|JavaScript |  Alia-se no desenvolvimento do frontend junto com HTML e |
+|HTML |  Será utiliza para implementação do frontend junto ao JS e CSS |
+|CSS | Linguagem para estilização de uma interface web |
+|JavaScript |  Alia-se no desenvolvimento do frontend junto com HTML e CSS|
 |mySQL | Banco de dados relacional, será usado para gerir a base de dados|
 
   
@@ -102,7 +113,7 @@ O padrão de aquitetura adotado será o MVC (Modelo Visão e Controle). Ele é u
 
 #### 3.1 - Metas
 * Facilitar o acompanhamento psicológico;
-* Automatizar processos de agendamento, e registros de atendimentos;
+* Automatizar registros de atendimentos;
 * Acompanhamento no quadro de evolução dos pacientes;
 * Dashboards com métricas e indicadores da saúde mental de determinada comunidade; 
 
@@ -122,7 +133,6 @@ O padrão de aquitetura adotado será o MVC (Modelo Visão e Controle). Ele é u
 | idPsicologo | Chave primária obrigatória | String | Identificação do Psicólogo |
 | nome | Obrigatório | String | Nome do Psicólogo |
 | email | Obrigatório | String | Email do Psicólogo |
-| cpf | Obrigatório | String | CPF do Psicólogo |
 | nCRP | Obrigatório | String | Número do Conselho Regional do Psicólogo |
 | senha | Obrigatório | String | Senha de login |
 
@@ -132,9 +142,9 @@ O padrão de aquitetura adotado será o MVC (Modelo Visão e Controle). Ele é u
 | idPaciente | Chave primária obrigatória | String | Identificação do Paciente |
 | nome | Obrigatório | String | Nome do Paciente |
 | email | Obrigatório | String | Email do Paciente |
-| cpf | Obrigatório | String | CPF do Paciente |
 | nascimento | Obrigatório | String | Nascimento do Paciente |
-| gênero | Obrigatório | String | Gênero do Paciente |
+| genero | Obrigatório | String | Gênero do Paciente |
+| regiao | Obrigatório | String | Região onde mora o Paciente |
 
 * ### Consulta
 |Atributos| Propriedade | Tipo | Descrição|
@@ -144,7 +154,8 @@ O padrão de aquitetura adotado será o MVC (Modelo Visão e Controle). Ele é u
 | idPsicologo | Chave estrangeira obrigatória | String | Identificação do Psicólogo |
 | dataConsulta| Obrigatório | String| Data que ocorre a consulta |
 | horário |Obrigatório | String | Horário que ocorre a consulta |
-| duração | Obrigatório | String | Duração da consulta |
+| quadro |Obrigatório | String | Quadro geral do problema do paciente na consulta |
+| gravidade |Obrigatório | String | Gravidade desse problema |
 
 * ### Dashboard
 |Atributos| Propriedade | Tipo | Descrição|
@@ -152,7 +163,7 @@ O padrão de aquitetura adotado será o MVC (Modelo Visão e Controle). Ele é u
 | idDashboard | Chave primária obrigatória | String | Identificação da Dashboard |
 
 
-### 4.1.2 - Relacionamento
+### 4.1.2 - Relacionamentos
 
 **Psicólogo** -- cadastra/exclui -- **Paciente**: Um psicólogo cadastra ou exclui os pacientes. (Cardinalidade 1:N)
 
@@ -164,40 +175,44 @@ O padrão de aquitetura adotado será o MVC (Modelo Visão e Controle). Ele é u
 
 **Psicólogo** -- acessa -- **Consulta**: Psicólogo acessa laudo de uma consulta com paciente. (Cardinalidade 1:N)
 
-**Psicólogo** -- acessa -- **Paciente**: Psicólogo acessa seus pacientes. (Cardinalidade 1:N)
+**Psicólogo** -- acessa -- **Paciente**: Psicólogo acessa seus pacientes e respectivos dados. (Cardinalidade 1:N)
 
 **Psicólogo** -- acessa -- **Dashboard**: Psicólogo acessa Dashboard de monitoramento. (Cardinalidade 1:N)
 
 
 ### 4.2 - Diagrama Entidade Relacionamento (DER)
 
-<p align = "center"> &emsp;&emsp; <img src="../../assets/images/diagrama/Diagrama_DER.png" width="80%" height="80%"/> </p>
+<p align="center">
+<a href="https://ibb.co/1QWxHp3"><img src="https://i.ibb.co/PjH8BbR/DER.png" alt="DER" border="0"></a>	
+</p>
 
 
 ## 5 - Visão de Caso de Uso
 
 ### 5.1 - Diagrama de caso de Uso
 
-<p align = "center"> &emsp;&emsp; <img src="../../assets/images/diagrama/Diagrama_De_Caso_Uso.png" width="500" height="420"/> </p>
+<p align="center">
+<a href="https://ibb.co/L016ZBk"><img src="https://i.ibb.co/zmZb4Cn/Caso-de-uso.png" alt="Caso-de-uso" border="0"></a>
+</p>
+
 
 ### 5.2 - Atores de Caso de Uso
 
 |Ator | Descrição | 
 |-----|-----|
-| Usúario | São todos que forem utilizar o site, ou seja, o psicologo | 
+| Usúario | São todos que forem utilizar o site, ou seja, o psicólogo | 
 | Psicologo | É quem vai utilizar o site para o cadastro e gerenciamento do paciente, visualizar o laudo e acessar os dashboards  | 
 
 ### 5.3 - Descrições de Caso de Uso
 
 |Casos de uso| Ator | Descrição|
 |-----|-----|------|
-| UC01 - Cadastrar paciente | Psicologo | O usuário tem as opções de atualizar informações da conta assim como pode também apagá-la |
-| UC02 - Mostrar paciente | Psicologo | O psicologo poderá acessar e visualizar as informações de um paciente em especifico |
-| UC02 - Acesar Laudo do paciente | Psicologo | O psicologo poderá visualizar o Laudo do paciente quando quiser |
-| UC03 - Inserir Laudo | Psicologo | O psicologo pode inserir os laudos dos seus pacientes |
-| UC04 - Acessar Laudo | Psicologo | O psicologo poderá acessar os laudos que ele preencher |
-| UC04 - Acessar dashboards | Psicologo | O psicologo poderá ver os dashbords de saude mental disponiblizados pela comunidade |
-| UC05 - Acessar agendas de consultas | Psicologo | O psicologo será notificado e poderá visualizar as consultas próximas a serem realizadas 
-| UC06 - Acessar o quadro de evolução do paciente | Psicologo |O psicologo poderá acessar o quadro evolutivo de um paciente especifico |
-| UC07 - Cadastrar Psicologo |  Psicologo | O admnistrador é o unico que poderá contratar e cadastrar o psicologo |
-
+| UC01 - Efeituar Login | Psicologo | O psicologo poderá realizar seu cadastro e dar login e logout na plataforma quando quiser |
+| UC02 - Cadastrar/Exlcluir paciente | Psicologo | O psicólogo poderá acessar cadastrar ou exluir um paciente em específico |
+| UC02 - Alterar perfil Psicologo | Psicólogo | O psicologo poderá alterar seu perfil quando desejar |
+| UC03 - Alterar perfil Paciente| Psicologo | O psicologo poderá alterar o perfil dos seus pacientes quando desejar |
+| UC04 - Mostrar pacientes cadastrados | Psicologo |  O psicólogo poderá acessar e visualizar as informações de um paciente em específico   |
+| UC04 - Acessar laudo dos pacientes | Psicologo | O psicólogo poderá acessar os laudos que ele preencher |
+| UC05 - Adicionar novos laudos a pacientes | Psicologo | O psicólogo pode inserir os laudos dos seus pacientes |
+| UC06 - Acessar Dashboards|  Psicologo | O psicólogo poderá ver os dashbords de saúde mental disponiblizados pela comunidade |
+| UC07 - Acessso aos quadros evolutivos | O psicólogo poderá acessar o quadro evolutivo de um paciente específico | 
