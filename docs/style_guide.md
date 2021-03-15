@@ -13,8 +13,9 @@
 
 ### 2.  Detalhamento 
 
-### 2.1. Nome da aplicação
+### 2.1. Nome do projeto
 
+O nome do projeto é um trocadilho com as palavras "cherry" e "cheers up", respectivamente cereja e se anime, juntando em Cheery Up. Com isso, a aplicação ajudará pessoas com problemas psicológicos devido a pandemia do COVID-19 e uma doce cereja pode ser um prato cheio na vida de quem está passando por dificuldades.
 ### 2.2. Fontes
 
 A fonte utilizada será a Roboto (Apache License), para textos, já que são fontes que foram utilizadas nos protótipos do projeto e são simples.
