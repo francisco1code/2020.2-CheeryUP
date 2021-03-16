@@ -77,7 +77,7 @@ Este documento é dividio nas seguintes seções:
 
 ## 2 - Represetanção de Arquitetura
 <p align="center">
-	<img src="assets/diagrama/ImagemArquitetura.png" width="600" height="300">
+	<a href="https://ibb.co/5xQgdLM"><img src="https://i.ibb.co/wrnFT40/Imagem-Arquitetura.png" alt="Imagem-Arquitetura" border="0"></a>
 </p>
 
 ### 2.1 - Padrão Arquitetural
