@@ -1,5 +1,10 @@
 # Bem Vindos ❤️
-# Integrantes
+
+## Sobre o projeto
+## Repositórios
+- [Front-end](https://github.com/fga-eps-mds/2020.2-CheeryUP-FrontEnd)
+- [Back-end](https://github.com/fga-eps-mds/2020.2-CheeryUP)
+## Integrantes
 
 |Integrante | Github | Papel |
 |-|-|-|
@@ -9,4 +14,4 @@
 | Davi Matheus Oliveira | [DaviMatheus](https://github.com/DaviMatheus) | Product Owner |
 | Natanael Filho | [fernandes-natanael](https://github.com/fernandes-natanael) | Dev Team |
 | Nilvan Costa | [juninhigh](https://github.com/juninhigh) | Scrum Master |
-| Lucas Ferraz | [mibasFerraz](https://github.com/mibasFerraz) | - |
+| Lucas Ferraz | [mibasFerraz](https://github.com/mibasFerraz) | Dev Team |
