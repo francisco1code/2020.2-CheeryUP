@@ -13,6 +13,7 @@
 | 1.1.3 | 10/03/2021  |Lucas Lima | Adição do MTV ao Padrão Arquitetural |
 | 1.2.0 | 14/03/2021  | Antônio | Atualização geral do documento |  
 | 1.2.1 | 15/03/2021  | Davi | Atualização do topico 5 | 
+| 1.2.2 | 16/03/2021  | Lucas | Atualização no tópico 2.2 |
 ## Sumário
 [1 - Introdução](#1---introdução)
 * [1.1 - Objetivo](#1.1---objetivo)
