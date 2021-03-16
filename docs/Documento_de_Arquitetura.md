@@ -96,7 +96,7 @@ O Django utiliza o MTV (Modelo de template e visão). Toda esta arquitetura é i
 |tecnologias | descrição |
 | ------------------- | ------------------- |
 | Python | Linguagem para o desenvolvimento do backend |
-| Django | Framework que segue a arquitetura MVC, fará comunicação do back com o banco de dados |
+| Django | Framework que segue a arquitetura MTV, fará comunicação do back com o banco de dados |
 | MkDocs | Gerador de site estático, voltado a criação de documentações markdown
 |Bootstrap |  Framework para desenvolvimento em HTML e JS. |
 | React |  Biblioteca em javascript com foco em criar inteface de usuário em páginas web. |
