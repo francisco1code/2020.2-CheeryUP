@@ -12,7 +12,8 @@
 | 1.1.2 | 09/03/2021  | Nilvan Peres | Atualização link's sumários |
 | 1.1.3 | 10/03/2021  |Lucas Lima | Adição do MTV ao Padrão Arquitetural |
 | 1.2.0 | 14/03/2021  | Antônio | Atualização geral do documento |  
-| 1.2.1 | 15/03/2021  | Davi | Atualização do topico 5 | 
+| 1.2.1 | 15/03/2021  | Davi | Atualização do topico 5 |
+| 1.2.2 | 16/03/2021  | Lucas | Atualização no tópico 2.2 | 
 ## Sumário
 [1 - Introdução](#1---introdução)
 * [1.1 - Objetivo](#1.1---objetivo)
@@ -90,12 +91,11 @@ O Django utiliza o MTV (Modelo de template e visão). Toda esta arquitetura é i
 * Template: Páginas para visualização de dados. Normalmente, é aqui que fica o HTML que será renderizado nos navegadores;
 * View: Lógica de negócio. É aqui que determinamos o que irá acontecer em nosso projeto.
 
-
 ### 2.2 - Tecnologias
 |tecnologias | descrição |
 | ------------------- | ------------------- |
 | Python | Linguagem para o desenvolvimento do backend |
-| Django | Framework que segue a arquitetura MVC, fará comunicação do back com o banco de dados |
+| Django | Framework que segue a arquitetura MTV, fará comunicação do back com o banco de dados |
 | MkDocs | Gerador de site estático, voltado a criação de documentações markdown
 |Bootstrap |  Framework para desenvolvimento em HTML e JS. |
 | React |  Biblioteca em javascript com foco em criar inteface de usuário em páginas web. |
@@ -106,8 +106,6 @@ O Django utiliza o MTV (Modelo de template e visão). Toda esta arquitetura é i
 |CSS | Linguagem para estilização de uma interface web |
 |JavaScript |  Alia-se no desenvolvimento do frontend junto com HTML e CSS|
 |mySQL | Banco de dados relacional, será usado para gerir a base de dados|
-
-  
 
 ### 3 - Metas e Restrições da Arquitetura
 
