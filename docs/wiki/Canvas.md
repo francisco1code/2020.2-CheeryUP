@@ -6,7 +6,7 @@ Data|Versão|Descrição|Autor
 04/03/2021|1.1.0|Atualização dos Clientes| Davi Matheus|
 
 <p align="center">
-	<img src="../assets/images/Canva/Canvas.png" width="80%" height="80%">
+	<a href="https://ibb.co/Ss88vFX"><img src="https://i.ibb.co/p088XYv/Principais-parceiros.png" alt="Principais-parceiros" border="0"></a>
 </p>
 
 
