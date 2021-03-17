@@ -23,11 +23,11 @@
 
 # 1 - Introdução
 
-Esse documento possui o intuito de apresentar as principais características e traços inciais do projeto ***mindXcovid***, ao final da leitura estará claro a visão inicial do projeto e seus principais pontos de desenvolvimento, e os stakeholders do mesmo.
+Esse documento possui o intuito de apresentar as principais características e traços inciais do projeto **CheeryUP**, ao final da leitura estará claro a visão inicial do projeto e seus principais pontos de desenvolvimento, e os stakeholders do mesmo.
 
 # 2 - Descrição do projeto
 
-Esse projeto foi proposto Carla Silva Rocha Aguiar, toda a estrutura idealizada encontra-se [aqui](https://drive.google.com/file/d/1-I73Fw0BohIirjTrLwUBt_6SRs5Ltj7H/view). A proposta teve seu escopo reduzido para ser desenvolvido em 15 semanas, o projeto ***mindXcovid*** é uma página web dedicada a psicológos/psquiatras que auxiliarão na `saúde mental` dos pacientes que estão em isolamento por conta do `covid-19`. A plataforma funcinará como um prontuário eletrônico, para os profissionais agenderem atendimentos, registrarem consultas e o gerenciamentos dos mesmos. Outro ponto, é que a partir dos dados da plataforma dashboards serão criados para o acompanhamento e visualização de evolução desse dados.
+Esse projeto foi proposto Carla Silva Rocha Aguiar, toda a estrutura idealizada encontra-se [aqui](https://drive.google.com/file/d/1-I73Fw0BohIirjTrLwUBt_6SRs5Ltj7H/view). A proposta teve seu escopo reduzido para ser desenvolvido em 15 semanas, o projeto **CheeryUP** é uma página web dedicada a psicológos/psquiatras que auxiliarão na `saúde mental` dos pacientes que estão em isolamento por conta do `covid-19`. A plataforma funcinará como um prontuário eletrônico, para os profissionais agenderem atendimentos, registrarem consultas e o gerenciamentos dos mesmos. Outro ponto, é que a partir dos dados da plataforma dashboards serão criados para o acompanhamento e visualização de evolução desse dados.
 
 # 3 - Propósito e justificativa do projeto
 
@@ -56,7 +56,7 @@ Por isso, a construção do prontuário eletrônico, a ferramenta vai facilitar 
 | A falta ou desistência de algum membro | Estimular a máxima participação dos membros da equipe. | Adequar os horários e realocar as tarefas entre os membros sem sobrecarregar nenhum membro. |
 | Falta de conhecimento sobre DevOps, para configuração do ambiente | Compartilhar links de estudo para o mesmo. | Realizar cursos ou treinamento sobre o assunto. |
 
-# 6. Resumo do Custo estimado
+# 6 - Resumo do Custo estimado
 ### Recursos Humanos
  Os recursos humanos usados para a realização do projeto fazem referência aos 6 integrantes, sendo 1 deles encarregado do papel de Scrum Master, outro de Product Owner, 2 deles como DevOps e os demais como desenvolvedores. O papel de Arquitetura está sendo realizado em conjunto por todos os integrantes da equipe. Baseando-se no período de dedicação semanal, de cada integrante, ao projeto, estimamos o custo por mensal de cada aluno para a Universidade de Brasília (UnB), para a realização do cálculo de valor do projeto e estimativa do valor de nossas horas de trabalho.
 

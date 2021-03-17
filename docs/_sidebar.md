@@ -1,31 +1,32 @@
 * [Home](/)
 
 * Documentação
-    - [Documento de arquitetura](./pages/documents/Documento_de_Arquitetura.md)
-    - [Documento de visão](./pages/documents/Documento_de_Visao.md)
-    - [Termo de Abertura](./pages/documents/Termo_de_Abertura.md)
-    - [Backlog do Produto](./pages/documents/Product_Backlog.md)
-    - [Estrutura Analitica do Projeto](./pages/documents/EAP.md)
-    - [Canvas](./pages/documents/Canvas.md)
-    - [Plano Gerenciamento de Riscos](./pages/documents/Plano_Gerenciamento_de_Riscos.md)
+    - [Documento de arquitetura](./wiki/Documents/Documento_de_Arquitetura.md)
+    - [Documento de visão](./wiki/Documents/Documento_de_Visao.md)
+    - [Documento de metologia](./wiki/Documents/Documento_de_Metodologia.md)
+    - [Termo de Abertura](./wiki/Documents/TAP.md)
+    - [Backlog do Produto](./wiki/Documents/Product_Backlog.md)
+    - [Estrutura Analitica do Projeto](./wiki/Documents/EAP.md)
+    - [Canvas](./wiki/Documents/Canvas.md)
+    - [Plano Gerenciamento de Riscos](./wiki/Documents/Plano_Gerenciamento_de_Riscos.md)
 
 * Sprints
     - Sprint 0
-        - [Planning](./pages/sprints/sprint0/planning.md)
-        - [Results](./pages/sprints/sprint0/result.md)
+        - [Planning](./sprints/sprint0/planning.md)
+        - [Results](./sprints/sprint0/result.md)
     - Sprint 1
-        - [Planning](./pages/sprints/sprint1/planning.md)
-        - [Results](./pages/sprints/sprint1/result.md)
+        - [Planning](./sprints/sprint1/planning.md)
+        - [Results](./sprints/sprint1/result.md)
     - Sprint 2
-        - [Planning](./pages/sprints/sprint2/planning.md)
-        - [Results](./pages/sprints/sprint2/result.md)
+        - [Planning](./sprints/sprint2/planning.md)
+        - [Results](./sprints/sprint2/result.md)
     - Sprint 3
-        - [Planning](./pages/sprints/sprint3/planning.md)
-        - [Results](./pages/sprints/sprint3/result.md)
+        - [Planning](./sprints/sprint3/planning.md)
+        - [Results](./sprints/sprint3/result.md)
     - Sprint 4
-        - [Planning](./pages/sprints/sprint4/planning.md)
-        - [Results](./pages/sprints/sprint4/result.md)
-    - Sprint 4
-        - [Planning](./pages/sprints/sprint5/planning.md)
-        - [Results](./pages/sprints/sprint5/result.md)
+        - [Planning](./sprints/sprint4/planning.md)
+        - [Results](./sprints/sprint4/result.md)
+    - Sprint 5
+        - [Planning](./sprints/sprint5/planning.md)
+        - [Results](./sprints/sprint5/result.md)
         
