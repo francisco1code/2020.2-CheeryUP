@@ -5,6 +5,7 @@ Data|Versão|Descrição|Autor
 02/03/2021|1.0.0|Adição do Canvas| Davi Matheus|
 04/03/2021|1.1.0|Atualização dos Clientes| Davi Matheus|
 
+
 <p align="center">
 	<a href="https://ibb.co/Ss88vFX"><img src="https://i.ibb.co/p088XYv/Principais-parceiros.png" alt="Principais-parceiros" border="0"></a>
 </p>
