@@ -77,7 +77,7 @@ Este documento é dividio nas seguintes seções:
 
 ## 2 - Represetanção de Arquitetura
 <p align="center">
-	<img src="assets/diagrama/ImagemArquitetura.png" width="60%" height="30%">
+	<img src="../../assets/diagrama/ImagemArquitetura.png" width="60%" height="30%">
 </p>
 
 
@@ -185,7 +185,7 @@ O Django utiliza o MTV (Modelo de template e visão). Toda esta arquitetura é i
 ### 4.2 - Diagrama Entidade Relacionamento (DER)
 
 <p align="center">
-	<img src="assets/diagrama/DER.png" width="80%" height="80%">
+	<img src = "../../assets/diagrama/DER.png" width="80%" height="80%">
 </p>
 
 
@@ -194,7 +194,7 @@ O Django utiliza o MTV (Modelo de template e visão). Toda esta arquitetura é i
 ### 5.1 - Diagrama de caso de Uso
 
 <p align="center">
-	<img src="assets/diagrama/Caso de uso.png"  width="80%" height="80%">
+	<img src = "../../assets/diagrama/Caso de uso.png"  width="80%" height="80%">
 </p>
 
 
