@@ -4,11 +4,11 @@
     - [Documento de arquitetura](./wiki/Documents/Documento_de_Arquitetura.md)
     - [Documento de visão](./wiki/Documents/Documento_de_Visao.md)
     - [Documento de metologia](./wiki/Documents/Documento_de_Metodologia.md)
-    - [Termo de Abertura](./wiki/Documents/TAP.md)
-    - [Backlog do Produto](./wiki/Documents/Product_Backlog.md)
-    - [Estrutura Analitica do Projeto](./wiki/Documents/EAP.md)
-    - [Canvas](./wiki/Documents/Canvas.md)
-    - [Plano Gerenciamento de Riscos](./wiki/Documents/Plano_Gerenciamento_de_Riscos.md)
+    - [Termo de Abertura](./wiki/TAP.md)
+    - [Backlog do Produto](./wiki/Product_Backlog.md)
+    - [Estrutura Analitica do Projeto](./wiki/EAP.md)
+    - [Canvas](./wiki/Canvas.md)
+    - [Plano Gerenciamento de Riscos](./wiki/Plano_Gerenciamento_de_Riscos.md)
 
 * Sprints
     - Sprint 0
