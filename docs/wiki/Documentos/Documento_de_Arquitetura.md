@@ -132,60 +132,53 @@ O Django utiliza o MTV (Modelo de template e visão). Toda esta arquitetura é i
 * ### Psicólogo 
 |Atributos| Propriedade | Tipo | Descrição|
 |-----|-----|------|-----|
-| idPsicologo | Chave primária obrigatória | String | Identificação do Psicólogo |
+| idPsicologo | Chave primária obrigatória | Integer | Identificação do Psicólogo |
 | nome | Obrigatório | String | Nome do Psicólogo |
 | email | Obrigatório | String | Email do Psicólogo |
-| nCRP | Obrigatório | String | Número do Conselho Regional do Psicólogo |
+| nCRP | Obrigatório | Integer | Número do Conselho Regional do Psicólogo |
 | senha | Obrigatório | String | Senha de login |
+| listaPacientes | Obrigatório | Paciente | Lista de pacientes do psicólogo|
 
 * ### Paciente
 |Atributos| Propriedade | Tipo | Descrição|
 |-----|-----|------|-----|
-| idPaciente | Chave primária obrigatória | String | Identificação do Paciente |
-| nome | Obrigatório | String | Nome do Paciente |
-| email | Obrigatório | String | Email do Paciente |
-| nascimento | Obrigatório | String | Nascimento do Paciente |
-| genero | Obrigatório | String | Gênero do Paciente |
-| regiao | Obrigatório | String | Região onde mora o Paciente |
+| idPaciente | Chave primária obrigatória | Integer | Identificação do paciente |
+| idPsicologo | Chave estrangeira obrigatória | Integer | Identificação do psicólogo |
+| nome | Obrigatório | String | Nome do paciente |
+| nascimento | Obrigatório | Date | Data de nascimento do paciente |
+| genero | Obrigatório | Char | Gênero do paciente |
+| regiao | Obrigatório | String | Região onde mora o paciente |
+| descricao | Optativo | String | Descrição do caso do paciente |
+| listaConsulta | Obrigatório | Consulta | Lista das consultas do paciente |
+
 
 * ### Consulta
 |Atributos| Propriedade | Tipo | Descrição|
 |-----|-----|------|-----|
-| idConsulta | Chave primária obrigatória | String | Identificação da Consulta |
-| idPaciente | Chave estrangeira obrigatória | String | Identificação do Paciente |
-| idPsicologo | Chave estrangeira obrigatória | String | Identificação do Psicólogo |
+| idConsulta | Chave primária obrigatória | Integer | Identificação da Consulta |
+| idPaciente | Chave estrangeira obrigatória | Integer | Identificação do Paciente |
+| idPsicologo | Chave estrangeira obrigatória | Integer | Identificação do Psicólogo |
 | dataConsulta| Obrigatório | String| Data que ocorre a consulta |
-| horário |Obrigatório | String | Horário que ocorre a consulta |
-| quadro |Obrigatório | String | Quadro geral do problema do paciente na consulta |
-| gravidade |Obrigatório | String | Gravidade desse problema |
-
-* ### Dashboard
-|Atributos| Propriedade | Tipo | Descrição|
-|-----|-----|------|-----|
-| idDashboard | Chave primária obrigatória | String | Identificação da Dashboard |
-
-
+| situacaoPaciente | Obrigatório | String | Situação mental do paciente problema |
 ### 4.1.2 - Relacionamentos
 
 **Psicólogo** -- cadastra/exclui -- **Paciente**: Um psicólogo cadastra ou exclui os pacientes. (Cardinalidade 1:N)
 
 **Psicólogo** -- cadastra/exclui -- **Psicólogo**: Um psicólogo realiza seu próprio cadastro e eventual exclusão do mesmo. (Cardinalidade 1:1)
 
-**Psicólogo** -- gera -- **Consulta**: Psicólogo gera laudo de uma consulta com paciente. (Cardinalidade 1:N)
+**Psicólogo** -- cadastra/exclui -- **Consulta**: Psicólogo cadastra ou exclui consultas de um paciente. (Cardinalidade 1:N)
 
 **Psicólogo** -- insere -- **Paciente**: Psicólogo insere novos dados de uma consulta com paciente. (Cardinalidade 1:N)
 
-**Psicólogo** -- acessa -- **Consulta**: Psicólogo acessa laudo de uma consulta com paciente. (Cardinalidade 1:N)
+**Psicólogo** -- acessa -- **Consulta**: Psicólogo altera dados de uma consulta com paciente. (Cardinalidade 1:N)
 
 **Psicólogo** -- acessa -- **Paciente**: Psicólogo acessa seus pacientes e respectivos dados. (Cardinalidade 1:N)
-
-**Psicólogo** -- acessa -- **Dashboard**: Psicólogo acessa Dashboard de monitoramento. (Cardinalidade 1:N)
 
 
 ### 4.2 - Diagrama Entidade Relacionamento (DER)
 
 <p align="center">
-	<img src = "../../assets/diagrama/DER.png" width="80%" height="80%">
+	<img src = "../../assets/diagrama/DER.png" width="60%" height="60%">
 </p>
 
 
