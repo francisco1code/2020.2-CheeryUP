@@ -11,7 +11,9 @@
 | 1.1.1 | 04/03/2021  | Antônio e Arthur | Atualização da Visão de Dados |
 | 1.1.2 | 09/03/2021  | Nilvan Peres | Atualização link's sumários |
 | 1.1.3 | 10/03/2021  |Lucas Lima | Adição do MTV ao Padrão Arquitetural |
-
+| 1.2.0 | 14/03/2021  | Antônio | Atualização geral do documento |  
+| 1.2.1 | 15/03/2021  | Davi | Atualização do topico 5 | 
+| 1.2.2 | 16/03/2021  | Lucas | Atualização no tópico 2.2 |
 ## Sumário
 [1 - Introdução](#1---introdução)
 * [1.1 - Objetivo](#1.1---objetivo)
@@ -43,11 +45,11 @@
 ## 1 - Introdução
 
 ### 1.1 - Objetivo 
-O objetivo deste documento é dissecar a arquitetura do projeto ***cheery up***, de modo que, todo a visão arquitetural do sistema que será desenvolvido esteja clara.  
+O objetivo deste documento é dissecar a arquitetura do projeto ***Cheery Up***, de modo que, todo a visão arquitetural do sistema que será desenvolvido esteja clara.  
 Outro ponto que será abordado, são as principais características do software permitindo que desenvolvedores/gestores entendam os processos que levaram na escolha das tecnologias e decisões a respeito dessa arquitetura.
 
 ### 1.2 - Escopo
-A plataforma web ***cheery up*** será desenvolvida para ser um prontuário de atendimento psicológico a pacientes em fase de recuperação de covid-19, facilitando a acompanhamento, exames e orientações dos pacientes, o profissional da saúde vai poder agendar, gerenciar e registrar atendimentos. Além de business inteligence a partir dos dados inseridos pelos psicológos. 
+A plataforma web ***Cheery Up***, desenvolvida para psicólogos e profissionais da saúde psicológica, será um prontuário de monitoramento da saúde mental da uma comunidade. Nessa plataforma, o psicólogo se cadastra e tem acesso à ferrramentas que irão facilitar o monitoramento da saúde mental de cada paciente que desejar cadastrar, além do usufruto de Dashboards para a observação geral da comunindade. Também há o business inteligence a partir dos dados inseridos pelos psicológos.
 Os componenete de software, frameworks, plataformas de desenvolvimento utilizados serão descritos neste documento.
 
 ### 1.3 - Visão Geral
@@ -75,8 +77,9 @@ Este documento é dividio nas seguintes seções:
 
 ## 2 - Represetanção de Arquitetura
 <p align="center">
-	<img src="assets/diagrama/ImagemArquitetura.png" width="600" height="300">
+	<img src="../../assets/diagrama/ImagemArquitetura.png" width="60%" height="30%">
 </p>
+
 
 ### 2.1 - Padrão Arquitetural
 O padrão de aquitetura MVC (Modelo Visão e Controle) é um modelo que contribui na otimização da velocidade entre as requisições feitas pelo comando do usuário. Cada componente da arquitetura é construído para lidar com alguma parte específica do desenvolvimento da aplicação. Os três componentes que serão utilizados nesse projeto serão destrinchados abaixo: 
@@ -94,15 +97,16 @@ O Django utiliza o MTV (Modelo de template e visão). Toda esta arquitetura é i
 |tecnologias | descrição |
 | ------------------- | ------------------- |
 | Python | Linguagem para o desenvolvimento do backend |
-| Django | Framework que segue a arquitetura MVC, fará comunicação do back com o banco de dados |
+| Django | Framework que segue a arquitetura MTV, fará comunicação do back com o banco de dados |
 | MkDocs | Gerador de site estático, voltado a criação de documentações markdown
 |Bootstrap |  Framework para desenvolvimento em HTML e JS. |
 | React |  Biblioteca em javascript com foco em criar inteface de usuário em páginas web. |
 |Docker | Criação e administração de ambientes de desenvolvimento |
 |Docker-compose |  Para a comunicação dos containers criados pelo docker |
 |Git | Git é um sistema de controle de versão distruibuído, com estímulos a projetos open source |
-|HTML |  Será utiliza para implementação do frontend junto ao jss |
-|JavaScript |  Alia-se no desenvolvimento do frontend junto com HTML e |
+|HTML |  Será utiliza para implementação do frontend junto ao JS e CSS |
+|CSS | Linguagem para estilização de uma interface web |
+|JavaScript |  Alia-se no desenvolvimento do frontend junto com HTML e CSS|
 |mySQL | Banco de dados relacional, será usado para gerir a base de dados|
 
   
@@ -111,7 +115,7 @@ O Django utiliza o MTV (Modelo de template e visão). Toda esta arquitetura é i
 
 #### 3.1 - Metas
 * Facilitar o acompanhamento psicológico;
-* Automatizar processos de agendamento, e registros de atendimentos;
+* Automatizar registros de atendimentos;
 * Acompanhamento no quadro de evolução dos pacientes;
 * Dashboards com métricas e indicadores da saúde mental de determinada comunidade; 
 
@@ -128,60 +132,53 @@ O Django utiliza o MTV (Modelo de template e visão). Toda esta arquitetura é i
 * ### Psicólogo 
 |Atributos| Propriedade | Tipo | Descrição|
 |-----|-----|------|-----|
-| idPsicologo | Chave primária obrigatória | String | Identificação do Psicólogo |
+| idPsicologo | Chave primária obrigatória | Integer | Identificação do Psicólogo |
 | nome | Obrigatório | String | Nome do Psicólogo |
 | email | Obrigatório | String | Email do Psicólogo |
-| cpf | Obrigatório | String | CPF do Psicólogo |
-| nCRP | Obrigatório | String | Número do Conselho Regional do Psicólogo |
+| nCRP | Obrigatório | Integer | Número do Conselho Regional do Psicólogo |
 | senha | Obrigatório | String | Senha de login |
+| listaPacientes | Obrigatório | Paciente | Lista de pacientes do psicólogo|
 
 * ### Paciente
 |Atributos| Propriedade | Tipo | Descrição|
 |-----|-----|------|-----|
-| idPaciente | Chave primária obrigatória | String | Identificação do Paciente |
-| nome | Obrigatório | String | Nome do Paciente |
-| email | Obrigatório | String | Email do Paciente |
-| cpf | Obrigatório | String | CPF do Paciente |
-| nascimento | Obrigatório | String | Nascimento do Paciente |
-| gênero | Obrigatório | String | Gênero do Paciente |
+| idPaciente | Chave primária obrigatória | Integer | Identificação do paciente |
+| idPsicologo | Chave estrangeira obrigatória | Integer | Identificação do psicólogo |
+| nome | Obrigatório | String | Nome do paciente |
+| nascimento | Obrigatório | Date | Data de nascimento do paciente |
+| genero | Obrigatório | Char | Gênero do paciente |
+| regiao | Obrigatório | String | Região onde mora o paciente |
+| descricao | Optativo | String | Descrição do caso do paciente |
+| listaConsulta | Obrigatório | Consulta | Lista das consultas do paciente |
+
 
 * ### Consulta
 |Atributos| Propriedade | Tipo | Descrição|
 |-----|-----|------|-----|
-| idConsulta | Chave primária obrigatória | String | Identificação da Consulta |
-| idPaciente | Chave estrangeira obrigatória | String | Identificação do Paciente |
-| idPsicologo | Chave estrangeira obrigatória | String | Identificação do Psicólogo |
+| idConsulta | Chave primária obrigatória | Integer | Identificação da Consulta |
+| idPaciente | Chave estrangeira obrigatória | Integer | Identificação do Paciente |
+| idPsicologo | Chave estrangeira obrigatória | Integer | Identificação do Psicólogo |
 | dataConsulta| Obrigatório | String| Data que ocorre a consulta |
-| horário |Obrigatório | String | Horário que ocorre a consulta |
-| duração | Obrigatório | String | Duração da consulta |
-
-* ### Dashboard
-|Atributos| Propriedade | Tipo | Descrição|
-|-----|-----|------|-----|
-| idDashboard | Chave primária obrigatória | String | Identificação da Dashboard |
-
-
+| situacaoPaciente | Obrigatório | String | Situação mental do paciente problema |
 ### 4.1.2 - Relacionamentos
 
 **Psicólogo** -- cadastra/exclui -- **Paciente**: Um psicólogo cadastra ou exclui os pacientes. (Cardinalidade 1:N)
 
 **Psicólogo** -- cadastra/exclui -- **Psicólogo**: Um psicólogo realiza seu próprio cadastro e eventual exclusão do mesmo. (Cardinalidade 1:1)
 
-**Psicólogo** -- gera -- **Consulta**: Psicólogo gera laudo de uma consulta com paciente. (Cardinalidade 1:N)
+**Psicólogo** -- cadastra/exclui -- **Consulta**: Psicólogo cadastra ou exclui consultas de um paciente. (Cardinalidade 1:N)
 
 **Psicólogo** -- insere -- **Paciente**: Psicólogo insere novos dados de uma consulta com paciente. (Cardinalidade 1:N)
 
-**Psicólogo** -- acessa -- **Consulta**: Psicólogo acessa laudo de uma consulta com paciente. (Cardinalidade 1:N)
+**Psicólogo** -- acessa -- **Consulta**: Psicólogo altera dados de uma consulta com paciente. (Cardinalidade 1:N)
 
-**Psicólogo** -- acessa -- **Paciente**: Psicólogo acessa seus pacientes. (Cardinalidade 1:N)
-
-**Psicólogo** -- acessa -- **Dashboard**: Psicólogo acessa Dashboard de monitoramento. (Cardinalidade 1:N)
+**Psicólogo** -- acessa -- **Paciente**: Psicólogo acessa seus pacientes e respectivos dados. (Cardinalidade 1:N)
 
 
 ### 4.2 - Diagrama Entidade Relacionamento (DER)
 
 <p align="center">
-	<img src="assets/diagrama/Diagrama_DER.png" >
+	<img src = "../../assets/diagrama/DER.png" width="60%" height="60%">
 </p>
 
 
@@ -189,26 +186,28 @@ O Django utiliza o MTV (Modelo de template e visão). Toda esta arquitetura é i
 
 ### 5.1 - Diagrama de caso de Uso
 
-<p align = "center"> &emsp;&emsp; <img src="assets/diagrama/Diagrama_De_Caso_Uso.png" width="500" height="420"/> </p>
+<p align="center">
+	<img src = "../../assets/diagrama/Caso de uso.png"  width="80%" height="80%">
+</p>
+
 
 ### 5.2 - Atores de Caso de Uso
 
 |Ator | Descrição | 
 |-----|-----|
-| Usúario | São todos que forem utilizar o site, ou seja, o psicologo | 
+| Usúario | São todos que forem utilizar o site, ou seja, o psicólogo | 
 | Psicologo | É quem vai utilizar o site para o cadastro e gerenciamento do paciente, visualizar o laudo e acessar os dashboards  | 
 
 ### 5.3 - Descrições de Caso de Uso
 
 |Casos de uso| Ator | Descrição|
 |-----|-----|------|
-| UC01 - Cadastrar paciente | Psicologo | O usuário tem as opções de atualizar informações da conta assim como pode também apagá-la |
-| UC02 - Mostrar paciente | Psicologo | O psicologo poderá acessar e visualizar as informações de um paciente em especifico |
-| UC02 - Acesar Laudo do paciente | Psicologo | O psicologo poderá visualizar o Laudo do paciente quando quiser |
-| UC03 - Inserir Laudo | Psicologo | O psicologo pode inserir os laudos dos seus pacientes |
-| UC04 - Acessar Laudo | Psicologo | O psicologo poderá acessar os laudos que ele preencher |
-| UC04 - Acessar dashboards | Psicologo | O psicologo poderá ver os dashbords de saude mental disponiblizados pela comunidade |
-| UC05 - Acessar agendas de consultas | Psicologo | O psicologo será notificado e poderá visualizar as consultas próximas a serem realizadas 
-| UC06 - Acessar o quadro de evolução do paciente | Psicologo |O psicologo poderá acessar o quadro evolutivo de um paciente especifico |
-| UC07 - Cadastrar Psicologo |  Psicologo | O admnistrador é o unico que poderá contratar e cadastrar o psicologo |
-
+| UC01 - Efeituar Login | Psicologo | O psicologo poderá realizar seu cadastro e dar login e logout na plataforma quando quiser |
+| UC02 - Cadastrar/Exlcluir paciente | Psicologo | O psicólogo poderá acessar cadastrar ou exluir um paciente em específico |
+| UC02 - Alterar perfil Psicologo | Psicólogo | O psicologo poderá alterar seu perfil quando desejar |
+| UC03 - Alterar perfil Paciente| Psicologo | O psicologo poderá alterar o perfil dos seus pacientes quando desejar |
+| UC04 - Mostrar pacientes cadastrados | Psicologo |  O psicólogo poderá acessar e visualizar as informações de um paciente em específico   |
+| UC04 - Acessar laudo dos pacientes | Psicologo | O psicólogo poderá acessar os laudos que ele preencher |
+| UC05 - Adicionar novos laudos a pacientes | Psicologo | O psicólogo pode inserir os laudos dos seus pacientes |
+| UC06 - Acessar Dashboards|  Psicologo | O psicólogo poderá ver os dashbords de saúde mental disponiblizados pela comunidade |
+| UC07 - Acessso aos quadros evolutivos | O psicólogo poderá acessar o quadro evolutivo de um paciente específico | 

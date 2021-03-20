@@ -1,4 +1,4 @@
-## Resultado da Sprint 2
+## Resultado da Sprint 3
 
 ## Sumário
 

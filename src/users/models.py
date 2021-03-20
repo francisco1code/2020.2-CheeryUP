@@ -1,5 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
+
+
 class Psicologo(models.Model):
     GENERO = (
             ('M', 'Masculino'),
@@ -13,4 +15,3 @@ class Psicologo(models.Model):
     bio = models.TextField()
     genero = models.CharField(default = True, max_length=1, choices=GENERO)
 
-   

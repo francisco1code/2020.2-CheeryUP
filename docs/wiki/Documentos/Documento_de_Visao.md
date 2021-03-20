@@ -55,8 +55,9 @@ O atual documento possui o intuito de apresentar o CheeryUP e destrinchar as car
 
 
 ### 1.2 - Escopo
-Esse projeto tem como principal objetivo a elaboração de um prontuário eletrônico para o profissional de psicologia agendar, gerenciar e registrar atendimentos de pacientes que estão em isolamento e na fase de recuperação de Covid-19.
-O produto será desenvolvido em uma aplicação web, com a finalidade de acompanhar a saúde mental dos pacientes que se encontram em  isolamento social.
+Esse projeto tem como principal objetivo a elaboração de um prontuário eletrônico destinado ao profissional da psicologia. Possibilitando o psicólogo monitorar e analisar o estado de saúde mental da comunidade inserida no contexto da pandemia do Covid-19. Tudo isso com apoio de Dashboards e quadros de evolução.
+
+O produto será desenvolvido em uma aplicação web, com a finalidade de acompanhar e fiscalizar a saúde mental dos pacientes. O projeto se torna viável pois oferece seus serviços respeitando as regras do distacimento social.
 
 
 ### 1.3 - Definições, acrônomos e Abreviações
@@ -81,17 +82,18 @@ Este documento é dividido em seis tópicos que detalham as características e p
 
 ### 2.1 - Oportunidade de negócios 
 No contexto da pandemia é notável que, após o período de isolamento e a perda de entes queridos, a parcela da população que necessita de acompanhamento psicológico aumentará de modo considerável.
-Neste caso, nosso projeto tem como foco auxiliar os profissionais da psicologia a otimizarem o acesso a informações dos pacientes e organização de horários para consultas.
+Neste caso, nosso projeto tem como foco auxiliar os profissionais da psicologia a otimizarem o acesso a informações dos pacientes e, dessa forma, monitorar melhor a saúde mental de seus pacientes.
 Além disso, nosso projeto gerará um dashboard que apresenta informações em tempo real sobre a saúde mental da comunidade afetada pela situação da pandemia.
 
 ### 2.2 - Descrição do problema
 
 | O problema é  | quem afeta | cujo impacta  | possível solução  |
 | :- | :- | :- | :- |
-| Aumento significativo de doenças mentais | Os pacientes e  profissionai  | a qualidade do atendimento ao paciente e possíveis consultas impossíveis | Formulários eletrônicos capazes de organizar cronogramas e listagem de pacientes e seus dados |
+| Aumento significativo de doenças psicológicas | A sociedade e psicólogos  | a qualidade do monitoramento da saúde psicológica da sociedade | Formulários eletrônicos capazes de otimizar a vigilância da saúde mental de uma comunidade |
 
 ### 2.3 - Descrição de posição de produto
-O produto finalizado é uma aplicação web e se posicionará no mercado como uma plataforma onde o profissional da psicologia terá acesso a uma lista de pacientes relacionados ao contexto do covid, onde podem alterar dados e informações, e apresentará dashboards para analisar mudanças no contexto dos pacientes.
+
+O produto finalizado é uma aplicação web e se posicionará no mercado como uma plataforma onde o profissional da psicologia terá acesso a ferramentas que o ajudará na supervisão da saúde psicológica de seus pacientes ao longo do tempo. Ferramentas como os Dashboards e quadros de evolução, que utilizarão dados dos laudos de cada paciente cadastrado pelo psicólogo.
 
 ## 3 - Descrições da parte interessada e do usuário
 
@@ -99,23 +101,21 @@ O produto finalizado é uma aplicação web e se posicionará no mercado como um
 | Nome  | Descrição | Responsabilidades |
 | :- | :- | :-  |
 | Equipe de desenvolvimento de Software | Estudantes da disciplina Métodos de Desenvolvimento de Software (MDS). | Desenvolvimento, Testes, Documentação e Implementações do Software. |
-| Cliente | - | - |
-|Coach | Estudante da UnB, monitora da disciplina Métodos de Desenvolvimento de Software (MDS). | Auxiliar a equipe durante o desenvolvimento do projeto. | 
+| Cliente | Profissionais da psicologia interessados na otimização de monitoramento da saúde mental | - |
+| Coach | Estudante da UnB, monitora da disciplina Métodos de Desenvolvimento de Software (MDS). | Auxiliar a equipe durante o desenvolvimento do projeto. | 
 | Professora  | Professora na Universidade de Brasília, atual professora da disciplina de MDS. | Avaliar e Auxiliar os estudantes. |
 
 ### 3.2 - Resumo dos usuários
 | Nome  | Descrição |
 | :- | :- |
-| Paciente  | Pessoas que procuram assistência psicológica.  |
 | Psicólogos  | Todos os profissionais de psicologia que utilizam a plataforma. |
-| Gerentes | Pessoas interessadas nos dashboards do banco de dados.  |
 
 ### 3.3 - Perfis dos envolvidos  
 
 #### 3.3.1 - Equipe de desenvolvimento de software 
 |  | |
 | :--- | :-------- |  
-| Representantes | Abraao Alves, Antônio Ferreira, Arthur Talles, Davi Matheus, Nilvan Peres, Natanael Fernandes. |
+| Representantes | Abraao Alves, Antônio Ferreira, Arthur Talles, Davi Matheus, Nilvan Peres, Natanael Fernandes, Lucas Ferraz. |
 | Descrição | Desenvolvedores da matéria MDS. |
 | Responsabilidades | Desenvolver e documentar o projeto, criar e manter documentos, desenvolver e testar softwares.
 | Critérios de Sucesso | Finalizar o aplicativo no prazo determinado atendendo todos os requisitos.|
@@ -131,42 +131,18 @@ O produto finalizado é uma aplicação web e se posicionará no mercado como um
 | Responsabilidades | Orientar e avaliar a equipe de desenvolvimento. |
 | Critérios de Sucesso | Transmitir e observar o sucesso da equipe no desenvolvimento do projeto . |
 | Envolvimento | Médio. |
-| Problemas/Comentários |   - |
-
-### 3.4 - Perfis dos usuários  
-  
-
-#### 3.4.1 - Paciente
-
-|  | |
-| :--- | :-------- |  
-| Representante | Pacientes |
-| Descrição | Indivíduo que busca atendimento psicológico |
-| Tipo | Usuário que tem interesse em obter uma ajuda psicológica no tempo de quarentena |
-| Responsabilidade  | Respeitar as orientações do profissional, e também seguir as regras ditadas pelo código de conduta do site. |
-| Critérios de sucesso | Acesso à ajuda proposto pelos profissionais |
-| Envolvimento | Alto |
 | Problemas/Comentários | - |
 
-#### 3.4.2 - Psicólogo
+### 3.4 - Perfis dos usuários  
+
+#### 3.4.1 - Psicólogo
 |  | |
 | :--- | :-------- |  
 | Representante | Psicólogo. |
 | Descrição | Formado em psicologia e pronto para auxiliar. |
-| Tipo | Formado em psicologia. |
-| Responsabilidade  | Respeitar o paciente, dar orientações adequadas. |
-| Critérios de sucesso | Gerenciar a proporcionar ajuda ao paciente e fazer feedback constante. |
-| Envolvimento | Alto. |
-| Problemas/Comentários | - |
-
-#### 3.4.3 - Gerente
-|  | |
-| :--- | :-------- |  
-| Representante | Gerente. |
-| Descrição | Pessoa responsável por coletar dados de determinada comunidade. |
-| Tipo | Competência em BI. |
-| Responsabilidade  | Respeitar código de conduta, e guardião dos dados. |
-| Critérios de sucesso | Gerenciar a proporcionar ajuda aos individuos da comunidade. |
+| Tipo | Formado em psicologia/afins. |
+| Responsabilidade  | Monitorar e analisar o estado e evolução da saúde mental dos seus pacientes e da comunidade no geral. |
+| Critérios de sucesso | Gerenciar a fim de melhorar do estado psicológico da comunidade, no contexto da pandemia. |
 | Envolvimento | Alto. |
 | Problemas/Comentários | - |
 
@@ -174,22 +150,22 @@ O produto finalizado é uma aplicação web e se posicionará no mercado como um
 Os usuários poderão utilizar a plataforma a partir de computador ou celular por meio de uma página web.
 
 ### 3.6 - Alternativas e concorrências
-Não foi encontrada nenhum aplicação para esse contexto específico do projeto, 
+Não foi encontrada nenhum aplicação para esse contexto específico do projeto.
 
 ### 4 - Visão geral do produto
 
-O projeto irá fornecer uma plataforma web para se ter uma interação entre psicólogo e paciente. O profissional contará com uma agenda online para marcar consultas, gráficos para uma melhor observação do diagnóstico do paciente em relação a sua evolução com o passar do tempo e uma comunicação direta com o paciente.
+O projeto irá fornecer uma plataforma web para o monitoramento e acompanhamento, por parte do psicólogo, da saúde mental de uma comunidade no contexto da pandemia. O profissional irá contar com a possibilidade de analisar laudos de consultas passadas, verificando o quadro de saúde mental de pacientes e a gravidade, além de poder adicionar novos laudos. Ademais, Dashboards e quadros de evolução irão ajudar o psicólogo na supervisão da saúde psicológica da comunidade.
 
 ### 5 - Recursos do produto
 O sistema oferece as seguintes funcionalidades ao usuário:
-* Cadastro e gerenciamento de perfis de pacientes e psicólogos.
-* Agendamento de atendimentos de psicólogos a pacientes.
-* Registro e gerenciamento de atendimentos já feitos.
-* Inserção de informações referentes aos atendimentos. Essa adição é realizada pelos psicólogos/gestores.
+* Cadastro de psicólogo.
+* Login do psicólogo.
+* Cadastro e gerenciamento de perfis de pacientes, por parte do psicólogo.
+* Registro e gerenciamento de laudos.
+* Inserção de informações referentes à novos laudos.
 * Disponibilizar Dashboard com indicadores e métricas da saúde mental da comunidade.
 * Disponibilizar aos psicólogos informações de cada paciente cadastrado. 
-* Oferecer ao paciente a possibilidade de deixar um feedback referente ao atendimento, medicamentos e profissionais.
-* Oferecer ao paciente as informações do psicólogo em relação ao seu atendimento.
+* Disponibilizar aos psicólogos a listagem de todos seus pacientes cadastrados.
 * Avaliação e monitoramento dos resultados para fins de atenção à saúde mental no cenário epidêmico.
 
 ### 6 - Restrições
@@ -201,9 +177,7 @@ O design será elegante e simples, proporcional ao tempo de trabalho estimado (1
 O sistema será desenvolvido fazendo-se uso das linguagens Python, utilizando o Django para o back-end. E JavaScript, utilizando o React para o front-end.
 
 ### 6.3 - Restrições de segurança
-É assegurado ao paciente total sigilo de suas informações pessoais, a fim de que dados referentes a atendimentos e diagnósticos estejam disponíveis apenas para seu psicólogo. 
-Com isso, um importante preceito moral da assistência em saúde (sigilosidade) será plenamente respeitado, atuando assim como um importante mecanismo de proteção aos pacientes.
-
+É assegurado ao psicólogo total sigilo de suas informações pessoais, e também de seus pacientes cadastrados.
 
 ### 6.4 - Restrições de uso
-Faz-se necessário o acesso à internet pelo usuário e que este possua um navegador web compatível ao sistema. Caso contrário, a página fornecerá mensagem de erro e o atendimento não poderá ser efetuado.
+Faz-se necessário o acesso à internet pelo usuário e que este possua um navegador web compatível ao sistema. Caso contrário, a página fornecerá mensagem de erro e impossibilitando seus serviços.
