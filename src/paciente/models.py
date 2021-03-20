@@ -32,3 +32,4 @@ class Paciente(models.Model):
     regiao = models.CharField(max_length=3, choices=REGIAO)
     situacao = models.CharField(default = True,blank=False, max_length=2, choices=SITUACAO)
     descricao = models.TextField(blank=True, null=True)
+    
