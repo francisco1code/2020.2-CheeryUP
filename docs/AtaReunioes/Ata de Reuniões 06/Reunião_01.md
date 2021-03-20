@@ -25,7 +25,7 @@
 - Atualização dos Docs para a Release 1: *Todos*.
 - Estudo de Autenticação e Tokens no Django : [Lucas](https://github.com/mibasFerraz).
 - Atualização do README: [Nilvan](https://github.com/juninhigh) e [Lucas](https://github.com/mibasFerraz).
-- Docs Sprint 6 e ATA: [Nilvan](https://github.com/juninhigh,  [Arthur](https://github.com/art1505) e [Davi](https://github.com/DaviMatheus)
+- Docs Sprint 6 e ATA: [Nilvan](https://github.com/juninhigh),  [Arthur](https://github.com/art1505) e [Davi](https://github.com/DaviMatheus)
 
 ***Divida Alocada***
 - Finalização HomePage e pag de cadastro: [Nilvan](https://github.com/juninhigh) e  [Antonio](https://github.com/antoniotoineto).
