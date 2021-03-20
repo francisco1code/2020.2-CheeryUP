@@ -47,6 +47,7 @@
 |[#69](https://github.com/fga-eps-mds/2020.2-CheeryUP/issues/69) | Atualização do README |  [juninhigh](https://github.com/juninhigh) & [Lucas](https://github.com/mibasFerraz)| 15 | 
 |[#70](https://github.com/fga-eps-mds/2020.2-CheeryUP/issues/70) | Estudo de Autenticação e Tokens no Django | [mibasFerraz](https://github.com/mibasFerraz)| 5 |
 |[#71](https://github.com/fga-eps-mds/2020.2-CheeryUP/issues/71) |Atualização dos Docs para a Release | [DaviMatheus](https://github.com/DaviMatheus),[juninhigh](https://github.com/juninhigh),[antoniotoineto](https://github.com/antoniotoineto),[fernandes-natanael](https://github.com/fernandes-natanael) & [Abraao1231](https://github.com/Abraao1231) | 15 |
+
 ***Pontuação:***
 * 73 pontos planejados.
 
@@ -59,5 +60,4 @@
 
  |ID|História|Pontos|Responsáveis|
 |:-:|:-----:|:----:|:----------:|
-|[#51](https://github.com/fga-eps-mds/2020.2-CheeryUP/issues/51)|US01 - Cadastro de psicólogos - Eu, como psicólogo, gostaria de me cadastrar no site para utilizar a plataforma.|15|[antoniotoineto](https://github.com/antoniotoineto), [juninhigh](https://github.com/juninhigh), [fernandes-natanael](https://github.com/fernandes-natanael), [Abraao1231](https://github.com/Abraao1231) & [DaviMatheus](https://github.com/DaviMatheus)
-|
+|[#51](https://github.com/fga-eps-mds/2020.2-CheeryUP/issues/51)|US01 - Cadastro de psicólogos - Eu, como psicólogo, gostaria de me cadastrar no site para utilizar a plataforma.|15|[antoniotoineto](https://github.com/antoniotoineto), [juninhigh](https://github.com/juninhigh), [fernandes-natanael](https://github.com/fernandes-natanael), [Abraao1231](https://github.com/Abraao1231) & [DaviMatheus](https://github.com/DaviMatheus)|
