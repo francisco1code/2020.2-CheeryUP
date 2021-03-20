@@ -1,11 +1,16 @@
 from django.contrib import admin
 from django.contrib.auth import admin as auth_admin
-from .models import User
 
 
-admin.site.register(User, auth_admin.UserAdmin)
+from .forms import UserChangeForm, UserCreationForm
+from .models import Psicologo
 
-#@admin.register(User)
+@admin.register(Psicologo)
+class PsicologoAdmin(auth_admin.UserAdmin):
+    form =  UserChangeForm
+    add_form = UserCreationForm
+    model = Psicologo
+    fieldsets = auth_admin.UserAdmin.fieldsets + (
+        ("Campos do psicologo",  {"fields" : ("crp", 'bio',)}),
 
-#class UserAdmin(admin.ModelAdmin):
-#    list_display = ('first_name', 'last_name', 'email')
+    )
