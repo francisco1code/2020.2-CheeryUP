@@ -4,7 +4,7 @@
 
 | Data  | Local | Horário | Duração  | Autor | Semanal/Daily | Participantes |
 | :- | :- | :- | :- | :- | :- | :- |
-| 12/03/21 | Jitsi | 16h | 1h | [Davi](https://github.com/DaviMatheus)| Semanal | Todos menos Antonio |
+| 20/03/21 | Jitsi | 16h | 1h | [Davi](https://github.com/DaviMatheus)| Semanal | Todos menos Antonio |
 
 ***Pontos planejados***  
 
