@@ -4,7 +4,7 @@
 
 | Data  | Local | Horário | Duração  | Autor | Semanal/Daily | Participantes |
 | :- | :- | :- | :- | :- | :- | :- |
-| 08/03/21 | Jitsi | 18:30h | 20min | [Antonio](https://github.com/antoniotoineto) | Daily | Todos |
+| 08/03/21 | Jitsi | 18:30h | 30min | [Antonio](https://github.com/antoniotoineto) | Daily | Todos |
 
 ***Pontos planejados***  
 
