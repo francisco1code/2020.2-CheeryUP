@@ -13,7 +13,8 @@
 | 1.1.3 | 10/03/2021  |Lucas Lima | Adição do MTV ao Padrão Arquitetural |
 | 1.2.0 | 14/03/2021  | Antônio | Atualização geral do documento |  
 | 1.2.1 | 15/03/2021  | Davi | Atualização do topico 5 | 
-| 1.2.2 | 16/03/2021  | Lucas | Atualização no tópico 2.2 |
+| 1.2.2 | 16/03/2021  | Lucas Lima | Atualização no tópico 2.2 |
+| 1.2.3 | 23/03/2021  | Lucas Lima | Adição dos tópicos 6, 7 e 8 |
 ## Sumário
 [1 - Introdução](#1---introdução)
 * [1.1 - Objetivo](#1.1---objetivo)
@@ -42,6 +43,14 @@
 * [5.1 - Diagrama de caso de Uso](#5.1---Diagrama-de-caso-de-Uso)
 * [5.2 - Atores de Caso de Uso](#5.2---Atores-de-Caso-de-Uso)
 * [5.3 - Descrições de Caso de Uso](#5.3---Descrições-de-Caso-de-Uso)
+
+[ 6 - Visão Lógica](#6---Visão-Lógica)
+
+[ 7 - Tamanho e Desempenho](#7---Tamanho-e-Desempenho)
+* [7.1 - Tamanho](#7.1---Tamanho)
+* [7.2 - Desempenho](#7.2---Desempenho)
+
+[ 8 - Qualidade](#8---Qualidade)
 ## 1 - Introdução
 
 ### 1.1 - Objetivo 
@@ -211,3 +220,18 @@ O Django utiliza o MTV (Modelo de template e visão). Toda esta arquitetura é i
 | UC05 - Adicionar novos laudos a pacientes | Psicologo | O psicólogo pode inserir os laudos dos seus pacientes |
 | UC06 - Acessar Dashboards|  Psicologo | O psicólogo poderá ver os dashbords de saúde mental disponiblizados pela comunidade |
 | UC07 - Acessso aos quadros evolutivos | O psicólogo poderá acessar o quadro evolutivo de um paciente específico | 
+
+## 6 - Visão Lógica
+
+O psicólogo acessa o site através de um computador ou celular, realiza seu cadastro com CRP, faz o login, cadastra seus pacientes e atualiza os dados. Após ter os dados atualizados com as informações adquiridas na consulta, são gerados relatórios com infográficos.\
+Os dados do psicólogo e dos clientes serão armazenados no banco de dados. No momento em que o psicólogo atualizar os dados, automaticamente os infográficos serão gerados e disponibilizados para que sejam vistos. 
+
+## 7 - Tamanho e Desempenho
+### 7.1 - Tamanho
+O software é feito para rodar diretamente no navegador, sem qualquer tipo de instalação fora o próprio navegador.
+
+### 7.2 - Desempenho
+Basicamente todas as ações realizadas no front-end enviam requisições ao back-end para serem feitas. Por exemplo, no cadastro do psicólogo é feita uma requisição ao back-end para guardar os dados no banco de dados e utilizar posteriormente. Não há requisitos computacionais para que o site seja aberto.
+
+## 8 - Qualidade
+O site terá uma interface simples, facilitando o acesso para qualquer pessoa, mesmo que ela não tenha muita facilidade com tecnologia, e garantindo a plena funcionalidade proposta. Nada do back-end será mostrado ao psicólogo, apenas a parte inteligível do front-end.
