@@ -146,7 +146,7 @@ O Django utiliza o MTV (Modelo de template e visão). Toda esta arquitetura é i
 | email | Obrigatório | String | Email do Psicólogo |
 | nCRP | Obrigatório | Integer | Número do Conselho Regional do Psicólogo |
 | senha | Obrigatório | String | Senha de login |
-| listaPacientes | Obrigatório | Paciente | Lista de pacientes do psicólogo|
+| listaPacientes | Optativo | Paciente | Lista de pacientes do psicólogo|
 
 * ### Paciente
 |Atributos| Propriedade | Tipo | Descrição|
@@ -158,7 +158,7 @@ O Django utiliza o MTV (Modelo de template e visão). Toda esta arquitetura é i
 | genero | Obrigatório | Char | Gênero do paciente |
 | regiao | Obrigatório | String | Região onde mora o paciente |
 | descricao | Optativo | String | Descrição do caso do paciente |
-| listaConsulta | Obrigatório | Consulta | Lista das consultas do paciente |
+| listaConsulta | Optativo | Consulta | Lista das consultas do paciente |
 
 
 * ### Consulta
@@ -196,7 +196,7 @@ O Django utiliza o MTV (Modelo de template e visão). Toda esta arquitetura é i
 ### 5.1 - Diagrama de caso de Uso
 
 <p align="center">
-	<img src = "../../assets/diagrama/Caso de uso.png"  width="80%" height="80%">
+	<img src = "../../assets/diagrama/Caso_De_Uso.png"  width="80%" height="80%">
 </p>
 
 
