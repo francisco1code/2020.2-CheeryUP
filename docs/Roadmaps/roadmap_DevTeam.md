@@ -15,4 +15,4 @@
 - Analisar e Implementar Possíveis ideias de RoadMaps
 - Organizar e implementar front/back
 
-<p align = "center"> &emsp;&emsp; <img src="../assets/images/RoadMap_DevTeam.png" width="435" height="515"/> </p>
+<p align = "center"> &emsp;&emsp; <img src="../assets/images/RoadMap_DevTeam.png" width="435" height="776"/> </p>

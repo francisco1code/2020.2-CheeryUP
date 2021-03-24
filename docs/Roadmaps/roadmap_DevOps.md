@@ -16,4 +16,4 @@
 - Treinamento e implementação do docker.
 - implementação do castro do psicologo.
 
-<p align = "center"> &emsp;&emsp; <img src="../assets/images/RoadMap_DevOps.png" width="455" height="535"/> </p>
+<p align = "center"> &emsp;&emsp; <img src="../assets/images/RoadMap_DevOps.png" width="493" height="758"/> </p>
