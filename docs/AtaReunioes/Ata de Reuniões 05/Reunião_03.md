@@ -1,17 +1,22 @@
-# *ATA de Reuniões* 📝 *Sprint 04* 
+# *ATA de Reuniões* 📝 *Sprint 05* 
 
-## Reunião 02 ❗
+## Reunião 03 ❗
 
 | Data  | Local | Horário | Duração  | Autor | Semanal/Daily | Participantes |
 | :- | :- | :- | :- | :- | :- | :- |
-| 08/03/21 | Jitsi | 18:30h | 30min | [Antonio](https://github.com/antoniotoineto) | Daily | Todos |
+| 17/03/21 | Jitsi | 19:30h | 30h | [Davi](https://github.com/DaviMatheus)  | Daily | Todos |
 
 ***Pontos planejados***  
 
 1. Atualização do que ainda será feito até o final da Sprint.
 
+2. Estudo de ferramentas(Frontend)
+
+3. Cadastro de Usuario
+
+
 ***Assuntos pendentes***
-* Atualização do repositório, pendente.
+* Cadastro dos usuarios
 
 ***Tasks e responsáveis***
 - Não se aplica.
