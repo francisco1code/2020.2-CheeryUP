@@ -12,8 +12,11 @@
 | 1.1.2 | 09/03/2021  | Nilvan Peres | Atualização link's sumários |
 | 1.1.3 | 10/03/2021  |Lucas Lima | Adição do MTV ao Padrão Arquitetural |
 | 1.2.0 | 14/03/2021  | Antônio | Atualização geral do documento |  
-| 1.2.1 | 15/03/2021  | Davi | Atualização do topico 5 |
-| 1.2.2 | 16/03/2021  | Lucas | Atualização no tópico 2.2 | 
+| 1.2.1 | 15/03/2021  | Davi | Atualização do topico 5 | 
+| 1.2.2 | 16/03/2021  | Lucas Lima | Atualização no tópico 2.2 |
+| 1.2.3 | 23/03/2021  | Lucas Lima | Adição dos tópicos 6, 7 e 8 |
+| 1.2.4 | 24/03/2021  | Arthur Talles | Adição do tópico 2.3 |
+| 1.2.5 | 25/03/2021  | Davi Matheus | Mudanças no diagrama de Casos de Uso |
 ## Sumário
 [1 - Introdução](#1---introdução)
 * [1.1 - Objetivo](#1.1---objetivo)
@@ -25,6 +28,7 @@
 
 * [2.1 - Padrão Arquitetural](###2.1---Padrão-Arquitetural)
 * [2.2 - Tecnologias](#2.2---Tecnologias)
+* [2.3 - Diagrama de Pacotes](#2.3---Diagrama-de-Pacote)
 
 [3 - Metas e Restrições da Arquitetura](#3---Metas-e-Restrições-da-Arquitetura)
 
@@ -42,6 +46,14 @@
 * [5.1 - Diagrama de caso de Uso](#5.1---Diagrama-de-caso-de-Uso)
 * [5.2 - Atores de Caso de Uso](#5.2---Atores-de-Caso-de-Uso)
 * [5.3 - Descrições de Caso de Uso](#5.3---Descrições-de-Caso-de-Uso)
+
+[ 6 - Visão Lógica](#6---Visão-Lógica)
+
+[ 7 - Tamanho e Desempenho](#7---Tamanho-e-Desempenho)
+* [7.1 - Tamanho](#7.1---Tamanho)
+* [7.2 - Desempenho](#7.2---Desempenho)
+
+[ 8 - Qualidade](#8---Qualidade)
 ## 1 - Introdução
 
 ### 1.1 - Objetivo 
@@ -91,6 +103,7 @@ O Django utiliza o MTV (Modelo de template e visão). Toda esta arquitetura é i
 * Template: Páginas para visualização de dados. Normalmente, é aqui que fica o HTML que será renderizado nos navegadores;
 * View: Lógica de negócio. É aqui que determinamos o que irá acontecer em nosso projeto.
 
+
 ### 2.2 - Tecnologias
 |tecnologias | descrição |
 | ------------------- | ------------------- |
@@ -106,6 +119,12 @@ O Django utiliza o MTV (Modelo de template e visão). Toda esta arquitetura é i
 |CSS | Linguagem para estilização de uma interface web |
 |JavaScript |  Alia-se no desenvolvimento do frontend junto com HTML e CSS|
 |mySQL | Banco de dados relacional, será usado para gerir a base de dados|
+
+### 2.3 Diagrama de Pacotes
+
+<p align="center">
+<a href="https://ibb.co/W6dqcDk"><img src="https://i.ibb.co/KXQR9N2/Diagrama-Pacote-Back-end-e-Front-end.png" alt="Diagrama-Pacote-Back-end-e-Front-end" border="0"></a>
+</p>
 
 ### 3 - Metas e Restrições da Arquitetura
 
@@ -128,60 +147,51 @@ O Django utiliza o MTV (Modelo de template e visão). Toda esta arquitetura é i
 * ### Psicólogo 
 |Atributos| Propriedade | Tipo | Descrição|
 |-----|-----|------|-----|
-| idPsicologo | Chave primária obrigatória | String | Identificação do Psicólogo |
+| idPsicologo | Chave primária obrigatória | Integer | Identificação do Psicólogo |
 | nome | Obrigatório | String | Nome do Psicólogo |
 | email | Obrigatório | String | Email do Psicólogo |
-| nCRP | Obrigatório | String | Número do Conselho Regional do Psicólogo |
+| nCRP | Obrigatório | Integer | Número do Conselho Regional do Psicólogo |
 | senha | Obrigatório | String | Senha de login |
+| listaPacientes | Optativo | Paciente | Lista de pacientes do psicólogo|
 
 * ### Paciente
 |Atributos| Propriedade | Tipo | Descrição|
 |-----|-----|------|-----|
-| idPaciente | Chave primária obrigatória | String | Identificação do Paciente |
-| nome | Obrigatório | String | Nome do Paciente |
-| email | Obrigatório | String | Email do Paciente |
-| nascimento | Obrigatório | String | Nascimento do Paciente |
-| genero | Obrigatório | String | Gênero do Paciente |
-| regiao | Obrigatório | String | Região onde mora o Paciente |
+| idPaciente | Chave primária obrigatória | Integer | Identificação do paciente |
+| idPsicologo | Chave estrangeira obrigatória | Integer | Identificação do psicólogo |
+| nome | Obrigatório | String | Nome do paciente |
+| nascimento | Obrigatório | Date | Data de nascimento do paciente |
+| genero | Obrigatório | Char | Gênero do paciente |
+| regiao | Obrigatório | String | Região onde mora o paciente |
+| descricao | Optativo | String | Descrição do caso do paciente |
+| listaConsulta | Optativo | Consulta | Lista das consultas do paciente |
+
 
 * ### Consulta
 |Atributos| Propriedade | Tipo | Descrição|
 |-----|-----|------|-----|
-| idConsulta | Chave primária obrigatória | String | Identificação da Consulta |
-| idPaciente | Chave estrangeira obrigatória | String | Identificação do Paciente |
-| idPsicologo | Chave estrangeira obrigatória | String | Identificação do Psicólogo |
+| idConsulta | Chave primária obrigatória | Integer | Identificação da Consulta |
+| idPaciente | Chave estrangeira obrigatória | Integer | Identificação do Paciente |
+| idPsicologo | Chave estrangeira obrigatória | Integer | Identificação do Psicólogo |
 | dataConsulta| Obrigatório | String| Data que ocorre a consulta |
-| horário |Obrigatório | String | Horário que ocorre a consulta |
-| quadro |Obrigatório | String | Quadro geral do problema do paciente na consulta |
-| gravidade |Obrigatório | String | Gravidade desse problema |
-
-* ### Dashboard
-|Atributos| Propriedade | Tipo | Descrição|
-|-----|-----|------|-----|
-| idDashboard | Chave primária obrigatória | String | Identificação da Dashboard |
-
-
+| situacaoPaciente | Obrigatório | String | Situação mental do paciente problema |
 ### 4.1.2 - Relacionamentos
 
 **Psicólogo** -- cadastra/exclui -- **Paciente**: Um psicólogo cadastra ou exclui os pacientes. (Cardinalidade 1:N)
 
 **Psicólogo** -- cadastra/exclui -- **Psicólogo**: Um psicólogo realiza seu próprio cadastro e eventual exclusão do mesmo. (Cardinalidade 1:1)
 
-**Psicólogo** -- gera -- **Consulta**: Psicólogo gera laudo de uma consulta com paciente. (Cardinalidade 1:N)
+**Psicólogo** -- cadastra/exclui -- **Consulta**: Psicólogo cadastra ou exclui consultas de um paciente. (Cardinalidade 1:N)
 
 **Psicólogo** -- insere -- **Paciente**: Psicólogo insere novos dados de uma consulta com paciente. (Cardinalidade 1:N)
 
-**Psicólogo** -- acessa -- **Consulta**: Psicólogo acessa laudo de uma consulta com paciente. (Cardinalidade 1:N)
+**Psicólogo** -- acessa -- **Consulta**: Psicólogo altera dados de uma consulta com paciente. (Cardinalidade 1:N)
 
 **Psicólogo** -- acessa -- **Paciente**: Psicólogo acessa seus pacientes e respectivos dados. (Cardinalidade 1:N)
-
-**Psicólogo** -- acessa -- **Dashboard**: Psicólogo acessa Dashboard de monitoramento. (Cardinalidade 1:N)
-
-
 ### 4.2 - Diagrama Entidade Relacionamento (DER)
 
 <p align="center">
-<a href="https://ibb.co/1QWxHp3"><img src="https://i.ibb.co/PjH8BbR/DER.png" alt="DER" border="0"></a>	
+<a <a href="https://ibb.co/3d3jdGj"><img src="https://i.ibb.co/xLkBLPB/DER.png" alt="DER" border="0" width="60%" height="60%" ></a>	
 </p>
 
 
@@ -190,7 +200,7 @@ O Django utiliza o MTV (Modelo de template e visão). Toda esta arquitetura é i
 ### 5.1 - Diagrama de caso de Uso
 
 <p align="center">
-<a href="https://ibb.co/L016ZBk"><img src="https://i.ibb.co/zmZb4Cn/Caso-de-uso.png" alt="Caso-de-uso" border="0"></a>
+<a href="https://ibb.co/Hz4fdDh"><img src="https://i.ibb.co/DCWHpDr/Caso-De-Uso.png" alt="Caso-De-Uso" border="0" width="80%" height="80%" ></a>
 </p>
 
 
@@ -205,12 +215,40 @@ O Django utiliza o MTV (Modelo de template e visão). Toda esta arquitetura é i
 
 |Casos de uso| Ator | Descrição|
 |-----|-----|------|
-| UC01 - Efeituar Login | Psicologo | O psicologo poderá realizar seu cadastro e dar login e logout na plataforma quando quiser |
-| UC02 - Cadastrar/Exlcluir paciente | Psicologo | O psicólogo poderá acessar cadastrar ou exluir um paciente em específico |
-| UC02 - Alterar perfil Psicologo | Psicólogo | O psicologo poderá alterar seu perfil quando desejar |
-| UC03 - Alterar perfil Paciente| Psicologo | O psicologo poderá alterar o perfil dos seus pacientes quando desejar |
-| UC04 - Mostrar pacientes cadastrados | Psicologo |  O psicólogo poderá acessar e visualizar as informações de um paciente em específico   |
-| UC04 - Acessar laudo dos pacientes | Psicologo | O psicólogo poderá acessar os laudos que ele preencher |
-| UC05 - Adicionar novos laudos a pacientes | Psicologo | O psicólogo pode inserir os laudos dos seus pacientes |
-| UC06 - Acessar Dashboards|  Psicologo | O psicólogo poderá ver os dashbords de saúde mental disponiblizados pela comunidade |
-| UC07 - Acessso aos quadros evolutivos | O psicólogo poderá acessar o quadro evolutivo de um paciente específico | 
+| UC01 - Editar Dados da Conta | Psicologo | O psicologo poderá realizar seu cadastro e dar login e logout na plataforma quando quiser |
+| UC02 - Acesar a Pagina do Psicologo | Psicologo | O psicologo poderá acessar a pagina cadastra, fazer o login e realizar as determinadas funções presentes no site.
+| UC03 - Cadastrar/Exlcluir paciente | Psicologo | O psicólogo poderá acessar cadastrar ou exluir um paciente em específico |
+| UC04 - Alterar dados do  Paciente| Psicologo | O psicologo poderá alterar o perfil dos seus pacientes quando desejar |
+| UC05 - listar Pacientes | Psicologo |  O psicólogo poderá acessar e visualizar as informações de um paciente em específico   |
+| UC06 - Acessar consulta dos pacientes | Psicologo | O psicólogo poderá acessar as consultas que ele preencher |
+| UC07 - Alterar relatorio Consulta | Psicologo | O psicólogo podera alterar os dados da consulta |
+| UC08 - Acessar Dashboards |  Psicologo | O psicólogo poderá ver os dashbords de saúde mental disponiblizados pela comunidade |
+
+## 6 - Visão Lógica
+
+O psicólogo acessa o site através de um computador ou celular, realiza seu cadastro com CRP, faz o login, cadastra seus pacientes e atualiza os dados. Após ter os dados atualizados com as informações adquiridas na consulta, são gerados relatórios com infográficos.\
+Os dados do psicólogo e dos clientes serão armazenados no banco de dados. No momento em que o psicólogo atualizar os dados, automaticamente os infográficos serão gerados e disponibilizados para que sejam vistos. 
+
+## 7 - Tamanho e Desempenho
+### 7.1 - Tamanho
+O software é feito para rodar diretamente no navegador, sem qualquer tipo de instalação fora o próprio navegador.
+
+### 7.2 - Desempenho
+Basicamente todas as ações realizadas no front-end enviam requisições ao back-end para serem feitas. Por exemplo, no cadastro do psicólogo é feita uma requisição ao back-end para guardar os dados no banco de dados e utilizar posteriormente. Não há requisitos computacionais para que o site seja aberto.
+
+## 8 - Qualidade
+O site terá uma interface simples, facilitando o acesso para qualquer pessoa, mesmo que ela não tenha muita facilidade com tecnologia, e garantindo a plena funcionalidade proposta. Nada do back-end será mostrado ao psicólogo, apenas a parte inteligível do front-end.
+
+## Referências 
+
+>  Django Documentation. Disponivel em: < [https://docs.djangoproject.com/en/3.1/](https://docs.djangoproject.com/en/3.1/) > Acesso em: 17 de Fevereiro de 2021 
+
+> React Documentation. Disponivel em: < [https://pt-br.reactjs.org/docs/getting-started.html](https://pt-br.reactjs.org/docs/getting-started.html) > Acesso em: 17 de Fevereiro de 2021
+
+> About PostgreSQL. Disponível em: < [https://www.postgresql.org/about/](https://www.postgresql.org/about/) > Acesso em 17 de Março de 2021
+
+> Documento de arquitetura Acácia. Disponível em: < [https://fga-eps-mds.github.io/2019.2-Acacia/#/architecture_document](https://fga-eps-mds.github.io/2019.2-Acacia/#/architecture_document) > Acesso em: 25 de Fevereiro de 2021
+
+> Documento de arquitetura ArBC. Disponível em: < [ https://jlucassr.github.io/ArBC-Pages/mds/Documento_de_arquitetura/ ](https://jlucassr.github.io/ArBC-Pages/mds/Documento_de_arquitetura/) > Acesso em: 25 de Fevereiro de 2021
+
+> Quickstart - Django REST framework. Disponivel em: < [https://www.django-rest-framework.org/tutorial/quickstart/](https://www.django-rest-framework.org/tutorial/quickstart/) > acesso em: 25 de Fevereiro de 2021
