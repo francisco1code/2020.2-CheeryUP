@@ -11,7 +11,7 @@ class Psicologo(models.Model):
     user = models.OneToOneField(User, null=True,on_delete=models.CASCADE)
     name = models.CharField(max_length=200, null=True)
     email =  models.CharField(max_length=200, null=True)
-    nCRP = models.CharField(max_length=11)
-    bio = models.TextField()
-    genero = models.CharField(default = True, max_length=1, choices=GENERO)
+    nCRP = models.CharField(max_length=200)
+    bio = models.TextField(max_length=300)
+    genero = models.CharField(default = 'M', max_length=1, choices=GENERO)
 
