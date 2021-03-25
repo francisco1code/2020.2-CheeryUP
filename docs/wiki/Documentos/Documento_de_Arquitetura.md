@@ -16,6 +16,7 @@
 | 1.2.2 | 16/03/2021  | Lucas Lima | Atualização no tópico 2.2 |
 | 1.2.3 | 23/03/2021  | Lucas Lima | Adição dos tópicos 6, 7 e 8 |
 | 1.2.4 | 24/03/2021  | Arthur Talles | Adição do tópico 2.3 |
+| 1.2.5 | 25/03/2021  | Davi Matheus | Mudanças no diagrama casos de Uso |
 ## Sumário
 [1 - Introdução](#1---introdução)
 * [1.1 - Objetivo](#1.1---objetivo)
@@ -27,6 +28,7 @@
 
 * [2.1 - Padrão Arquitetural](###2.1---Padrão-Arquitetural)
 * [2.2 - Tecnologias](#2.2---Tecnologias)
+* [2.3 - Diagrama de Pacotes](#2.3---Diagrama-de-Pacote)
 
 [3 - Metas e Restrições da Arquitetura](#3---Metas-e-Restrições-da-Arquitetura)
 
@@ -125,6 +127,8 @@ O Django utiliza o MTV (Modelo de template e visão). Toda esta arquitetura é i
 	<img src="../../assets/diagrama/Diagrama Pacote Back-end e Front-end.png" width="90%" height="90%">
 </p>
 
+
+
 ### 3 - Metas e Restrições da Arquitetura
 
 #### 3.1 - Metas
@@ -216,15 +220,14 @@ O Django utiliza o MTV (Modelo de template e visão). Toda esta arquitetura é i
 
 |Casos de uso| Ator | Descrição|
 |-----|-----|------|
-| UC01 - Efeituar Login | Psicologo | O psicologo poderá realizar seu cadastro e dar login e logout na plataforma quando quiser |
-| UC02 - Cadastrar/Exlcluir paciente | Psicologo | O psicólogo poderá acessar cadastrar ou exluir um paciente em específico |
-| UC02 - Alterar perfil Psicologo | Psicólogo | O psicologo poderá alterar seu perfil quando desejar |
-| UC03 - Alterar perfil Paciente| Psicologo | O psicologo poderá alterar o perfil dos seus pacientes quando desejar |
-| UC04 - Mostrar pacientes cadastrados | Psicologo |  O psicólogo poderá acessar e visualizar as informações de um paciente em específico   |
-| UC04 - Acessar laudo dos pacientes | Psicologo | O psicólogo poderá acessar os laudos que ele preencher |
-| UC05 - Adicionar novos laudos a pacientes | Psicologo | O psicólogo pode inserir os laudos dos seus pacientes |
-| UC06 - Acessar Dashboards|  Psicologo | O psicólogo poderá ver os dashbords de saúde mental disponiblizados pela comunidade |
-| UC07 - Acessso aos quadros evolutivos | O psicólogo poderá acessar o quadro evolutivo de um paciente específico | 
+| UC01 - Editar Dados da Conta | Psicologo | O psicologo poderá realizar seu cadastro e dar login e logout na plataforma quando quiser |
+| UC02 - Acesar a Pagina do Psicologo | Psicologo | O psicologo poderá acessar a pagina cadastra, fazer o login e realizar as determinadas funções presentes no site.
+| UC03 - Cadastrar/Exlcluir paciente | Psicologo | O psicólogo poderá acessar cadastrar ou exluir um paciente em específico |
+| UC04 - Alterar dados do  Paciente| Psicologo | O psicologo poderá alterar o perfil dos seus pacientes quando desejar |
+| UC05 - listar Pacientes | Psicologo |  O psicólogo poderá acessar e visualizar as informações de um paciente em específico   |
+| UC06 - Acessar consulta dos pacientes | Psicologo | O psicólogo poderá acessar as consultas que ele preencher |
+| UC07 - Alterar relatorio Consulta | Psicologo | O psicólogo podera alterar os dados da consulta |
+| UC08 - Acessar Dashboards |  Psicologo | O psicólogo poderá ver os dashbords de saúde mental disponiblizados pela comunidade |
 
 ## 6 - Visão Lógica
 
@@ -240,3 +243,17 @@ Basicamente todas as ações realizadas no front-end enviam requisições ao bac
 
 ## 8 - Qualidade
 O site terá uma interface simples, facilitando o acesso para qualquer pessoa, mesmo que ela não tenha muita facilidade com tecnologia, e garantindo a plena funcionalidade proposta. Nada do back-end será mostrado ao psicólogo, apenas a parte inteligível do front-end.
+
+## Referências 
+
+>  Django Documentation. Disponivel em: < [https://docs.djangoproject.com/en/3.1/](https://docs.djangoproject.com/en/3.1/) > Acesso em: 17 de Fevereiro de 2021 
+
+> React Documentation. Disponivel em: < [https://pt-br.reactjs.org/docs/getting-started.html](https://pt-br.reactjs.org/docs/getting-started.html) > Acesso em: 17 de Fevereiro de 2021
+
+> About PostgreSQL. Disponível em: < [https://www.postgresql.org/about/](https://www.postgresql.org/about/) > Acesso em 17 de Março de 2021
+
+> Documento de arquitetura Acácia. Disponível em: < [https://fga-eps-mds.github.io/2019.2-Acacia/#/architecture_document](https://fga-eps-mds.github.io/2019.2-Acacia/#/architecture_document) > Acesso em: 25 de Fevereiro de 2021
+
+> Documento de arquitetura ArBC. Disponível em: < [ https://jlucassr.github.io/ArBC-Pages/mds/Documento_de_arquitetura/ ](https://jlucassr.github.io/ArBC-Pages/mds/Documento_de_arquitetura/) > Acesso em: 25 de Fevereiro de 2021
+
+> Quickstart - Django REST framework. Disponivel em: < [https://www.django-rest-framework.org/tutorial/quickstart/](https://www.django-rest-framework.org/tutorial/quickstart/) > acesso em: 25 de Fevereiro de 2021
