@@ -15,6 +15,7 @@
 | 1.2.1 | 15/03/2021  | Davi | Atualização do topico 5 | 
 | 1.2.2 | 16/03/2021  | Lucas Lima | Atualização no tópico 2.2 |
 | 1.2.3 | 23/03/2021  | Lucas Lima | Adição dos tópicos 6, 7 e 8 |
+| 1.2.4 | 24/03/2021  | Arthur Talles | Adição do tópico 2.3 |
 ## Sumário
 [1 - Introdução](#1---introdução)
 * [1.1 - Objetivo](#1.1---objetivo)
@@ -118,7 +119,11 @@ O Django utiliza o MTV (Modelo de template e visão). Toda esta arquitetura é i
 |JavaScript |  Alia-se no desenvolvimento do frontend junto com HTML e CSS|
 |mySQL | Banco de dados relacional, será usado para gerir a base de dados|
 
-  
+### 2.3 Diagrama de Pacotes
+
+  <p align="center">
+	<img src="../../assets/diagrama/Diagrama Pacote Back-end e Front-end.png" width="90%" height="90%">
+</p>
 
 ### 3 - Metas e Restrições da Arquitetura
 
