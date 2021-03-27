@@ -70,4 +70,24 @@ Após a instalação conferir se o mesmo encontra em sua máquina.
 * [Documentação](https://fga-eps-mds.github.io/2020.2-CheeryUP/#/)
 * [Front-end](https://github.com/fga-eps-mds/2020.2-CheeryUP-FrontEnd)
 
-## Ambientes de homologação
+<!-- ## Ambientes de homologação -->
+
+## Integrantes
+<table>
+    <tr>
+     <!-- Abraão   -->
+        <td align="center"><a href="https://github.com/Abraao1231"><img style="border-radius: 5%;" src="https://i.ibb.co/4m7rnWB/abraao.jpg" width="100px;" alt=""/><br /><sub><b>Abraão Alves</b><br><b>Back-End</b></sub></a><br /></td>
+        <!-- Antônio   -->
+        <td align="center"><a href="https://github.com/antoniotoineto"><img style="border-radius: 5%;" src="https://i.ibb.co/wCJ6tks/antonio.jpg" width="100px;" alt=""/><br /><sub><b>Antônio Neto</b><br><b>Front-End</b></sub></a><br /></td>
+        <!-- Arthur   -->
+        <td align="center"><a href="https://github.com/art1505"><img style="border-radius: 5%;" src="https://i.ibb.co/xKbQ89h/arthur.jpg" width="100px;" alt=""/><br /><sub><b>Arthur Thalles</b><br><b>Front-End</b></sub></a><br /></td>
+        <!-- Davi   -->
+        <td align="center"><a href="https://github.com/DaviMatheus"><img style="border-radius: 5%;" src="https://i.ibb.co/4PbbmJs/davi.jpg" width="100px;" alt=""/><br /><sub><b>Davi Matheus</b><br><b>Product Owner</b><br><b>Back-End</b></sub></a><br /></td>
+        <!-- Lucas   -->
+        <td align="center"><a href="https://github.com/mibasFerraz"><img style="border-radius: 5%;" src="https://i.ibb.co/pdLPCfw/lucas.jpg" width="100px;" alt=""/><br /><sub><b>Lucas Ferraz</b><br><b>Back-End</b></sub></a><br /></td>
+        <!-- Natanael   -->
+        <td align="center"><a href="https://github.com/fernandes-natanael"><img style="border-radius: 5%;" src="https://i.ibb.co/sQ813nD/natanael.jpg" width="100px;" alt=""/><br /><sub><b>Natanael Filho</b><br><b>Front-End</b></sub></a><br /></td>
+        <!-- Nilvan   -->
+        <td align="center"><a href="https://github.com/juninhigh"><img style="border-radius: 5%;" src="https://i.ibb.co/KbmLWzW/nilvan.jpg" width="100px;" alt=""/><br /><sub><b>Nilvan Jr.</b><br><b>Scrum Master</b><br><b>Front-End</b></sub></a><br /></td>
+    </tr>
+</table>
