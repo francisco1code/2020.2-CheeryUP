@@ -19,6 +19,8 @@
     - [Sprint 3](./sprints/sprint3/planning.md)
     - [Sprint 4](./sprints/sprint4/planning.md)
     - [Sprint 5](./sprints/sprint5/planning.md)
+    - [Sprint 6](./sprints/sprint6/planning.md)
+
 
 - Results
     - [Sprint 0](./sprints/sprint0/result.md)
@@ -27,3 +29,4 @@
     - [Sprint 3](./sprints/sprint3/result.md)
     - [Sprint 4](./sprints/sprint4/result.md)
     - [Sprint 5](./sprints/sprint5/result.md)
+    - [Sprint 6](./sprints/sprint6/result.md)
