@@ -1,4 +1,4 @@
-* [Home](/)
+* [Home](README.md)
 
 * Documentação
     - [Documento de arquitetura](./wiki/Documents/Documento_de_Arquitetura.md)
